@@ -8,4 +8,4 @@ This repo has the code and some of the output for making use of connectomics dat
 ## Interactive plots 
 - [This](https://yijieyin.github.io/interpret_connectome/htmls/interactive_umap_from_senses_by_type.html) is a UMAP of neurons' input profile grouped by sensory modality (e.g. a neuron receives 20% of its input from olfaction). There are `number_of_modalities` numbers for each neuron. 
 - [This](https://yijieyin.github.io/interpret_connectome/htmls/interactive_umap_all_input_by_type.html) is a UMAP of neurons' input profile per type (e.g. type a receives 2% of its input from type b). There are `number_of_types` numbers for each neuron. 
-- 
+- [**This**](https://yijieyin.github.io/interpret_connectome/htmls/interactive_umap_all_input_by_type_with_bars.html) (recommended) is a UMAP of neurons' input profile per type + bar plots of contributions from sensory neurons. 
