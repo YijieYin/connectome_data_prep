@@ -1,0 +1,1649 @@
+leftid,rightid,celltype,annotated_name,left_name,right_name,cluster
+no pair,8447845,sensory,visual,no pair,Rh6PR-10;right,0
+no pair,2544902,sensory,visual,no pair,Rh6PR-5;right,0
+2206279,no pair,sensory,visual,Rh6PR-3;left,no pair,0
+no pair,2532841,sensory,visual,no pair,Rh6PR-6;right,0
+no pair,1856512,sensory,visual,no pair,Rh6PR-4;right,0
+2216445,no pair,sensory,visual,Rh6PR-1;left,no pair,0
+no pair,946481,sensory,visual,no pair,Rh6PR-8;right,0
+2215247,no pair,sensory,visual,Rh6PR-7;left,no pair,0
+10241716,no pair,sensory,visual,Rh6PR-5;left,no pair,0
+no pair,902038,sensory,visual,no pair,Rh6PR-3;right,0
+no pair,16267292,sensory,visual,no pair,Rh6PR-9;right,0
+2216131,no pair,sensory,visual,Rh6PR-6;left,no pair,0
+no pair,900032,sensory,visual,no pair,Rh6PR-1;right,0
+37365,no pair,sensory,visual,Rh6PR-9;left,no pair,0
+no pair,7566199,sensory,visual,no pair,Rh6PR-7;right,0
+2215622,no pair,sensory,visual,Rh6PR-8;left,no pair,0
+2215447,no pair,sensory,visual,Rh6PR-4;left,no pair,0
+2200028,no pair,sensory,visual,Rh6PR-2;left,no pair,0
+6791927,3790004,sensory,olfactory,67b ORN left,67b ORN right,1
+3410499,2608843,sensory,olfactory,42b ORN left,42b ORN right,1
+7542938,3885215,sensory,olfactory,74a ORN left,74a ORN right,1
+7527710,4073353,sensory,olfactory,13a ORN left,13a ORN right,1
+3464773,3827211,sensory,olfactory,42a ORN left,42a ORN right,1
+3511996,3958234,sensory,olfactory,94a & 94b ORN left,94a & 94b ORN right,1
+3716797,3963891,sensory,olfactory,45a ORN left,45a ORN right,1
+8877795,3805641,LN,no official annotation,ventral LN left,ventral LN right,1
+3774568,3980315,sensory,olfactory,82a ORN left,82a ORN right,1
+3465659,3840345,sensory,olfactory,35a ORN left,35a ORN right,1
+2610744,3985829,sensory,thermo-warm,AN-L-Sens-B3-ACal-05 (Non-ORN 1),AN-R-Sens-B3-ACal-05 (Non-ORN 1),2
+2611805,2582391,sensory,olfactory,1a ORN left,1a ORN right,2
+3768025,2584838,sensory,olfactory,30a ORN left,30a ORN right,2
+3771794,7658146,sensory,olfactory,49a ORN left,49a ORN right,2
+3410506,3893195,sensory,olfactory,85c ORN left,85c ORN right,2
+3708875,3872653,sensory,olfactory,33a ORN left,33a ORN right,2
+3158543,7719547,sensory,olfactory,63a ORN left,63a ORN right,2
+3592997,3865952,sensory,olfactory,24a ORN left,24a ORN right,2
+3547397,2571761,sensory,olfactory,83a ORN left,83a ORN right,2
+3486950,4700182,other,mPN,vine left,vine right,2
+6340439,4076389,sensory,olfactory,59a ORN left,59a ORN right,2
+3694515,3896629,sensory,olfactory,47a & 33b ORN left,47a & 33b ORN right,2
+40045,3954014,sensory,olfactory,22c ORN left,22c ORN right,2
+5093516,4023881,sensory,thermo-warm,AN-L-Sens-B3-ACal-04 (Non-ORN 2),AN-R-Sens-B3-ACal-04 (Non-ORN 2),2
+5090549,3813723,sensory,olfactory,45b ORN left,45b ORN right,2
+3736500,16621864,other,mPN,ginkgo 2 left,ginkgo 2 right,3
+5327961,11184236,PN,gustatory-external 2nd_order PN,KS LN 3b left,KS LN 3b right,3
+15716701,15556868,sensory,gustatory-external,MN-L-Sens-B2-ACp-02,MN-R-Sens-B2-ACp-02,3
+12260696,15615589,sensory,gustatory-external,MN-L-Sens-B2-ACp-06,MN-R-Sens-B2-ACp-05,3
+17062823,16393165,DN-SEZ,no official annotation,KS LN 4a left,KS LN 4a right,3
+3054101,3199456,sensory,gustatory-pharyngeal,MN-L-Sens-B3-ACp-04,MN-R-Sens-B3-ACp-05,3
+5186461,9853425,sensory,gustatory-external,AN-L-Sens-B3-ACp-09 (gustatory pheromone neuron),AN-R-Sens-B3-ACp-09 (gustatory pheromone neuron),3
+15938337,15595607,sensory,gustatory-external,MN-L-Sens-B2-ACp-08,MN-R-Sens-B2-ACp-08,3
+11745381,15653432,sensory,gustatory-external,MN-L-Sens-B2-ACp-07,MN-R-Sens-B2-ACp-07,3
+11821320,6220384,PN,gustatory-external 2nd_order PN,KS LN 3a left,KS LN 3a right,3
+15681740,15589411,sensory,gustatory-external,MN-L-Sens-B2-ACp-21,MN-R-Sens-B2-ACp-21,3
+5322337,6219781,LN,no official annotation,Maxillary Nerve LN 2 left,Maxillary Nerve LN 2 right,3
+15714639,15595950,sensory,gustatory-external,MN-L-Sens-B2-ACpl-01 (Awesome MN sensory 2),MN-R-Sens-B2-ACpl-01 (Awesome MN sensory 2),3
+11671564,15522777,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-21,AN-R-Sens-B2-ACp-21,3
+15716934,15746421,sensory,gustatory-external,MN-L-Sens-B2-ACpl-02 (Awesome MN sensory 1),MN-R-Sens-B2-ACpl-02 (Awesome MN sensory 1),3
+4338596,15652529,sensory,gustatory-external,MN-L-Sens-B2-ACp-01,MN-R-Sens-B2-ACp-01,3
+15674262,15556081,sensory,gustatory-external,MN-L-Sens-B2-ACp-11 (Olfactory Gustatory connector 2),MN-R-Sens-B2-ACp-11,3
+12882387,7563413,LN,no official annotation,Maxillary Nerve LN 1 left,Maxillary Nerve LN 1 right,3
+18934019,15609885,sensory,gustatory-external,MN-L-Sens-B2-ACp-17,MN-R-Sens-B2-ACp-17,3
+13380660,14517691,DN-SEZ,mPN,ginkgo 1 left,ginkgo 1 right,3
+15679577,18625446,sensory,gustatory-external,MN-L-Sens-B2-ACp-10,MN-R-Sens-B2-ACp-10,3
+15690093,15615042,sensory,gustatory-external,MN-L-Sens-B2-ACp-09,MN-R-Sens-B2-ACp-09,3
+15677323,15653288,sensory,gustatory-external,MN-L-Sens-B2-ACp-18,MN-R-Sens-B2-ACp-19,3
+3586984,3966683,sensory,gustatory-external,AN-L-Sens-B3-ACal-07 (upstream of Multig. Olfactory PN 3) ,AN-R-Sens-B3-ACal-07 (upstream of Multig. Olfactory PN 3) right,3
+15689373,15588691,sensory,gustatory-external,MN-L-Sens-B2-ACp-12,MN-R-Sens-B2-ACp-12,3
+17356454,2557644,DN-SEZ,no official annotation,BAla34 ventral cluster 1 left,BAla34 ventral cluster 1 right,4
+15716309,15736147,sensory,gustatory-external,MN-L-Sens-B2-ACp-03,MN-R-Sens-B2-ACp-03,4
+15716127,3071301,sensory,gustatory-external,MN-L-Sens-B2-ACp-13,MN-R-Sens-B2-ACp-13,4
+5088293,4097554,sensory,gustatory-external,AN-L-Sens-B3-ACpl-10,AN-R-Sens-B3-ACpl-10,4
+17355745,16158918,DN-SEZ,no official annotation,BAla12 descending 3 left,BAla12 descending 3 right,4
+5116147,4017089,sensory,gustatory-external,AN-L-Sens-B3-ACal-06 (degraded alone temperature partner neuron),AN-R-Sens-B3-ACal-06 (Degraded? Temp?),4
+15997692,15507888,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-18,AN-R-Sens-B2-ACp-20,4
+15715643,16341399,sensory,gustatory-external,MN-L-Sens-B2-ACp-04,MN-R-Sens-B2-ACp-04,4
+13313410,16586265,DN-SEZ,no official annotation,BAla34 ventral cluster 3 left,BAla34 ventral cluster 3 right,4
+3539170,8159396,DN-SEZ,no official annotation,BAla12 descending 1 left,BAla12 descending 1 right,4
+4991243,8227502,DN-SEZ,no official annotation,DPMpl12 Giraffe 1 left,DPMpl12 Giraffe 1 right ,4
+15997645,15592696,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-14,AN-R-Sens-B2-ACp-11,4
+17732291,17659219,DN-SEZ,no official annotation,DPMpl12 twig left,DPMpl12 twig right,4
+17740547,13580849,DN-SEZ,no official annotation,DPMpl12 Girraffe 2 left,DPMpl12 Giraffe 2 right ,4
+15680093,10934438,sensory,gustatory-external,MN-L-Sens-B2-ACp-19,MN-R-Sens-B2-ACp-18,4
+12073881,12253020,sensory,gustatory-external,MN-L-Sens-B2-ACp-16,MN-R-Sens-B2-ACp-14,4
+17814107,10167116,DN-SEZ,no official annotation,BAla34 ventral cluster 4 left,BAla34 ventral cluster 4 right,4
+15995929,15506094,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-20,AN-R-Sens-B2-ACp-18,4
+12000033,9750356,DN-SEZ,no official annotation,BAmas12 SEZ descending left; Another SOG PN left,BAmas12 SEZ descending right,4
+15673867,15651438,sensory,gustatory-external,MN-L-Sens-B2-ACp-22,MN-R-Sens-B2-ACp-22,4
+11736972,15595823,sensory,gustatory-external,MN-L-Sens-B2-ACp-15,MN-R-Sens-B2-ACp-15,4
+15688358,15588800,sensory,gustatory-external,MN-L-Sens-B2-ACp-20,MN-R-Sens-B2-ACp-20,4
+15998100,15458316,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-13,AN-R-Sens-B2-ACp-10,5
+16288872,15639171,sensory,gustatory-pharyngeal,MN-L-Sens-B3-ACp-02,MN-R-Sens-B3-ACp-02,5
+15998817,15530882,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-12,AN-R-Sens-B2-ACp-15,5
+13830600,16057212,DN-SEZ,no official annotation,BAmas12_dor descending 1 left,BAmas12_dor descending 1 right,5
+15998782,15531916,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-04,AN-R-Sens-B2-ACp-04,5
+17423125,5559657,DN-SEZ,no official annotation,BAmas12 midline neuron 4 left,BAmas12 midline neuron 4 right,5
+15998768,15525858,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-09,AN-R-Sens-B2-ACp-14,5
+15997983,15434200,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-06,AN-R-Sens-B2-ACp-06,5
+3797420,5558724,DN-SEZ,no official annotation,Input to both Munin PC 3 left- paired with #5558724,Input to both Munin PC 3 right; BAmas d 4 neuron 5558725,5
+15673925,15615776,sensory,gustatory-external,MN-L-Sens-B2-ACpl-03,MN-R-Sens-B2-ACpl-03,5
+5120097,4096703,sensory,gustatory-external,AN-L-Sens-B3-VM-12,AN-R-Sens-B3-VM-12,5
+15590761,15409328,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-07,AN-R-Sens-B2-ACp-08,5
+17351780,19054481,DN-SEZ,no official annotation,output to SEZ right,output to SEZ left,5
+15998469,16341507,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-05,AN-R-Sens-B2-ACp-05,5
+15998307,15573283,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-10,AN-R-Sens-B2-ACp-13,5
+15998261,15451084,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-15,AN-R-Sens-B2-ACp-09,5
+17728571,10221622,DN-SEZ,no official annotation,BAl descending left,BAl descending right,5
+17728605,16463097,DN-SEZ,no official annotation,sneak left,sneak right,5
+15998218,16341966,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-08,AN-R-Sens-B2-ACp-07,5
+15677030,15656435,sensory,gustatory-external,MN-L-Sens-B2-VM-05,MN-R-Sens-B2-VM-05,5
+18440675,12335381,DN-SEZ,no official annotation,BAmas12 midline 3 left,BAmas12 midline 3 right,5
+3608397,3650600,sensory,thermo-cold,AN-L-Sens-B3-ACal-01 (temp sensing left neuron alone),AN-R-Sens-B3-ACal-01 (temp sensing right neuron alone),5
+15997807,15398807,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-16,AN-R-Sens-B2-ACp-17,5
+8055671,5448622,sensory,gustatory-external,MN-L-Sens-B1-ACpl-01,MN-R-Sens-B1-ACpl-01,5
+15716094,15589362,sensory,gustatory-external,MN-L-Sens-B2-ACp-05,MN-R-Sens-B2-ACp-06,5
+9842383,6219445,DN-SEZ,no official annotation,UNK anterior basal 1 left,UNK anterior basal 1 right; post lat ven #7 neuron 6219446 right,5
+1706716,15541976,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-19,AN-R-Sens-B2-ACp-19,5
+1715990,15573331,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-17,AN-R-Sens-B2-ACp-16,5
+15997929,18620885,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-23,AN-R-Sens-B2-ACp-23,5
+15717736,15639020,sensory,gustatory-pharyngeal,MN-L-Sens-B3-ACp-05,MN-R-Sens-B3-ACp-04,5
+11229136,17529547,DN-SEZ,no official annotation,BAla12 descending 2 left,BAla12 descending 2 right,5
+15717935,3123905,sensory,gustatory-pharyngeal,MN-L-Sens-B3-ACpl-07,MN-R-Sens-B3-ACpl-07,5
+7556564,15640893,sensory,gustatory-pharyngeal,MN-L-Sens-B3-ACp-03,MN-R-Sens-B3-ACp-03,5
+7439909,15531033,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-03,AN-R-Sens-B2-ACp-03,5
+15995404,15461769,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-22,AN-R-Sens-B2-ACp-22,5
+17359133,869360,DN-SEZ,no official annotation,SEZ cup left,SEZ cup right,5
+3652587,3822523,sensory,gustatory-external,AN-L-Sens-B3-ACp-08,AN-R-Sens-B3-ACp-08,5
+3639968,18630153,sensory,thermo-cold,AN-L-Sens-B3-ACal-02 (temp sensing left neuron together 2),AN-R-Sens-B3-ACal-02 (temp sensing right neuron together 2),5
+3609202,3487306,sensory,thermo-cold,AN-L-Sens-B3-ACal-03 (temp sensing left neuron together 1),AN-R-Sens-B3-ACal-03 (temp sensing right neuron together 1),5
+15686512,15615081,sensory,gustatory-external,MN-L-Sens-B2-ACp-14,MN-R-Sens-B2-ACp-16,5
+3486867,5478818,DN-SEZ,PL-1,130729_SFO Cand 42a-42b_OSN_IN1 left,130729_SFO Cand 42a-42b_OSN_IN1 right,5
+15996518,3795498,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-11,AN-R-Sens-B2-ACp-12,5
+15717426,8810739,sensory,gustatory-external,MN-L-Sens-B2-AVp-02,MN-R-Sens-B2-AVp-02,6
+5057916,16115501,sensory,gustatory-external,AN-L-Sens-B3-VM-11,AN-R-Sens-B3-VM-11,6
+1347886,7160160,sensory,gustatory-pharyngeal,AN-L-Sens-B2-AVp-01,AN-R-Sens-B2-AVp-01,6
+15715151,15653927,sensory,gustatory-external,MN-L-Sens-B2-VM-01,MN-R-Sens-B2-VM-01,6
+1427012,15547732,sensory,enteric,AN-L-Sens-B1-AVa-32,AN-R-Sens-B1-AVa-33,6
+15718275,15645825,sensory,gustatory-pharyngeal,MN-L-Sens-B3-ACp-06 (J Neuron),MN-R-Sens-B3-ACp-06,6
+15723727,15641926,sensory,gustatory-pharyngeal,MN-L-Sens-B3-ACp-01,MN-R-Sens-B3-ACp-01,6
+15996160,15533421,sensory,gustatory-pharyngeal,AN-L-Sens-B2-AVp-03,AN-R-Sens-B2-AVp-02,6
+9808022,15658013,sensory,gustatory-external,MN-L-Sens-B2-AVp-01,MN-R-Sens-B2-AVp-01,6
+17608754,16362243,sensory,gustatory-pharyngeal,AN-L-Sens-B2-VM-07,AN-R-Sens-B2-VM-07,7
+15717229,15629241,sensory,gustatory-external,MN-L-Sens-B2-VM-15,MN-R-Sens-B2-VM-15,7
+15724636,15671848,sensory,gustatory-pharyngeal,MN-L-Sens-B3-VM-08,MN-R-Sens-B3-VM-09,7
+15724520,15638520,sensory,gustatory-pharyngeal,MN-L-Sens-B3-VM-06,MN-R-Sens-B3-VM-06,7
+15725127,15637893,sensory,gustatory-pharyngeal,MN-L-Sens-B3-VM-10,MN-R-Sens-B3-VM-05,7
+15725545,15639275,sensory,gustatory-pharyngeal,MN-L-Sens-B3-VM-09,MN-R-Sens-B3-VM-08,7
+15698623,15594123,sensory,gustatory-external,MN-L-Sens-B1-VM-02,MN-R-Sens-B1-VM-02,7
+15678849,15618976,sensory,gustatory-external,MN-L-Sens-B2-VM-12,MN-R-Sens-B2-VM-12,7
+15690711,15762568,sensory,gustatory-external,MN-L-Sens-B2-VM-14,MN-R-Sens-B2-VM-14,7
+15996271,15505837,sensory,gustatory-pharyngeal,AN-L-Sens-B2-VM-06,AN-R-Sens-B2-AVp-06,7
+15714845,15615475,sensory,gustatory-external,MN-L-Sens-B2-VM-10,MN-R-Sens-B2-VM-10,7
+15713374,15620432,sensory,gustatory-external,MN-L-Sens-B2-VM-17,MN-R-Sens-B2-VM-17,7
+15712024,15620606,sensory,gustatory-external,MN-L-Sens-B2-VM-13,MN-R-Sens-B2-VM-13,7
+15711289,18679889,sensory,gustatory-external,MN-L-Sens-B2-VM-16,MN-R-Sens-B2-VM-16,7
+15700147,15743905,sensory,gustatory-external,MN-L-Sens-B1-VM-04,MN-R-Sens-B1-VM-04,7
+15727304,15672153,sensory,gustatory-pharyngeal,MN-L-Sens-B3-VM-04,MN-R-Sens-B3-VM-04,7
+7480731,no pair,sensory,visual,Rh5PR-1;left,no pair,8
+17728632,17327188,other,no official annotation,BAlc post ascending 1 left,BAlc post ascending 1 right,8
+15608355,6252764,PN,gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,BAlc post lat lat 6 AL left,BAlc post lat lat 6 AL right,8
+no pair,7778722,sensory,visual,no pair,Rh5PR-6;right,8
+no pair,766246,sensory,visual,no pair,Rh5PR-1;right,8
+16435686,18861011,other,no official annotation,BAla34 ascending 1 left,BAla34 ascending 1 right,8
+12089601,11838242,PN,gustatory-pharyngeal 2nd_order PN,BAlc_post I2 left,BAlc_post I2 right,8
+2216187,no pair,sensory,visual,Rh5PR-2;left,no pair,8
+2209091,no pair,sensory,visual,Rh5PR-4;left,no pair,8
+no pair,902877,sensory,visual,no pair,Rh5PR-2;right,8
+19101351,3848843,PN,gustatory-external 2nd_order PN,BLVp1 bilateral descending left,BLVp1 bilateral descending right; DP1 of GPhN right (ipsilateral PN to bilateral LH); BLVp1 4,8
+no pair,7485368,sensory,visual,no pair,Rh5PR-3;right,8
+7483922,no pair,sensory,visual,Rh5PR-3;left,no pair,8
+1351125,15564911,sensory,enteric,AN-L-Sens-B1-AVa-40,AN-R-Sens-B1-AVa-27,9
+15723479,15640548,sensory,gustatory-pharyngeal,MN-L-Sens-B3-AVp-02,MN-R-Sens-B3-AVp-02,9
+15995327,15748726,sensory,enteric,AN-L-Sens-B1-AVa-37,AN-R-Sens-B1-AVa-43,9
+15714330,15638742,sensory,gustatory-external,MN-L-Sens-B1-VM-03,MN-R-Sens-B1-VM-03,9
+15690955,15617459,sensory,gustatory-external,MN-L-Sens-B2-VM-06,MN-R-Sens-B2-VM-06,9
+3032520,15640425,sensory,gustatory-pharyngeal,MN-L-Sens-B3-AVp-03,MN-R-Sens-B3-AVp-03,9
+5095269,4030526,sensory,gustatory-external,AN-L-Sens-B3-VM-14,AN-R-Sens-B3-VM-14,9
+17380936,15542354,sensory,enteric,AN-L-Sens-B1-AVa-33,AN-R-Sens-B1-AVa-42,9
+5116861,4059758,sensory,gustatory-external,AN-L-Sens-B3-VM-15,AN-R-Sens-B3-VM-15,9
+1419315,15575232,sensory,enteric,AN-L-Sens-B1-AVa-31,AN-R-Sens-B1-AVa-35,9
+15711222,15607180,sensory,gustatory-external,MN-L-Sens-B2-VM-07,MN-R-Sens-B2-VM-07,9
+no pair,15574508,sensory,enteric,no pair,AN-R-Sens-B1-AVa-38,9
+no pair,15575052,sensory,enteric,no pair,AN-R-Sens-B1-AVa-36,9
+17359101,865151,DN-SEZ,no official annotation,BAmas12 midline neuron 2 left,BAmas12 midline neuron 2 right,9
+15994926,15576194,sensory,enteric,AN-L-Sens-B1-AVa-36,AN-R-Sens-B1-AVa-40,9
+15699715,18833414,sensory,gustatory-external,MN-L-Sens-B2-VM-23,MN-R-Sens-B2-VM-23,9
+5030808,10831005,LN,no official annotation,keystone left,keystone right,10
+8877971,3806573,LN,no official annotation,picky 2 left,picky 2 right,10
+8274021,11051276,LN,no official annotation,picky 3 left,picky 3 right,10
+16795838,16795524,PN,mPN; mPN iACT bilateral UPPER; Multiglomerular PN 1; mPN; olfactory 2nd_order PN; thermo-warm 2nd_order PN,mPN iACT bilateral UPPER left,mPN iACT bilateral UPPER right,10
+8311264,8198238,LN,no official annotation,broad T2 left,broad T2 right,10
+10555409,5247102,LN,no official annotation,picky 4 left,picky 4 right,10
+7939890,6557581,LN,no official annotation,broad T3 left,broad T3 right,10
+7939979,8198317,LN,no official annotation,broad T1 left,broad T1 right,10
+5291791,8199671,LN,no official annotation,picky 0 left,picky 0 right,10
+7941642,8198513,LN,no official annotation,broad D2 left,broad D2 right,10
+7941652,8198416,LN,_broad D1,broad D1 left,broad D1 right,10
+7394271,8231264,LN,no official annotation,choosy 1 left,choosy 1 right,10
+8102935,7600311,LN,no official annotation,picky 1 left,picky 1 right,10
+8273369,4247099,LN,no official annotation,choosy 2 left,choosy 2 right,10
+10865025,4116174,DN-SEZ,FFN-39,lAL-1 (octopaminergic) left,lAL-1 (octopaminergic) right,10
+15995861,15445198,sensory,gustatory-pharyngeal,AN-L-Sens-B2-VM-08,AN-R-Sens-B2-VM-08,11
+15714173,15671481,sensory,gustatory-external,MN-L-Sens-B1-VM-05,MN-R-Sens-B1-VM-05,11
+15678833,3562954,sensory,gustatory-external,MN-L-Sens-B2-VM-21,MN-R-Sens-B2-VM-21,11
+1428271,15572414,sensory,enteric,AN-L-Sens-B1-AVa-22,AN-R-Sens-B1-AVa-25,11
+1432836,15564782,sensory,enteric,AN-L-Sens-B1-AVa-18,AN-R-Sens-B1-AVa-23,11
+15728017,15640567,sensory,gustatory-pharyngeal,MN-L-Sens-B3-VM-13,MN-R-Sens-B3-VM-13,11
+3267019,15612241,sensory,gustatory-external,MN-L-Sens-B2-VM-19,MN-R-Sens-B2-VM-19,11
+15675901,15615877,sensory,gustatory-external,MN-L-Sens-B2-VM-22,MN-R-Sens-B2-VM-22,11
+3036249,15672957,sensory,gustatory-pharyngeal,MN-L-Sens-B3-VM-12,MN-R-Sens-B3-VM-12,11
+3050645,15639548,sensory,gustatory-pharyngeal,MN-L-Sens-B3-VM-14,MN-R-Sens-B3-VM-10,11
+15730645,15914721,sensory,gustatory-pharyngeal,MN-L-Sens-B3-VM-05,MN-R-Sens-B3-VM-14,11
+15730680,15618756,sensory,gustatory-external,MN-L-Sens-B2-VM-20,MN-R-Sens-B2-VM-20,11
+7198338,8245869,PN,24a PN; uPN; olfactory 2nd_order PN,24a PN left,24a PN right,12
+4354933,14604028,PN,85c PN; uPN; olfactory 2nd_order PN,85c PN left,85c PN right,12
+7092417,8246750,PN,47a&33b PN; uPN; olfactory 2nd_order PN,47a & 33b PN left,47a & 33b PN right,12
+3486381,8244723,PN,42a PN; uPN; olfactory 2nd_order PN,42a PN left,42a PN right,12
+8399890,4651929,PN,94a&94b PN; uPN; olfactory 2nd_order PN,94a & 94b PN left,94a & 94b PN right,12
+7107433,8253413,PN,45b PN; uPN; olfactory 2nd_order PN,45b PN left,45b PN right,12
+7515491,11279244,PN,49a PN; uPN; olfactory 2nd_order PN,49a PN left,49a PN right,12
+16259595,8246081,PN,67b PN; uPN; olfactory 2nd_order PN,67b PN left,67b PN right,12
+7865767,8243455,PN,83a PN; uPN; olfactory 2nd_order PN,83a PN left,83a PN right,12
+7845346,8245513,PN,63a PN; uPN; olfactory 2nd_order PN,63a PN left,63a PN right,12
+7851153,8245146,PN,82a PN; uPN; olfactory 2nd_order PN,82a PN left,82a PN right,12
+7852250,8247451,PN,45a PN; uPN; olfactory 2nd_order PN,45a PN left,45a PN right,12
+7864823,8245014,PN,59a PN; uPN; olfactory 2nd_order PN,59a PN left,59a PN right,12
+7865652,8248631,PN,22c PN; uPN; olfactory 2nd_order PN,22c PN left,22c PN right,12
+7865696,8252067,PN,1a PN; uPN; olfactory 2nd_order PN,1a PN left,1a PN right,12
+4493199,8244823,PN,13a PN; uPN; olfactory 2nd_order PN,13a PN left,13a PN right,12
+8021456,13589251,PN,33a PN; uPN; olfactory 2nd_order PN,33a PN left,33a PN right,12
+7873135,8245692,PN,42b PN; uPN; olfactory 2nd_order PN,42b PN left,42b PN right,12
+7916593,8256186,PN,30a PN; uPN; olfactory 2nd_order PN; gustatory-external 2nd_order PN,30a PN left,30a PN right,12
+7934904,7935088,PN,35a PN; uPN; olfactory 2nd_order PN; gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,35a PN bilateral left,35a PN bilateral right,12
+7843730,8140109,PN,74a PN; uPN; olfactory 2nd_order PN,74a PN left,74a PN right,12
+1924051,17698681,DN-SEZ,no official annotation,BAmas12 midline neuron 1 left,BAmas12 midline neuron 1 right,13
+19180425,15609427,sensory,gustatory-external,MN-L-Sens-B2-VM-24,MN-R-Sens-B2-?-00,13
+15674083,15611791,sensory,gustatory-external,MN-L-Sens-B2-VM-02,MN-R-Sens-B2-VM-02,13
+1415168,945309,sensory,enteric,AN-L-Sens-B1-AVa-26,AN-R-Sens-B1-AVa-44,13
+15725673,18785124,sensory,gustatory-pharyngeal,MN-L-Sens-B3-VM-07,MN-R-Sens-B3-VM-07,13
+15680710,15629355,sensory,gustatory-external,MN-L-Sens-B2-VM-03,MN-R-Sens-B2-VM-03,13
+15678441,15611642,sensory,gustatory-external,MN-L-Sens-B2-VM-09,MN-R-Sens-B2-VM-09,13
+16014607,3122533,other,no official annotation,BLDc descending 1 left,BLDc descending 1 right; BPL feedback local R,14
+5778133,21590958,pre-DN-VNC,no official annotation,BLP34 posterior ventral ipsilateral neuron left,BLP34 posterior ventral ipsilateral neuron right,14
+5767836,20443505,other,no official annotation,BLP hook local left,BLP hook local right,14
+7766016,10937355,ascending,mechano-Ch,H-shaped _a1l,H-shaped_a1r,14
+11717040,21590962,other,no official annotation,BLP12 gripper 3 left; dpn_left_1304_10,BLP12 gripper 3 right,14
+2123422,2784471,ascending,mechano-Ch,hook-1_a1l,hook-1_a1r,14
+11717045,21590978,other,no official annotation,BLP12 hook 5 left; dpn_left_1304_9,BLP12 hook 5 right,14
+11717035,21591317,other,no official annotation,BLP12 not great pair hook left; dpn_left_1304_12,BLP12 not great pair hook right,14
+11717025,8413543,other,no official annotation,BLP12 descending 4 left; dpn_left_1304_7,BLP12 descending 4 right; BLP12 a 8,14
+2910892,2885630,PN-somato,mechano-Ch 2nd_order PN,UNK triple branch left,UNK triple branch right; Ipsilateral BPL interneuron (hook target),14
+11286854,8942413,PN-somato,mechano-Ch 2nd_order PN,BLVa34 hook left,BLVa34 hook right,14
+11756023,20344845,other,no official annotation,BLP12 descending 2 left; dpn_left_1304_13,BLP12 descending 2 right,14
+11717014,21591037,pre-DN-VNC,no official annotation,BLP12 gripper 2 left; dpn_left_1304_4,BLP12 gripper 2 right; BLP1/2 a R,14
+17360286,17360225,pre-DN-VNC,no official annotation,DALv1 contralateral 1 left,DALv1 contralateral 1 right,14
+17729195,5545085,PN-somato,mechano-Ch 2nd_order PN,BLDc crinkled left,BLDc crinkled right,14
+17729424,8821758,PN-somato,noci 2nd_order PN,BLVa34 small ipsi 2 left,BLVa34 small ipsi 2 right; BLVa34 a 5,14
+12367135,16666673,pre-DN-VNC,no official annotation,BLVa_t hook 3 left,BLVa_t hook 3 right,14
+12366640,17897298,other,no official annotation,BLV hook 1 left,BLV hook 1 right,14
+15586914,16176721,other,no official annotation,BLVp1 hook 2 left,BLVp1 hook 2 right,14
+12923749,10663559,pre-DN-SEZ,no official annotation,BLAv12_lat pointer 1 left,BLAv12_lat pointer 1 right,14
+16490014,1141813,PN-somato,noci 2nd_order PN,BLVa34 local hook left,BLVa34 local hook right; downstream of basket PN; BLVa34 a 4,14
+16950321,4127911,other,no official annotation,BLP34 hook 1 left,BLP34 hook 1 right,14
+14437742,3806652,DN-SEZ,mPN,spruce left,spruce right,15
+11195708,13968203,DN-SEZ,no official annotation,KS LN 4b left,KS LN 4b right,15
+11105182,10158972,DN-SEZ,mPN,clamp left,clamp right,15
+17356450,17355872,DN-SEZ,no official annotation,BAla34 ventral cluster 2 left,BAla34 ventral cluster 2 right,15
+1435466,15546924,sensory,enteric,AN-L-Sens-B1-AVa-21,AN-R-Sens-B1-AVa-30,16
+16588928,17355892,DN-SEZ,no official annotation,BAla34 descending left,BAla34 descending right,16
+15724385,15638968,sensory,gustatory-pharyngeal,MN-L-Sens-B3-AVp-01,MN-R-Sens-B3-AVp-01,16
+15998753,3192952,sensory,gustatory-pharyngeal,AN-L-Sens-B2-AVa-25 (PPS mechano),AN-R-Sens-B2-AVa-25 (PPS mechano),16
+15984231,15567466,sensory,enteric,AN-L-Sens-B1-AVa-35,AN-R-Sens-B1-AVa-41,16
+15983225,15587166,sensory,enteric,AN-L-Sens-B1-AVa-34,AN-R-Sens-B1-AVa-39,16
+15982306,15569561,sensory,enteric,AN-L-Sens-B1-AVa-28,AN-R-Sens-B1-AVa-28,16
+15770945,17951153,sensory,enteric,AN-L-Sens-B1-AVa-25,AN-R-Sens-B1-AVa-32,16
+15766999,18231999,sensory,enteric,AN-L-Sens-B1-AVa-38,AN-R-Sens-B1-AVa-45,16
+7424178,15564882,sensory,enteric,AN-L-Sens-B1-AVa-30,AN-R-Sens-B1-AVa-37,16
+15984797,15564661,sensory,enteric,AN-L-Sens-B1-AVa-23,AN-R-Sens-B1-AVa-29,16
+8012953,8254894,PN,Unknown PN 2; gustatory-external 2nd_order PN,PN in Olfactory Bundle 2 left,PN in Olfactory Bundle 2 right,17
+no pair,4620453,LN,no official annotation,no pair,AVL011 PN Right 2?,17
+12336493,4983938,PN,gustatory-external 2nd_order PN,Columbus of GPhN right,Columbus of GPhN left,17
+4637677,17913185,other,no official annotation,PPLV-1 left,PPLV-1 right,17
+3709977,13789482,PN,Gustatory PN 2; gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,backwards handlebar left (looks like 35a),backwards handlebar right,17
+11067379,4393049,PN,Gustatory PN 4; gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,non-olfactory PN left,non-olfactory PN right,17
+11333054,17884299,PN,Gustatory PN 1; gustatory-external 2nd_order PN,Gustatory PN left,Gustatory PN right,17
+4154421,3690921,PN,Thermo PN 4; tPN; thermo-cold 2nd_order PN,Lower Looping PN Left - AVM004,Lower Looping PN Right - AVM004 (BAla1/2),17
+18740553,3814635,PN,gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,MN_AN iACT PN left,MN_AN iACT PN right,17
+3991518,9747710,PN,Thermo PN 3; tPN; thermo-cold 2nd_order PN,Handlebar PN (CB on left),Handlebar PN (CB on Right),17
+4985759,9291474,LN,Thermo PN 2,AVL011 PN Left,AVL011 PN Right,17
+21250110,9640873,ascending,noci,A10j_a1l,A10j_a1r,18
+17729020,15684934,PN-somato,mechano-Ch 2nd_order PN,Ipsiphone lineage bilateral left,Ipsiphone lineage bilateral right,18
+17729161,8313802,other,no official annotation,BLDc descending 4 left,BLDc descending 4 right,18
+17105977,8970595,PN-somato,noci 2nd_order PN,BLVp1 local left,BLVp1 local right,18
+17224013,14759661,pre-DN-SEZ,no official annotation,DALl1 6 left,DALl1 6 right,18
+17223685,8880781,DN-VNC,no official annotation,DPMpm1 1 DN? left,DPMpm1 1 DN right,18
+10714526,2911847,PN-somato,mechano-Ch 2nd_order PN,DPlal simple bilateral 3 left,DPlal simple bilateral 3 right; BPL to lateral bilateral right,18
+9508724,17541953,PN-somato,mechano-Ch 2nd_order PN,Ipsiphone lineage bilateral 2 left,Ipsiphone lineage bilateral 2 right,18
+17728896,no pair,other,no official annotation,BLAv12_ant interneuron unpaired left,no pair,18
+9739780,3182103,pre-DN-SEZ,no official annotation,BLDc pointer left,BLDc pointer right,18
+17223643,3251140,other,no official annotation,BLVp1 hook left,BLVp1 hook right,18
+18656202,18655517,PN-somato,noci 2nd_order PN,BLVp1 bilateral 3 left; down seahorse left,BLVp1 bilateral 3 right; down seahorse right,18
+11717001,10683313,PN-somato,mechano-Ch 2nd_order PN,BLP12 gripper 1 left; dpn_left_1304_1,BLP12 gripper 1 right; BLP12 a 6,18
+9718223,9856062,pre-DN-VNC,partially differentiated,DPlal simple bilateral 8 left TODO,DPlal simple bilateral 8 right; Tel-like 7? anterior cell body,18
+12367568,12884490,PN-somato,mechano-Ch 2nd_order PN,BLVa_t ascending 1 left,BLVa_t ascending 1 right,18
+17488886,no pair,other,no official annotation,DPlal1-3_med sparse unpaired left,no pair,18
+17468727,4127938,other,no official annotation,BLP34 local left,BLP34 local right,18
+11263687,6692908,PN-somato,noci 2nd_order PN,Basal Tel-like 5 left (Downstream A00c),Basal Tel-like 5 right,18
+5755261,2846555,PN-somato,mechano-Ch 2nd_order PN,BLP34 lateral left,BLP34 lateral right,18
+16595001,21591033,PN-somato,mechano-Ch 2nd_order PN,BLP12 local descending twig 2 left,BLP12 local descending twig 2 right,18
+12273754,17654624,PN-somato,noci 2nd_order PN,MIXED bilateral 2 left,MIXED bilateral 2 right,18
+10982951,8697453,PN-somato,noci 2nd_order PN,Basal Tel-like 3 left,Basal Tel-like 3 right,18
+11719626,20278329,PN-somato,mechano-Ch 2nd_order PN,BLP12 spaghetti left; dpn_left_1304_2,BLP12 spaghetti right; BLP12 a 11,18
+20812872,10739296,other,no official annotation,BLAv12_lat pointer-like 2 left,BLAv12_lat pointer-like 2 right,18
+20343986,2881070,PN-somato,noci 2nd_order PN,BLDc A00c pointer left,BLDc A00c pointer right,18
+17360030,15636411,other,no official annotation,DPlal simple bilateral 4 left,DPlal simple bilateral 4 right,18
+19919566,1137946,PN-somato,mechano-Ch 2nd_order PN,mixed bpl terminal left,mixed bpl terminal right ,18
+17360254,4393350,PN-somato,noci 2nd_order PN,AB left; DALv1 L Lineage - Downstream A00c,AB right; Timo's Tel-like anterior cell body,18
+11717030,9606496,other,no official annotation,BLP12 descending 1 left; dpn_left_1304_11,BLP12 descending 1 right; BPL 2; BLP12 a 2,18
+16485518,9621307,PN-somato,noci 2nd_order PN,BLDc descending 2 left,BLDc descending 2 right,18
+17464168,8641784,PN-somato,mechano-Ch 2nd_order PN,BLP12 local descending twig 1 left,BLP12 local descending twig 1 right,18
+19102929,15668869,PN-somato,mechano-Ch 2nd_order PN,BLAv12_lat contralateral left,BLAv12_ant contralateral right,18
+10929797,8198913,ascending,mechano-Ch,VLEL4_a1l,VLEL4_a1r,18
+16014701,16574328,PN-somato,mechano-Ch 2nd_order PN,BLP12 hook 6 left,BLP12 hook 6 right,18
+8529400,7449767,pre-DN-VNC,no official annotation,UNK bilateral gnarled dendrite left,UNK bilateral gnarled dendrite right,18
+5704424,3166745,other,no official annotation,UNK basal left,UNK basal right; DL-LH_cand2,18
+16961482,10403609,PN-somato,mechano-Ch 2nd_order PN,DALv1 contralateral 2 left,DALv1 contralateral 2 right; Tel-like 11? ,18
+17360070,15656826,other,no official annotation,DPlal simple bilateral 5 left,DPlal simple bilateral 5 right; DPLal 2 R,19
+15586949,3180681,pre-DN-SEZ,no official annotation,BLVp1 local a left,BLVp1 local a right,19
+5744502,1805406,other,no official annotation,PVC_left,PVC_right; BLP34 a 8,19
+17360042,15656223,other,no official annotation,DPlal simple bilateral 6 left,DPlal simple bilateral 6 right,19
+11717020,8954310,other,no official annotation,BLP12 gripper 4 left; dpn_left_1304_3,BLP12 gripper 4 right; BLP12 a 10,19
+20981321,2878185,other,no official annotation,BLAv12_lat pointer-like left,BLAv12_lat pointer-like right,19
+2652641,12882179,other,no official annotation,BLVa_t hook 2 left,BLVa_t hook 2 right -GAP,19
+20981306,2842451,other,no official annotation,MIXED pointer-like left,MIXED pointer-like right,19
+17729410,9161929,PN-somato,noci 2nd_order PN,BLVa34 small ipsi 1 left,BLVa34 small ipsi 1 right,19
+17170215,10660512,other,no official annotation,BLDc descending 3 left,BLDc descending 3 right; Above BPL local right,19
+15669682,17658672,pre-DN-VNC,no official annotation,BLVp1 hook 3 left,BLVp1 hook 3 right,19
+1400725,15561413,sensory,enteric,AN-L-Sens-B1-ACa-12,AN-R-Sens-B1-ACa-13,20
+8005609,10852875,sensory,respiratory,v'td_a2l (Abdominal Sensory),v'td_a2r (Abdominal Sensory),20
+3795424,11291344,sensory,respiratory,v'td_a5l (Abdominal Sensory),v'td_a5r (Abdominal Sensory),20
+1431256,9716858,sensory,enteric,AN-L-Sens-B1-AVa-27,AN-R-Sens-B1-AVa-19,20
+19120772,891237,sensory,respiratory,v'td_vnc_a7l,v'td_vnc_a7r,20
+1406463,15573450,sensory,enteric,AN-L-Sens-B1-ACa-14,AN-R-Sens-B1-ACa-14,20
+9820270,15574328,sensory,enteric,AN-L-Sens-B1-AVa-29,AN-R-Sens-B1-AVa-15,20
+1392771,15563553,sensory,enteric,AN-L-Sens-B1-ACa-06,AN-R-Sens-B1-ACa-05,20
+1377586,15562137,sensory,enteric,AN-L-Sens-B1-ACa-07,AN-R-Sens-B1-ACa-07,20
+8154054,858479,DN-SEZ,no official annotation,BAmas12_dor center output 1 left,BAmas12_dor center output 1 right,20
+1375101,6883831,sensory,enteric,AN-L-Sens-B1-AVa-17,AN-R-Sens-B1-AVa-16,20
+1405493,15548694,sensory,enteric,AN-L-Sens-B1-ACa-09,AN-R-Sens-B1-ACa-10,20
+1414206,15564807,sensory,enteric,AN-L-Sens-B1-AVa-16,AN-R-Sens-B1-AVa-22,21
+9838294,15586536,sensory,enteric,AN-L-Sens-B1-ACa-13,AN-R-Sens-B1-ACa-11,21
+1391179,15573381,sensory,enteric,AN-L-Sens-B1-ACa-15,AN-R-Sens-B1-ACa-12,21
+19017854,19037563,sensory,respiratory,v'td_vnc_a4l,v'td_vnc_a4r,21
+15724175,15640724,sensory,gustatory-pharyngeal,MN-L-Sens-B3-VM-11,MN-R-Sens-B3-VM-11,21
+7340629,7331555,sensory,respiratory,v'td_a6l (Abdominal Sensory),v'td_a6r (Abdominal Sensory),21
+4363883,5382876,sensory,respiratory,v'td_a3l (Abdominal Sensory),v'td_a3r (Abdominal Sensory),21
+12740290,2432564,PN,enteric 2nd_order PN,SEZ-IN-A01-left,SEZ-IN-A01-right,21
+16911458,12178825,sensory,respiratory,v'td_vnc_a6l,v'td_vnc_a6r,21
+7012280,4061049,sensory,respiratory,v'td_vnc_a5l,v'td_vnc_a5r,21
+15769680,15575327,sensory,enteric,AN-L-Sens-B1-AVa-19,AN-R-Sens-B1-AVa-26,21
+15770904,15543394,sensory,enteric,AN-L-Sens-B1-AVa-24,AN-R-Sens-B1-AVa-31,21
+3450442,4700078,PN,mPN; mPN iACT B2; mPN; olfactory 2nd_order PN; gustatory-external 2nd_order PN; thermo-warm 2nd_order PN,mPN iACT B2 left,mPN iACT B2 right,22
+5261424,4679139,PN,mPN; mPN iACT A2; mPN; olfactory 2nd_order PN; gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,mPN iACT A2 left,mPN iACT A2 right,22
+8349454,1591351,PN,FFN-30; gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,GB: left,GB: right,22
+8704079,16735586,PN,mPN; mPN iACT B3; mPN; olfactory 2nd_order PN; gustatory-external 2nd_order PN,mPN iACT B3 left,mPN iACT B3 right,22
+9589146,7503199,PN,mPN; mPN; olfactory 2nd_order PN; gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,mPN iACT C1 left,mPN iACT C1 right,22
+8480221,4324898,PN,mPN; mPN seahorse; mPN; olfactory 2nd_order PN,mPN seahorse left,mPN seahorse right,22
+9971209,8812078,LN,no official annotation,MIXED crinkled left; Down to Multi PNs,MIXED crinkled right; BLAd ant med 2 meets Larderet neuron 8812079,22
+2612527,4391978,PN,mPN; Multiglomerular PN 3; mPN; olfactory 2nd_order PN; gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,mPN iACT C2 left,mPN iACT C2 right,22
+8542422,8069432,PN,LHN-22; CN-58; gustatory-external 2nd_order PN,AD:BAmd1 v 3_Kathak_right,AD:BAmd1 v 3_Kathak_left,22
+9577562,17132009,other,no official annotation,BLVp12 sickle 1 left,BLVp12 sickle 1 right,22
+12225666,4327684,PN,mPN; FFN-21; mPN; olfactory 2nd_order PN; gustatory-external 2nd_order PN; thermo-warm 2nd_order PN,mPN iACT A3 left,mPN iACT A3 right,22
+17743170,13858824,PN,PN; gustatory-external 2nd_order PN,KS PN left,KS PN right,22
+17844900,18598859,LN,no official annotation,Giant-step left,Giant-step right,22
+9119558,10990803,PN,mPN; mPN; olfactory 2nd_order PN; gustatory-external 2nd_order PN,mPN iACT VUM L,mPN iACT VUM R,22
+7092086,4876704,other,Unknown PN 1,PN in Olfactory Bundle 1 left,PN in Olfactory Bundle 1 right,22
+17545695,14154154,pre-DN-SEZ,mPN,cypress left,cypress right,22
+6451332,3538129,PN,mPN; mPN D; mPN; olfactory 2nd_order PN,mPN D left,mPN D right,22
+3712893,11543212,PN,mPN; mPN iACT bilateral LOWER; Multiglomerular PN 2; mPN; olfactory 2nd_order PN; gustatory-external 2nd_order PN,mPN iACT bilateral LOWER left,mPN iACT bilateral LOWER right,22
+3450751,10160250,PN,mPN; Multiglomerular PN 5; olfactory 2nd_order PN; gustatory-external 2nd_order PN,mPN BAmd1-g right,mPN BAmd1-g left,22
+2628785,4311586,PN,LHN-19; CN-55; gustatory-external 2nd_order PN,AE:BAmd2 r bilateral_left,AE:BAmd2 r bilateral_right,22
+13849557,6143930,pre-DN-VNC,no official annotation,CSD left,CSD right,22
+7168356,11714576,pre-DN-VNC,no official annotation,Weird PN to LH left,Weird PN to LH Right,22
+11007420,16884962,DN-SEZ,no official annotation,DPMpl12 tall 2 left,DPMpl12 tall 2 right,22
+10915553,11905911,DN-VNC,no official annotation,CM4-dm Switcheroo 1 left,CM4-dm Switcheroo 1 right; CM4 dor ant 12 DNs,23
+12366224,19857577,pre-DN-VNC,no official annotation,BLVa_t ascending lateral 1 left,BLVa_t ascending lateral 1 right,23
+11455472,8257672,ascending,unknown modality,VLEL9_a1l,VLEL9_a1r,23
+8644484,14531828,ascending,mechano-Ch,A05g_a1l? lch projection neuron bilateral dendrites a1l,a05g_a1r,23
+10527147,7573476,DN-SEZ,no official annotation,CP descending contralateral 3 left,CP descending contralateral 3 right,23
+2816457,2619565,ascending,A00c_a5; noci,A00c_a5l,A00c_a5r,23
+16303262,7627878,sensory,respiratory,v'td_a1l ,v'td_a1r,23
+4555763,5108525,ascending,noci,A08h_a1l,A08h_a1r right,23
+17732270,6125806,DN-VNC,no official annotation,CM4-dm Switcheroo 3 left,CM4-dm Switcheroo 3 right; DPMpm b 6; CM4 dor pos 6 TODO DNs,23
+no pair,2552701,sensory,visual,no pair,Rh5PR-4;right,23
+3220616,16278312,ascending,unknown modality,A09 Contra Brain Projection_a1l,A09 Contra Brain Projection_a1r,23
+no pair,7555204,sensory,visual,no pair,Rh6PR-2;right,23
+5080991,10959064,pre-DN-VNC,no official annotation,BAla34 Ipsilateral Hook left,BAla34 Ipsilateral Hook right,23
+no pair,7568455,sensory,visual,no pair,Rh5PR-5;right,23
+5343578,7184082,ascending,mechano-Ch,A08x_a1l,A08x_a1r,23
+8057753,10949030,ascending,unknown modality,A08j2_a1l,A08j2_a1r,23
+19470184,3732322,DN-SEZ,no official annotation,PC-IN-left,SEZ-IN-32-right,24
+992646,15599768,DN-SEZ,no official annotation,BAmas12 contra left; Interneuron--35 in total,BAmas12 contra right,24
+15715796,15606918,sensory,gustatory-external,MN-L-Sens-B2-VM-04,MN-R-Sens-B2-VM-04,24
+17951049,10263287,DN-SEZ,no official annotation,SEZ-IN-07-left,SEZ-IN-07-right,24
+15679484,15610387,sensory,gustatory-external,MN-L-Sens-B2-VM-08,MN-R-Sens-B2-VM-08,24
+no pair,15564706,sensory,enteric,no pair,AN-R-Sens-B1-AVa-24,24
+8216541,4541081,DN-SEZ,no official annotation,BAmas12_dor center output 2 left,BAmas12_dor center output 2 right,24
+15690392,15615305,sensory,gustatory-external,MN-L-Sens-B2-VM-11,MN-R-Sens-B2-VM-11,24
+1709802,15532105,sensory,gustatory-pharyngeal,AN-L-Sens-B2-AVa-24 (PPS mechano),AN-R-Sens-B2-AVa-24 (PPS mechano),24
+no pair,15574941,sensory,enteric,no pair,AN-R-Sens-B1-AVa-34,24
+no pair,9748269,sensory,enteric,no pair,AN-R-Sens-B1-AVa-18,24
+15983156,16442344,sensory,enteric,AN-L-Sens-B1-AVa-39,AN-R-Sens-B1-AVa-20,24
+1429969,15543068,sensory,enteric,AN-L-Sens-B1-AVa-20,AN-R-Sens-B1-AVa-21,24
+3928652,12704360,RGN,no official annotation,CA-LP-1_left,CA-LP-1_right,25
+4108016,3002410,PN,Thermo PN 7; tPN; thermo-cold 2nd_order PN,Upper Looping PN Left - AVM004,Upper Looping PN Right - AVM004 (BAla1/2),25
+no pair,8480418,LN,no official annotation,no pair,OLP4;right,25
+9927082,7874184,PN,Pdf-LaNs; visual 2nd_order PN,LN1;left,LN1;right,25
+13422280,7589765,DN-VNC,no official annotation,CP descending contralateral 1 left,CP descending contralateral 1 right,25
+17414715,8247641,LN,no official annotation,ChalOLP;left,ChalOLP;right,25
+2204467,2512602,PN,Pdf-LaNs; visual 2nd_order PN,LN2;left,LN2;right,25
+16087799,2775707,PN,Pdf-LaNs; visual 2nd_order PN,LN4;left,LN4;right,25
+8118929,2775943,PN,Pdf-LaNs; visual 2nd_order PN,LN3;left,LN3;right,25
+8700125,7897051,LN,no official annotation,GlulOLP;left,GlulOLP;right,25
+17729088,9637388,LHN,noci 2nd_order PN,Tel-like 3; BLVp1 7? left,Tel-like 3; BLVp1 7 right,26
+4663875,11271082,pre-DN-VNC,no official annotation,BLAv12 bilateral 2 left,BLAv12 bilateral 2 right,26
+16594752,9530532,PN-somato,noci 2nd_order PN,Basal Tel-like 8 left,Basal Tel-like 8 right,26
+14338439,8805777,PN-somato,noci 2nd_order PN,BLDc A00c pointer 2 left,BLDc A00c pointer 2 right; BPL local 1 R,26
+16472086,16433177,PN-somato,mechano-Ch 2nd_order PN,Basal Tel-like 4 left,Basal Tel-like 4 right,26
+15689046,8979434,pre-DN-SEZ,no official annotation,DPlal simple bilateral 7 left,DPlal simple bilateral 7 right,26
+9822593,15023987,pre-DN-VNC,no official annotation,BLAvm bilateral neuron 2 left,BLAvm bilateral neuron 2 right,26
+5762666,17777259,LHN,noci 2nd_order PN; mechano-Ch 2nd_order PN,n_down pOLP&PVL09-2 left,n_down pOLP&PVL09-2 right,26
+21220994,8229118,PN-somato,noci 2nd_order PN; mechano-Ch 2nd_order PN,Basal Tel-like 1 left,Basal Tel-like 1 right,27
+20981350,8715940,other,no official annotation,BLAv12_lat pointer 3 left,BLAv12_lat pointer 3 right; BLAv2 ant 1 ven neuron 8715941,27
+9481869,14762026,PN-somato,mechano-Ch 2nd_order PN,DALl1 11 left,DALl1 11 right,27
+6633635,9241349,PN-somato,noci 2nd_order PN; mechano-Ch 2nd_order PN,DPlal simple bilateral 1? left,DPlal simple bilateral 1 right; Tel-like 4? with anterior cell body,27
+16059078,4130960,PN-somato,mechano-Ch 2nd_order PN,Local Crescent left,Local Crescent right,27
+9348984,2772093,pre-DN-VNC,no official annotation,BLVa hook 1 left,BLVa hook 1 right,27
+16059134,10725068,pre-DN-VNC,no official annotation,MIXED local left,MIXED local right; BLVa12 a 3,27
+17430685,20106468,other,no official annotation,BLVp1 bilateral 5 left,BLVp1 bilateral 5 right,27
+5750884,20443420,PN-somato,Tel5; noci 2nd_order PN,Tel-like 5 left,Tel-like 5 right,27
+20730780,9202326,PN-somato,noci 2nd_order PN,Basal Tel-like 6 left,Basal Tel-like 6 right,27
+17165621,9422291,PN-somato,noci 2nd_order PN; mechano-Ch 2nd_order PN,Basal Tel-like 7 left,Basal Tel-like 7 right,27
+14797760,15679639,PN-somato,mechano-Ch 2nd_order PN,above BPL toward anterior Left,above BPL toward anterior Right,27
+15587533,11029851,PN-somato,mechano-Ch 2nd_order PN,BLVp1 bilateral 2 left,BLVp1 bilateral 2 right,27
+15096548,13841523,pre-DN-VNC,no official annotation,BLAv12_lat pointer 2 left,BLAv12_lat pointer 2 right,27
+4635057,7971031,LHN,Thermo PN 1; Thermo PN 6,PVL005 - 2 Left,PVL005 1 right,28
+7582412,2776773,LN,no official annotation,3rd Thermo Left - ADL022,3rd Thermo Right - ADL022,28
+19611917,8138616,LHN,no official annotation,DN1-1 - PDL007 #2 left,DN1-1 - PDL007 #2 right,28
+17244655,17360593,LHN,no official annotation,AF3 left,AF3 right,28
+16045758,10684539,other,no official annotation,BLP12 claw 2 left,BLP12 claw 2 right; BLP12 a 7,28
+4926999,21664445,LN,no official annotation,3rd-order Thermo left; (possible PVL005 ),3rd-order Thermo right,28
+8765298,10682411,other,no official annotation,BLP12 claw 3 left,BLP12 claw 3 right; BLP12 a 4,28
+12156009,7020344,PN,Gustatory PN 3; gustatory-external 2nd_order PN,handlebar-like 4 (no soma) left ,handlebar-like 4 right,28
+4260935,3756659,PN,Thermo PN 5; tPN; thermo-cold 2nd_order PN,PN Only Connects To Togethers Left,PN Only Connects To Togethers Right,28
+17962513,8842220,LHN,no official annotation,BLAd lat 1 neuron 8842221_sibling left **MISSING DENDRITE**,BLAd lat 1 neuron 8842221_sibling right,28
+4279887,10293348,LHN,no official annotation,Chong left,Chong right,28
+7952981,8717219,PN,vPN; visual 2nd_order PN,5thLN;left,5thLN;right,28
+5289042,9291938,LHN,no official annotation,BLVa12 local 2 left,BLVa12 local 2 right,28
+4636432,9808146,LN,no official annotation,AF13: 3rd-order Thermo (possible PVL005 )4 Left,AF13: 3rd-order Thermo (possible PVL005 )4 Right,28
+2379544,10681487,other,no official annotation,BLP12 claw 1 left,BLP12 claw 1 right; BLP12 a 3,28
+9747418,4127707,LHN,no official annotation,PPLV - 2 Left (maybe PVL014c),PPLV - 2 Right (maybe PVL014c); BLP34 a 7,28
+12745771,2914206,LHN,no official annotation,DN1-1 - PDL007 left,DN1-1 - PDL007 right ,28
+5959820,8943485,pre-DN-SEZ,no official annotation,BLVa34 local neuron left,BLVa34 local neuron right; BLVa34 a 6 right,28
+16098538,8670503,LHN,no official annotation,DPLm2 gnarled left,DPLm2 gnarled right,28
+4570270,2921933,LN,no official annotation,V1: possible PVL005 -  3 Left,V1: possible PVL005 - 3 Right,28
+12948470,9275210,LN,Thermo PN 1; Thermo PN 6,PVL005 1 left,PVL005 - 2 Right (V1); BLVa34 a 11,28
+8293958,3869488,PN,PN; tPN; gustatory-external 2nd_order PN; thermo-cold 2nd_order PN,Suckerfish PN left,Suckerfish PN right,28
+17776906,4101295,LN,no official annotation,AF8: PDL_left_sibling,AF8: PDL_right_sibling,28
+11123016,4152020,other,Multiglomerular PN 6,from upper looping PN - peptidergic left,from upper looping PN - peptidergic right,28
+8509534,16515871,PN,mPN; mPN; olfactory 2nd_order PN; gustatory-external 2nd_order PN,mPN cobra left,mPN cobra right,29
+16630941,5835799,KC,KC,KC22,KC22,30
+16631114,9556700,KC,KC,KC78?,KC78,30
+no pair,10056280,KC,KC,no pair,KC96,30
+5937084,8850802,KC,KC,KC65;_42a left,KC65;_42a right,30
+16435965,no pair,KC,KC,KC no pair,no pair,30
+16630264,5836163,KC,KC,KC25,KC25,30
+no pair,9766793,KC,KC,no pair,KC86,30
+16444327,no pair,KC,KC,KC no pair,no pair,30
+16977881,9796812,KC,KC,KC90,KC90,30
+16627861,no pair,KC,KC,KC no pair,no pair,30
+16630385,no pair,KC,KC,KC no pair,no pair,30
+no pair,16850888,KC,KC,no pair,KC73,30
+8262503,no pair,KC,KC,KC no pair,no pair,30
+no pair,7868195,KC,KC,no pair,KC39,30
+15722867,9609048,KC,KC,KC82,KC82,30
+15721919,no pair,KC,KC,KC no pair,no pair,30
+14898816,4230739,KC,KC,KC13,KC13,30
+11691603,4444354,KC,KC,KC17,KC17,30
+4412315,3347708,KC,KC,KC2/24,KC2,30
+8262302,5051342,KC,KC,KC21,KC21,30
+16627838,8413663,KC,KC,KC49?,KC49,30
+16039470,4241192,KC,KC,KC14,KC14,30
+11725803,8066542,KC,KC,KC42,KC42,30
+11725127,4230061,KC,KC,KC12,KC12,30
+no pair,4227304,KC,KC,no pair,KC10,30
+4411505,no pair,KC,KC,KC no pair,no pair,30
+16058860,11813287,KC,KC,KC100,KC100,30
+4518546,no pair,KC,KC,KC no pair,no pair,30
+no pair,5836206,KC,KC,no pair,KC28,30
+4412036,no pair,KC,KC,KC no pair,no pair,30
+no pair,5836197,KC,KC,no pair,KC27,30
+16629788,7786053,KC,KC,KC34,KC34,30
+no pair,5019924,KC,KC,no pair,KC20,30
+no pair,5836035,KC,KC,no pair,KC24,30
+11934107,3844961,PN,gustatory-external 2nd_order PN,I1 left (ipsilat PN to bilateral LH),l1 right; (old) I of GPhN right (ipsilateral PN to bilateral LH),31
+15718981,1591270,pre-DN-VNC,no official annotation,Nag left,Nag right,31
+17354392,15636958,pre-DN-SEZ,no official annotation,MB2IN-161 left,DPLal 4 R,31
+8640212,no pair,other,no official annotation,BLAd local unpaired left,no pair,31
+15541971,5734134,other,no official annotation,BAmd1 bilateral left,BAmd1 bilateral right,31
+16095576,20370716,other,no official annotation,DPL Lander-like left,DPL Lander-like right,31
+17729888,17658927,other,no official annotation,CPa 3 left,CPa 3 right,31
+17729167,17324637,other,no official annotation,BLDc gnarly left,BLDc gnarly right,31
+no pair,8065380,other,no official annotation,no pair,ASB Digest right,31
+15517247,16335254,pre-DN-VNC,no official annotation,DALcm12 L v e 1,DALcm_r; DALcm12 m lat 2,31
+12121795,11788830,PN,gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,BAlc_post I left,BAlc_post I right,31
+no pair,18248435,other,no official annotation,no pair,ASB Lonely right,31
+5708994,17654617,PN,gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,BLAvm potential PN left,BLAvm potential PN right; ASB TODO from gPN 7 right,31
+8347613,8349553,LHN,no official annotation,Ivy left,Ivy right,31
+4393026,16131474,LHN,no official annotation,SY: Large Fragment Missing Soma_left,SY: weak on PVL09 & MBE24 (LNM_downstream3)_right,31
+3061422,3272218,other,no official annotation,DM-NPF_conn4_left,DM-NPF_conn4_right,31
+8639662,13046354,other,no official annotation,DPLm ant 1 left,DPLm ant 1 right,31
+8687096,9643439,pre-DN-VNC,no official annotation,DPlal outer bilateral 2 left,DPlal outer bilateral 2 right,31
+3650006,15829660,PN,gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,PN of GPhN to LH (left),PN of GPhN to LH; in mACT(?) right,31
+4664256,17326218,PN-somato,noci 2nd_order PN,PL: Pair 1_down pvl09_left,PL: Pair 1_down pvl09_right,31
+9940382,8124177,PN,vPN; visual 2nd_order PN,pOLP;left,pOLP;right,31
+9488991,5585799,LHN,no official annotation,LQ: weak on PVL09 & MBE24_left,LQ: TO REVIEW_right,31
+5688091,5038920,DN-SEZ,no official annotation,MBE - Input of Hugin RG Candidates left 1 - paired with #5038920,MBE - Input of Hugin RG Candidates right 1 - paired with #5688091,31
+18566501,15588389,LHN,no official annotation,ASB B1 left 9,ASB B1 right 9 ,32
+10540188,8932110,other,no official annotation,Cheech left,Cheech right,32
+11782821,3913613,LN,no official annotation,Horseshoe Bilateral Left,Horseshoe Bilateral right,32
+8340950,8270683,PN,vPN; visual 2nd_order PN,nc2;left,nc2;right,32
+9447255,16295025,LN,LHN-6,US1: Claw_left,US1: Claw_right,32
+2568465,10167078,PN,mPN; mPN; olfactory 2nd_order PN; gustatory-external 2nd_order PN,mPN iACT B1_left,mPN iACT B1_right,32
+9567051,9539868,PN,vPN; visual 2nd_order PN,PVL09 left,PVL09 right,32
+14333495,13858797,LHN,LHN-9; CN-45,Oval 42a_left,Oval 42a_right,32
+7982896,8177199,LHN,no official annotation,SP2-1;left,SP2-1;right,32
+8037197,17822238,LN,CN-2,AG:DL-LH_cand7_left; BLVa12 a 2,AG:DL-LH_cand7_right; BLVa12 a 2,32
+16486385,11178891,LN,LHN-10; CN-46,LH bilateral axon 4_left; BLVa12 b 4,LH bilateral axon 4_right; BLVa12 b 4,32
+14319185,8565131,LHN,LHN-21; CN-57,Nest_left,Nest_right,32
+8276782,4119387,PN,mPN; Multiglomerular PN 7; mPN; olfactory 2nd_order PN; gustatory-external 2nd_order PN; thermo-warm 2nd_order PN,mPN iACT A1 left,mPN iACT A1 right,32
+5453333,13803032,LHN,LHN-15; CN-51,Projection from LH 2_left,Projection from LH 2_right,32
+17434825,16485079,LN,Multiglomerular PN 4; LHN-11; CN-47,LH bilateral axon 2 MB_left; BLVa12 b 3,LH bilateral axon 2 MB_right; BLVa12 b 3,32
+12476851,16070049,LHN,CN-1,TR ; Down_pvl09_left,TR ; Down_pvl09_right,32
+12498338,3913629,LHN,LHN-14; CN-50,Projection from LH 1_left,Projection from LH 1_right,32
+4665186,17671219,LN,LHN-13; CN-49,PVM_42a_LH_left,PVM_42a_LH_right,32
+no pair,9525492,KC,KC,no pair,KC76,33
+16440649,no pair,KC,KC,KC no pair,no pair,33
+no pair,5835815,KC,KC,no pair,KC23,33
+no pair,9531722,KC,KC,no pair,KC77,33
+no pair,7840203,KC,KC,no pair,KC38,33
+no pair,7829784,KC,KC,no pair,KC36,33
+no pair,7828725,KC,KC,no pair,KC35,33
+9983191,no pair,KC,KC,KC no pair,no pair,33
+no pair,7690945,KC,KC,no pair,KC33,33
+16210988,no pair,KC,KC,KC no pair,no pair,33
+no pair,8891315,KC,KC,no pair,KC66,33
+14519048,no pair,KC,KC,KC no pair,no pair,33
+14522124,no pair,KC,KC,KC no pair,no pair,33
+6704232,8559607,KC,KC,KC54,KC54,33
+no pair,4414426,KC,KC,no pair,KC15,33
+14898295,no pair,KC,KC,KC no pair,no pair,33
+no pair,5836387,KC,KC,no pair,KC29,33
+no pair,5836181,KC,KC,no pair,KC26,33
+no pair,9809626,KC,KC,no pair,KC91,33
+no pair,3587612,KC,KC,no pair,KC7,33
+3819157,no pair,KC,KC,KC no pair,no pair,33
+14460113,no pair,KC,KC,KC no pair,no pair,33
+8865199,no pair,KC,KC,KC no pair,no pair,33
+16438190,no pair,KC,KC,KC no pair,no pair,33
+no pair,7891312,KC,KC,no pair,KC40,33
+8177991,no pair,KC,KC,KC no pair,no pair,33
+no pair,9813188,KC,KC,no pair,KC92,33
+8513389,no pair,KC,KC,KC no pair,no pair,33
+no pair,8274902,KC,KC,no pair,KC48,33
+16629757,no pair,KC,KC,KC no pair,no pair,33
+8263140,no pair,KC,KC,KC no pair,no pair,33
+16627773,no pair,KC,KC,KC no pair,no pair,33
+16629931,no pair,KC,KC,KC no pair,no pair,33
+8263285,no pair,KC,KC,KC no pair,no pair,33
+no pair,9889095,KC,KC,no pair,KC94,33
+17147410,no pair,KC,KC,KC no pair,no pair,34
+no pair,9897223,KC,KC,no pair,KC95,34
+2979486,9585145,LHN,no official annotation,GX; Left,GX; Right ,35
+3820148,2920554,LN,PL-5,cpld-- downtoDN1 left,cpld-- downtoDN1 right,35
+5053417,16188942,PN,gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,MBE29b? 2 left,MBE29b? 2 right,35
+16316916,5592307,PN,FFN-37; gustatory-pharyngeal 2nd_order PN,BAmas12 dor 12 d left,BAmas12 dor 12 d right,35
+11853038,12842593,PN,gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,BAmas SOG MBE2_l left,BAmas SOG MBE2_l right,35
+15639216,15639331,pre-DN-SEZ,no official annotation,MB2IN-161 left alternative,MB2IN-161 right alternative,35
+10658673,13045287,other,no official annotation,DPLc post intlat 1 Left; NOT a DPLc,DPLc post intlat 1 Right,35
+9800031,17980698,other,no official annotation,ASB Pointer left,ASB Pointer right,35
+5744058,4128002,PN-somato,noci 2nd_order PN,neuron 5744058 left,Posterior Ventral neuron right,35
+11656349,16297403,PN,gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,MBE29a? 1 left,MBE29a? 1 right,35
+4117305,16720240,KC,KC,KC72,KC72,36
+11986594,6218461,PN,gustatory-external 2nd_order PN,I of GPhN left (ipsilateral PN to LH),I of GPhN right; (old) I1 right --- BAlc post lat ven #4 ACT comm neuron 6218462,37
+5606265,19718010,ascending,unknown modality,A09 (ASB SOG-LH Dense Core)_a1l,A09 (ASB SOG-LH Dense Core)_a1r,37
+21133456,18341449,other,no official annotation,BLVa12 local brush left,BLVa12 local brush right,37
+19051631,8193545,other,no official annotation,BLP34 interneuron X left,BLP34 interneuron X-FORCED right ,37
+16141217,13722516,LHN,no official annotation,BLAv12 2 left,BLAv12 2 right,37
+16838915,8544824,other,no official annotation,BLP claw 3 left,BLP claw 3 right,37
+15023806,9845997,other,no official annotation,UNK crinkled 2 left,UNK crinkled 2 right,37
+19880680,9806510,other,no official annotation,BLA brancher left,BLA brancher right; Nest to telegoro,37
+8348277,18302665,pre-DN-VNC,no official annotation,BLVa hook 2 left,BLVa hook 2 right,37
+11144258,9800178,LN,no official annotation,SNeuron CPLd left _former: Death grip left,SNeuron CPLd right,38
+9201911,17591687,LHN,no official annotation,3rd Thermo - to peduncle #2 left,3rd Thermo - to peduncle #2 right,38
+9792178,2920061,LN,PL-4,DPLc_ant_lat bilateral left,DPLc_ant_lat bilateral right; DN2-1R (ASB TODO A2 11),38
+12387154,8723267,LHN,no official annotation,AF7: PDL_left_sibling 35,AF7: PDL_right_sibling 35,38
+11193510,3930411,LHN,no official annotation,Ruler Like Neuron left,Ruler Like Neuron right,38
+11146422,19276024,PN,gustatory-external 2nd_order PN,suckerfish-like 1 (left) ,suckerfish-like 1 (right),38
+2379529,3815483,LHN,no official annotation,PVL2 left,PVL2 right; BLP34 a 3,38
+8755914,8741619,DN-VNC,no official annotation,peptidergic with docked vesicles_left,peptidergic with docked vesicles_right,38
+8884212,19143114,other,no official annotation,Scimitar left,Scimitar right,38
+12585379,13768622,other,no official annotation,neuron 12585380,neuron 13768623,38
+9445876,4102413,LN,no official annotation,LH-22 BLVa12 a 11 left,LH-22 BLVa12 a 11 _right,38
+9421292,5507096,LHN,no official annotation,Ashley Left **forced AXON connection at gap**,Ashley Right - unknown; BLP12 b 1,38
+14514597,13986477,LHN,LHN-5,I? ; Smash's forgotten ugly cousin_possible PVL005 - 3 Left_sibling,I? ; Smash's forgotten ugly cousin_possible PVL005 - 3 Right_sibling,38
+14461238,18292832,LHN,no official annotation,US2: BLP12 b 4_left,US2: BLP12 b 4_right,38
+14450919,18220289,LHN,no official annotation,DPLp_left,DPLp_right,38
+14333371,2932028,LHN,no official annotation,AF:uptoLN2 sibling 35_left,AF:uptoLN2 sibling 35_right,38
+15686444,15638932,pre-DN-VNC,no official annotation,DPlal bilateral 1 left,DPlal bilateral 1 right,38
+8398900,1869592,other,no official annotation,FLON;left,FLON;right,38
+12424328,16457812,PN,gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,Gustatory? PN left; PN from MN sensory left,Gustatory? PN right,38
+4778745,4319395,LHN,no official annotation,3rd Thermo - to peduncle #1 left,3rd Thermo - to peduncle #1 right,38
+6494274,13986583,LHN,LHN-1,LH to pseudo bridges_left,LH to pseudo bridges_right,38
+3814701,9761454,DN-SEZ,no official annotation,densecoreneuron_left,densecoreneuron_right,38
+16474159,9291437,LHN,no official annotation,DPMpm2 2 left,DPMpm2 2 right,38
+10955244,11248536,LHN,no official annotation,from mPN 16 neuron 10955244 left,right from mPN 16,38
+10958210,17671375,pre-DN-SEZ,no official annotation,F14: PVL005 - 1 Left?,BLVa12 a 9 right,38
+16494105,4108720,LHN,no official annotation,AF9: brush left,AF9: brush right,38
+17420035,8705088,LHN,no official annotation,PDL1_left,PDL1_right,38
+17696578,16260741,LHN,no official annotation,ASB Lander Left,ASB Lander Right,38
+16544485,17937123,other,no official annotation,ASB LH Interneuron left ,ASB LH Interneuron right,38
+16409132,17896997,LHN,no official annotation,BLDc LH left,BLDc LH right,38
+17933822,3163105,other,no official annotation,BLVa12 tripartite left,BLVa12 tripartite right; F14: PVL005 - 1 right?,38
+3946569,8813113,LHN,no official annotation,BLAd ant med 3 neuron left,BLAd ant med 3 neuron  right,38
+7313896,8135412,MB-FFN,FFN-19,SEZ FFN left TODO dendrites,SEZ FFN right,38
+8111135,7555968,PN,Vision PN 1; vPN; visual 2nd_order PN,nc1;left,nc1;right,38
+4398543,17380092,CN,no official annotation,DPLl a 2 left,DPLl a 2 right,38
+19051762,17913032,pre-DN-VNC,no official annotation,Death grip left (new name now correct pair),Death grip right,38
+12425856,13173311,PN,gustatory-pharyngeal 2nd_order PN,Projection neuron LH,neuron 13173312,38
+4134539,no pair,KC,KC,KC no pair,no pair,39
+no pair,4227544,KC,KC,no pair,KC11,39
+8262372,8068173,KC,KC,LON KC left,LON KC right,40
+7187384,3664102,KC,KC,Thermo KC B_left - mbi2 - unknown,Thermo KC B_right - mbi2 - unknown,40
+8118474,4229950,KC,KC,Thermo KC A_Left   -   Mushroom Body  Right,Thermo KC A_Right - Mushroom Body  Left,40
+12726582,4415241,KC,KC,KC16,KC16,40
+4780707,15683275,LHN,no official annotation,AF15: off suckerfish_left,AF15: off suckerfish_right,41
+5474852,17591442,LN,CN-5,RQ1: 3rd - thermo orders _left,RQ1: 3rd - thermo orders _right,41
+12840470,10495502,other,LHN-7,U1: WB_DPMpl1_left,U1: WB_DPMpl1_right,41
+8238322,11210000,LHN,LHN-2,LH bilateral axon 1_left; BLVa12 b 2,LH bilateral axon 1_right; BLVa12 b 2,41
+11135340,11645541,LN,no official annotation,S: Peptidergic_sibling 35_left,S: Peptidergic_sibling 35_right,41
+no pair,8997281,KC,KC,no pair,KC70,42
+no pair,3497901,KC,KC,no pair,KC4,42
+no pair,3347834,KC,KC,no pair,KC3,42
+no pair,10259967,KC,KC,no pair,KC99,42
+8248706,no pair,KC,KC,KC no pair,no pair,42
+15734988,no pair,KC,KC,KC no pair,no pair,42
+8393981,no pair,KC,KC,KC no pair,no pair,42
+no pair,8419602,KC,KC,no pair,KC50,42
+no pair,9847388,KC,KC,no pair,KC93,42
+11785627,no pair,KC,KC,KC no pair,no pair,42
+16630024,no pair,KC,KC,KC no pair,no pair,42
+16939375,8924186,KC,KC,KC67,KC67,42
+16015738,no pair,KC,KC,KC no pair,no pair,42
+12217572,no pair,KC,KC,KC no pair,no pair,42
+6702830,no pair,KC,KC,KC no pair,no pair,42
+no pair,7196392,KC,KC,no pair,KC31,42
+no pair,8835968,KC,KC,no pair,KC64,42
+8864096,no pair,KC,KC,KC no pair,no pair,42
+no pair,7838405,KC,KC,no pair,KC37,42
+no pair,9730873,KC,KC,no pair,KC84,42
+16631222,no pair,KC,KC,KC no pair,no pair,42
+no pair,29,KC,KC,no pair,KC #0,42
+15861524,no pair,KC,KC,KC no pair,no pair,42
+5118060,15605987,LHN,mechano-Ch 2nd_order PN,UT: BLAv12-1_left,UT: BLAv12-1_right,43
+12325227,9507904,PN-somato,FFN-29; noci 2nd_order PN,Smash_left,Smash_right_sibling,43
+2439067,3814853,LHN,LHN-8,T3: PVLr_left,T3: PVLr_right,43
+16799939,15676571,CN,no official annotation,DPLp 1 left,DPLp 1 right,43
+14818307,3932136,LHN,no official annotation,AF7: C Shaped left,AF7: C Shaped right,43
+6494382,2963280,LHN,no official annotation,try5thLN_sibling 35 left,try5thLN_sibling 35 right,43
+17360022,9565674,pre-DN-VNC,no official annotation,DPlal Curvy left,DPlal Curvy right,44
+18648531,13665529,CN,no official annotation,Bonsai left,Bonsai right,44
+16422744,15589591,pre-DN-VNC,no official annotation,BAlp4 ascending 3 left,BAlp4 ascending 3 right,44
+2568522,12612426,PN,gustatory-external 2nd_order PN,Another Upper Comissure PN right,BAmd2 r Columbus of GPhN left,44
+15590793,17378548,other,no official annotation,DL-LH_cand9 like left,DL-LH_cand9 like right,44
+5746180,20443501,pre-DN-VNC,no official annotation,BLP34 bilateral 1 left,BLP34 bilateral 1 right,44
+15519213,5791548,CN,no official annotation,DALcm12 L v p 10 left,DALcm d 5; DALcm12 v e 26 right,44
+2964760,10855798,pre-DN-VNC,no official annotation,DPLd C neuron left,DPLd C neuron right,44
+5747036,20443544,other,no official annotation,BLP34 descending 1 left,BLP34 descending 1 right,44
+12360656,17819985,PN,gustatory-external 2nd_order PN,Gust PN to LH left,Gust PN to LH right,44
+17769815,16690648,other,no official annotation,CM13 med 9 left,CM13 med 9 right; ASB TODO B1 right 5 descending at GAP,44
+10961507,3232808,LHN,no official annotation,DL-LH_cand10 left,DL-LH_cand10 right; BLVa 34 b 1 right,44
+17732791,15334461,DN-SEZ,no official annotation,BAmas12_ven descending 2 left,BAmas12_ven descending 2 right,44
+17732085,8698941,LHN,no official annotation,DPLal 3 1 neuron left,DPLal 3 1 neuron right,44
+5689639,5855343,other,no official annotation,CM13 tall ipsilateral left,CM13 tall ipsilateral right,44
+17277623,10013517,PN,gustatory-external 2nd_order PN,Axon upstairs left,Axon upstairs right,44
+19884188,10945581,other,no official annotation,BLVp12 sickle 2 left,BLVp12 sickle 2 right,44
+14756000,13634759,PN,gustatory-external 2nd_order PN,BAla34 hairy ascending left,BAla34 hairy ascending right,44
+19880740,16223688,pre-DN-VNC,no official annotation,CPa 1 left,CPa 1 right,44
+13832416,5591201,PN,gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,BAmas12_dor Hook left,BAmas12_dor Hook right,44
+18087179,17587452,PN,gustatory-external 2nd_order PN,BAla34 ascending 2 left,BAla34 ascending 2 right,44
+13833814,16316981,DN-SEZ,no official annotation,BAmas12_dor descending 2 left,BAmas12_dor descending 2 right,44
+5678582,17658943,other,no official annotation,CPa 2 left,CPa 2 right,44
+11029359,3232277,CN,no official annotation,DL-LH_cand9 left 11029360,DL-LH_cand9 right,44
+17036160,15547235,PN,gustatory-external 2nd_order PN,BAmd1 PN 2 right,BAmd1 PN 2 left,44
+17036132,11157622,PN,gustatory-external 2nd_order PN,BAmd1 PN 1 right,BAmd1 PN 1 left,44
+12452356,6250655,other,no official annotation,BAlc post ascending 2 left,BAlc post ascending 2 right,44
+16959698,17658907,other,no official annotation,CPa 2-like left,CPa 2-like right,44
+18527962,19508873,DN-VNC,no official annotation,neuron 18527963_pair001,Neuron 19508874_pair001,44
+12500843,13242336,other,no official annotation,BAla12 ascending 2 left,BAla12 ascending 2 right,44
+17557290,10946002,CN,no official annotation,BLVp12 sickle 3 left,BLVp12 sickle 3 right,44
+5186443,4346154,other,no official annotation,DALcm12 L m ant lat 1 left,DALcm_r right,45
+14519756,7467027,pre-DN-VNC,no official annotation,R1: upstream of telephone_left,R1: upstream of telephone; LH LN? right,46
+21136945,17654638,PN-somato,mechano-Ch 2nd_order PN,MIXED bilateral left,MIXED bilateral right,46
+5657004,5134110,pre-DN-VNC,no official annotation,"receives from telephone, outputs onto telegoro L","receives from telephone, outputs onto telegoro R",46
+16848497,9798791,MB-FFN,FFN-33,Basal Tel-like 9 left,Basal Tel-like 9 right,46
+5691934,3862443,PN-somato,noci 2nd_order PN,telephone-1L,telephone-1R,46
+8253620,18639459,pre-DN-VNC,no official annotation,MB2IN-159 left alternative,LH bilateral axon 6,46
+17732031,11081239,pre-DN-VNC,no official annotation,AF: DPLal BPL-to-medial_left,AF: DPLal BPL-to-medial_right,46
+10893103,9720614,PN-somato,noci 2nd_order PN,Ipsiphone L,Ipsiphone R,46
+11291653,8412625,PN-somato,noci 2nd_order PN,Basal Tel-like 2 left,Basal Tel-like 2 right,46
+11037238,7719118,LHN,noci 2nd_order PN,down_PVL09_PN-OLP_left,down_PVL09_PN-OLP_right,46
+11084320,8461082,pre-DN-VNC,no official annotation,Basal Tel-like 10 left,Basal Tel-like 10 right,46
+12839441,17125520,LHN,LHN-18; CN-54,LH bilateral axon 5_left,LH bilateral axon 5_right,47
+5679304,8689148,MB-FFN,FFN-34,ASB TODO left from mPN 6,CP23 v 7,47
+10018260,17379372,LHN,no official annotation,CM4 dor med_l; CM4 dor ant 8 left,CM4 dor med_r; CM4 dor ant 8 right,47
+8203947,17952967,LHN,no official annotation,PDM1 left,PDM1 right,47
+4433960,13806524,CN,no official annotation,NQ: BAla1/2_left,NQ: BAla12_right,47
+4680995,17806341,LHN,LHN-4; PL-2; noci 2nd_order PN,LH bilateral axon 3_left,LH bilateral axon 3_right,47
+12670738,17847543,MB-FFN,FFN-31,PN to MBE,R1; Neuron 17847544,47
+12667895,17425996,PN-somato,noci 2nd_order PN,Hairbrush_left ,Hairbrush_right,47
+8423405,11137808,LHN,CN-3,UE: down pOLP&PVL09_left,UE: down pOLP&PVL09_right,47
+8539175,13988443,CN,CN-40,TT ;  BAmd1 v r _Kathak_right,TT ;  BAmd1 v r _Kathak_left,47
+11004239,8069478,LHN,LHN-17; CN-53,offPVL09_left (bilateral DS LH),offPVL09_right (bilateral DS LH),47
+12617396,3844799,PN,gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,L left (PN to LH),L right (PN to LH),47
+17361757,12813847,LHN,CN-27,LH Processor_left,LH Processor_right,47
+19045334,9585036,LHN,no official annotation,LH_sibling 67 like left,LH_sibling 67 like right,47
+14319498,17942676,LHN,no official annotation,LH_sibling 67 left,LH_sibling 67 right,47
+16100461,8711574,LHN,no official annotation,T2: BLAv1 3 _sibling_left,T2: BLAv1 3 _sibling_right,47
+2988292,19046339,pre-DN-VNC,_Two-headed cobra,Two-headed cobra left,Two-headed cobra right,47
+10209260,17437719,MB-FBN,FBN-18,AE_left,AE_right,47
+17038587,8065771,LHN,CN-29,MJ: LNM_downstream4_left,MJ: LNM_downstream4_right,47
+8838927,17107661,MB-FFN,FFN-32,neuron 8838928,Neuron 17107662 (BAla12),47
+4422289,11605861,LHN,no official annotation,SKT_left,SKT_right,47
+15985265,17827115,other,no official annotation,BLD interneuron left,BLD interneuron right,48
+16096934,13049485,pre-DN-SEZ,no official annotation,DPLm ant lat 3? left -gap issue?,DPLm ant lat 3 right,48
+5745110,4127926,pre-DN-VNC,no official annotation,BLP34 bilateral 2 left,BLP34 bilateral 2 right,48
+11934261,15633329,other,no official annotation,DPlal ipsilateral 1 left,DPlal ipsilateral 1 right; PVL09 downstream,48
+16283590,17588623,other,no official annotation,not MB2IN-159,ASB Strange Neurites right (defect?),48
+17513284,17361566,other,no official annotation,BLAv12 1 left,BLAv12 1 right,48
+2979675,7422253,pre-DN-VNC,no official annotation,DPLam Talon 1 left,DPLam Talon 1 right; DALl1 4,48
+12509506,16841026,other,no official annotation,BLA ipsilateral left,BLA ipsilateral right,48
+14782250,3235409,other,no official annotation,Rose 1 left,Rose 1 right,48
+8167696,7429933,pre-DN-VNC,no official annotation,DPLam Talon 2 left,DPLam Talon 2 right; DALl1 6 STBA,48
+16631248,no pair,KC,KC,KC no pair,no pair,49
+no pair,8427677,KC,KC,no pair,KC51,49
+14319960,no pair,KC,KC,KC no pair,no pair,49
+14255342,no pair,KC,KC,KC no claws,no pair,49
+no pair,8504660,KC,KC,no pair,KC52,49
+16627950,no pair,KC,KC,KC no claws,no pair,49
+no pair,8509987,KC,KC,no pair,KC53,49
+no pair,16625432,KC,KC,no pair,KC30,49
+no pair,9707941,KC,KC,no pair,KC83,49
+16017113,no pair,KC,KC,KC no pair,no pair,49
+no pair,677717,KC,KC,no pair,KC1,49
+no pair,4982172,KC,KC,no pair,KC19,49
+no pair,10169396,KC,KC,no pair,KC97,49
+no pair,3522293,KC,KC,no pair,KC5,49
+3819171,no pair,KC,KC,KC no pair,no pair,49
+15722306,no pair,KC,KC,KC no claws,no pair,49
+15691114,no pair,KC,KC,KC no claws,no pair,49
+16440704,no pair,KC,KC,KC no pair,no pair,49
+11691640,no pair,KC,KC,KC no claws,no pair,49
+8318678,no pair,KC,KC,KC no claws,no pair,49
+10282065,5946241,PN-somato,mechano-Ch 2nd_order PN,BLAv12 lat bilateral neuron 1 left,BLAv12 lat bilateral neuron 1 right,50
+15632282,16884085,other,no official annotation,DPLl bilateral 1 left,DPLl bilateral 1 right,50
+15608953,15632120,pre-DN-VNC,no official annotation,"MB2IN-162/163 like left; Bilateral above BPL, DS BTL4_left",MB2IN-162/163 like right,50
+17360038,17378483,pre-DN-VNC,no official annotation,DPlal outer bilateral 1 left,DPlal outer bilateral 1 right,50
+10922928,3149791,pre-DN-VNC,no official annotation,telephone-related left,telephone-related right,50
+3060480,17380080,pre-DN-VNC,no official annotation,DPLl Gnarly left,DPLl Gnarly right,50
+17360010,15638906,pre-DN-VNC,no official annotation,DPLal 3 L,DPLal 3 R,50
+3048606,3009700,DN-VNC,no official annotation,Coaster (NPF) Left,Coaster (NPF) Right ,50
+10922020,17123466,LHN,no official annotation,f_down pOLP left,f_down pOLP right,50
+5033480,5700090,pre-DN-VNC,no official annotation,Partner 27,neuron 5700091 STBA#paired with Partner 27,50
+19395500,8559525,other,no official annotation,Downstream Downstream A00c left,Downstream Downstream A00c right,50
+16799809,16369928,other,no official annotation,neuron 16799810,GP ; Right,50
+16630479,17012001,other,no official annotation,BLAvm bilateral neuron 1 left,BLAvm bilateral neuron 1 right,50
+12371688,9811608,LHN,no official annotation,BLVa_t bilateral left,BLVa_t bilateral right,50
+10885466,12548756,pre-DN-VNC,no official annotation,BLAvm bilateral neuron 7 left,BLAvm bilateral neuron 7 right; VLP LAL ,50
+17729110,16399845,LHN,no official annotation,BLAvm bilateral neuron 5 left,BLAvm bilateral neuron 5 right,50
+5712849,3166836,other,no official annotation,BLVa ascending 1 left,BLVa ascending 1 right; DL-LH_cand3_no,50
+17804729,11050498,pre-DN-VNC,no official annotation,BLVp1 bilateral 6 left,BLVp1 bilateral 6 right,50
+2438653,10627239,pre-DN-VNC,no official annotation,MB2IN-162 left; PDLr,"Bilateral above BPL, DS BTL4_right",50
+9835169,9503203,sensory,respiratory,v'td_a4l (Abdominal Sensory),v'td_a4r (Abdominal Sensory),51
+16424131,13167025,DN-SEZ,no official annotation,BAmas12_ven descending 1 left,BAmas12_ven descending 1 right,51
+8347907,5503982,pre-DN-VNC,no official annotation,BLVa_t ascending medial 3 left,BLVa_t ascending medial 3 right,52
+8347720,18302610,pre-DN-VNC,no official annotation,BLVa hook 3 left,BLVa hook 3 right,52
+9795662,15250080,DN-SEZ,no official annotation,BAmas12_ven descending 4 left,BAmas12_ven descending 4 right,52
+3882998,11261332,DN-SEZ,no official annotation,CP contra to SEZ left; MB1: incomplete neuron with soma,CP contra to SEZ right; CP4 6,52
+10609443,6114695,DN-VNC,no official annotation,CM4-dm Switcheroo 2 left,CM4-dm Switcheroo 2 right; DPMpm b 5; CM4 dor pos 5,52
+5671303,8696919,pre-DN-VNC,no official annotation,DPlal crinkled 1 left,DPlal crinkled 1 right; DPLal 2 1 neuron 8696920,52
+19929273,20479959,other,no official annotation,BLP34 looper 1 left,BLP34 looper 1 right,52
+17360076,15655801,pre-DN-VNC,no official annotation,DPlal simple bilateral e left,DPlal simple bilateral g right; DPLal 1 R,52
+17473163,16571210,DN-VNC,no official annotation,DPMl contralateral descending left,DPMl contralateral descending right,52
+14995061,16629886,other,no official annotation,BLAvm bilateral neuron 3 left,BLAvm bilateral neuron 3 right; VLP LAL,52
+16636860,11623145,pre-DN-VNC,no official annotation,DPLl a 1 left,DPLl a 1 right,52
+17732737,2663649,other,no official annotation,DPMl a 5 left,DPMl a 5 right,52
+15063529,17326213,other,no official annotation,BLVa ascending 1-like left,BLVa ascending 1-like right,52
+2511238,3093284,ascending,A00c_a4; noci,A00c_a4l,A00c_a4r,52
+15365184,5512988,DN-VNC,no official annotation,CPd descending ipsilateral left,CPd descending ipsilateral right,52
+15680043,15680292,other,no official annotation,BLVp12 sickle 4 left - missing dendrite,BLVp12 sickle 4 right,52
+9787859,11941255,DN-SEZ,no official annotation,Inter2 left ,Inter2 right,52
+15676016,3058132,pre-DN-VNC,PL-7,DPlal simple bilateral 2 left,DPlal simple bilateral 2 right,52
+1042538,1690576,ascending,A00c_a6; noci,A00c_a6l,A00c_a6r,52
+5577650,13358515,other,no official annotation,MIXED brancher left,MIXED brancher right,52
+17165429,9513911,other,no official annotation,MIXED small fork left,MIXED small fork right,52
+18149325,14757050,pre-DN-VNC,no official annotation,DALv1 5 left,DALv1 5 right,52
+4400767,13751194,RGN,no official annotation,DH44 2 left,DH44 2 right,52
+17086412,17362538,pre-DN-VNC,no official annotation,BLVa_t ascending medial 1 left,BLVa_t ascending medial 1 right,52
+15588711,10945795,DN-VNC,no official annotation,BLVp12 descending left,BLVp12 descending right,52
+8391330,5993765,DN-VNC,no official annotation,DPMl a 2 DPPT neuron left,DPMl a 2 DPPT neuron right,52
+10716080,3595837,DN-VNC,no official annotation,DPMm1 Brain descending into VNC left,DPMm1 Brain descending into VNC right,52
+16501652,10877689,other,no official annotation,BLVa12 local-like left; ASB TODO A2 left 5,BLVa12 local-like right;Above BPL local 3; BLVa12 a 1,52
+16366055,17654645,pre-DN-VNC,no official annotation,BLAvm bilateral neuron 6 left,BLAvm bilateral neuron 6 right,52
+5764924,10947427,DN-SEZ,no official annotation,Telegoro-like 2 L,Telegoro-like 2 R,52
+5763407,10945111,DN-VNC,no official annotation,BLVp12 descending-like left,BLVp12 descending-like right,52
+6604203,2670619,DN-SEZ,no official annotation,putative 11H10 left,putative 11H10 right,52
+6623049,17654634,LN,no official annotation,MIXED forked left,MIXED forked right,52
+3819859,4127944,other,no official annotation,BLP34 looper 2 left; right_cpld,BLP34 looper 2 right,52
+1011675,15541944,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-02,AN-R-Sens-B2-ACp-02,52
+6723364,10198121,PN-somato,noci 2nd_order PN,BLDc fork left,BLDc fork right; BPL local 7?,52
+10949382,16945771,ascending,mechano-Ch,A08(X16)_a1l (A07_a1l),A08(X16)_a1r (A07_a1r),52
+17360014,9698907,other,no official annotation,DPlal ipsilateral 2 left,DPlal ipsilateral 2 right; BPL with axon around peduncle,52
+16356967,10319019,PN-somato,Tel10; noci 2nd_order PN,Tel-like 10 left,Tel-like 10 right,52
+11003696,3167039,other,no official annotation,BLVa12 local left,BLVa12 local right; DL-LH_cand4; BLVa12 a 6 (Wrong Connection),52
+3928574,5890323,RGN,no official annotation,CA-LP-2_left2,CA-LP-2_right1,52
+10378182,16713231,other,no official annotation,PVM21?_left,PVM21?_right (= Pre-goro15); CM4 dor pos 12 DNs,52
+16431065,17587710,other,no official annotation,BAla34 large span neuron left,BAla34 large span neuron right,52
+10728318,3598000,DN-VNC,no official annotation,DPMm1 Brain descending into VNC 2 left,DPMm1 Brain descending into VNC 2 right,52
+5684940,7982324,DN-SEZ,no official annotation,CPf descending 2 left,CPf descending 2 right,52
+10728323,2655798,DN-SEZ,no official annotation,DPMm1 ipsilateral descending left,DPMm1 ipsilateral descending right,52
+18058644,8939384,PN-somato,noci 2nd_order PN,BLP34 bilateral 3 left,BLP34 bilateral 3 right,52
+17321919,4215611,DN-SEZ,no official annotation,DPMl Sloppy left,DPMl Sloppy right,52
+16434824,17355860,other,no official annotation,BAla34 ascending 3 left,BAla34 ascending 3 right,52
+14570370,13724377,other,no official annotation,BAla34 bilateral 1 left,BAla34 bilateral 1 right,52
+7227010,16115575,DN-VNC,no official annotation,CM4-dm Switcheroo 4 left,CM4-dm Switcheroo 4 right; CM4 dor pos 11 DNs,52
+7694589,8271034,LN,no official annotation,LONI;left,LONI;right,52
+17047087,7431625,LHN,no official annotation,S2: DPLam r 5_left ,S2: DPLam l 5_ right,53
+5484314,12746220,other,no official annotation,DPLl 2 left,DPLl 2 right,53
+10710503,18142558,LHN,no official annotation,CM4 do pos 3 left,CM4 do pos 3 right,53
+16906721,5590611,PN,gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,BAmas12_dor ascending 1 left,BAmas12_dor ascending 1 right,53
+3543931,13795090,PN,gustatory-external 2nd_order PN; gustatory-pharyngeal 2nd_order PN,BAmas SOG MBE1_l (acbiliblo (left)),BAmas SOG MBE1_l (acbiliblo (right)),53
+11051740,7421507,MB-FFN,FFN-13,DALl1 2 left,DALl1 2 right,53
+7582489,7977834,LHN,no official annotation,PDL005 - 3rd-order Thermo AP (D CB)1 Left,PDL005 - 3rd-order Thermo AP (D CB)1 Right,53
+15825861,10944822,other,no official annotation,bridge-like left,bridge-like right,53
+5963873,4101621,LHN,no official annotation,AF2: PDLl2_left_sibling 35,AF2: PDLl2_right_sibling 35,53
+16637377,7962986,other,no official annotation,plume left; Left Bridge IV ????,plume right,53
+16386470,17013169,LHN,no official annotation,AL ; CP2/3d obPl 8_sibling; CP23 d 3_left,AL: CP23 d 3_right,53
+11003707,17525174,LN,no official annotation,DL-LH_cand6_sibling left; BLVa12 a 7,DL-LH_cand6_sibling right; BLVa12 a 7,53
+16089738,9641919,CN,no official annotation,S_left,S_right,53
+9983417,17658884,pre-DN-VNC,no official annotation,CPb pointer 2 left,CPb pointer 2 right; CP23 d 12,53
+4379603,8307514,LHN,no official annotation,DPLl i 2(BLDa b 2 pep) left,DPLl i 2(BLDa b 2 pep) right,53
+9207332,8305958,LHN,no official annotation,like thermo AP left,like thermo AP right,53
+12356747,19857573,MB-FFN,FFN-11,forking too high?,Ipsi relay neuron BPL lat R,53
+15343835,4114133,MB-FBN,FB2N-9,CP23 d 13_left,CP23 d 13_right,53
+14981128,9039416,other,no official annotation,ni loopy left,ni loopy right,53
+2439134,4099900,LHN,no official annotation,BLDa b 6_from Another temp PN (ds5th-2) left,BLDa b 6_from Another temp PN (ds5th-2) right,53
+13966828,3707204,other,no official annotation,Magic wand left (AF11),Magic wand right (AF11),53
+13852833,9457719,MB-FBN,FB2N-4,CP23 d 5_left,CP23 d 5_right,53
+11703922,16181377,LHN,LHN-16; CN-52,Bridge III_left,Bridge III_right,53
+12281339,9585013,LHN,no official annotation,Another bilateral axon_35a left,Another bilateral axon_35a right,53
+12300089,10827212,other,no official annotation,S3 left; old DS noci_sibling_left,S3 right,53
+14434314,13369670,LHN,no official annotation,S1: neuron left,S1: neuron right,53
+12138418,8310087,LHN,CN-15,CD ; Key_left,CD ; Key_right,53
+4391317,11826171,LHN,no official annotation,3rd Thermo AP - Bridge IV_left,3rd Thermo AP - Bridge IV_right,53
+13206239,8847957,LHN,LHN-3,Bridge II_left,Bridge II_right,53
+4607160,9287199,other,no official annotation,PDL005-like left,PDL005-like right- (D CB)2 Right,53
+17176866,17176882,PN,FFN-12; enteric 2nd_order PN; mechano-II/III 2nd_order PN,BAmas lineage Neuron left,BAmas lineage Neuron right,54
+13854190,5476653,pre-DN-SEZ,no official annotation,BAmas d 1 neuron left,BAmas d 1 neuron right,54
+14451162,17278502,other,no official annotation,DPLl ipsilateral left,DPLl ipsilateral right,54
+3945232,9841469,PN,FFN-4; FFN-5; gustatory-pharyngeal 2nd_order PN; enteric 2nd_order PN,Sleepy Left,Sleepy-2 Right,54
+9787933,867393,PN,enteric 2nd_order PN,BAmas lineage Neuron left 2,BAmas lineage neuron right 2,54
+3945225,3793681,PN,enteric 2nd_order PN; mechano-II/III 2nd_order PN,DAMv12_med Munin Output left,DAMv12_med Munin Output right,54
+12479019,5560620,PN,FFN-17; enteric 2nd_order PN,BAmas12 7 d the other side left,BAmas12 7 d right,54
+9006142,5783868,CN,no official annotation,AK ; DALcm12 v p 7_left,AK ; DALcm12 v p 7_right ,54
+3945454,11637003,PN,FFN-4; FFN-5; gustatory-pharyngeal 2nd_order PN; enteric 2nd_order PN; respiratory 2nd_order PN; mechano-II/III 2nd_order PN,Sleepy-2 Left,Sleepy Right,54
+3945394,3729504,PN,enteric 2nd_order PN; mechano-II/III 2nd_order PN,Output of Munin left 3,Munin Output right - unfinished,54
+3420915,3622234,PN,FFN-18; gustatory-pharyngeal 2nd_order PN; enteric 2nd_order PN,SOG into brain contralaterally right - paired with #3622234,SOG into Brain contralaterally left - paired with #3420915,54
+11011058,2667061,CN,FFN-2,Not Finished left,ASB TODO B1 right 8 Fragment with soma,55
+8582134,8469124,LHN,no official annotation,BLDn 1 AF ;  Left Review ,BLDn 1 AF ; Right  Review ,55
+3157405,8752697,MB-FBN,FAN-1,AN: DPMlp Lar_left,AN: DPMlp Lar_right,55
+16985194,15068806,PN-somato,mechano-Ch 2nd_order PN,ASB TODO No Soma; Gap Crossing Attempt; left,Fragment To Find Soma; BLVp2 1 right,55
+10427055,17437725,LHN,no official annotation,Ouroboros left,Ouroboros right,55
+17165286,13046847,other,no official annotation,DPLm ant lat 1_left,DPLm ant lat 1_right,55
+8974428,9294475,LHN,no official annotation,R ; DALcm1/2 neuron hemisphere 4_left,R ; DALcm12 neuron hemisphere 4_right,55
+4379508,3794023,LHN,no official annotation,Output of Hugin left,Output of Hugin right,56
+2142817,17415439,pre-DN-SEZ,no official annotation,pre-dorsal-MAP presynaptic-D-2-R left,presynaptic-D-2-MAP right,56
+9524538,11946903,PN-somato,mechano-II/III 2nd_order PN,M1 ; Left,M1 ; Right,56
+3814651,15732471,LHN,no official annotation,Y neuron left,Y neuron right,56
+9503428,10343101,other,no official annotation,CM4 dor pos 10 left,CM4 dor pos 10 right,56
+13395814,17756162,pre-DN-SEZ,no official annotation,DS_noci_sibling-like_left,DS_noci_sibling-like_right,56
+3928522,16434842,RGN,no official annotation,PTTH 2 left,PTTH 2 right,56
+4595609,19120853,ascending,mechano-II/III,pCC a1l,pCC a1r,56
+9372642,9842000,RGN,no official annotation,PTTH 1 left,PTTH 1 right,56
+17423412,13038489,LHN,no official annotation,downstream of A2 mPN iACT R left,downstream of A2 mPN iACT right,56
+16742642,8546775,pre-DN-SEZ,no official annotation,DPLam hook left,DPLam hook right,56
+9436520,20536322,pre-DN-SEZ,no official annotation,DPLc PDL_left,DPLc PDL_right,56
+9503414,13950464,PN-somato,mechano-II/III 2nd_order PN,midline projection neuron in the brain_PI ,DAMv12 med 3,56
+11197975,7692008,other,no official annotation,CPb brush left,CP brush right; CP2/3d obPl 12,56
+17927604,11605567,pre-DN-SEZ,no official annotation,DS noci_sibling_left,DS noci_sibling_right,56
+3158123,15225589,LHN,no official annotation,presynaptic-D-2-MAP-L left,pre-dorsal-MAP presynaptic-D-2-R right,56
+9237370,3726990,other,no official annotation,DPLm1 contralateral 2 left,DPLm1 contralateral 2 right; potential RG neuron,56
+3946364,6133702,other,no official annotation,AF6: Munin Output left,AF6 right - ASB TODO 1.1,56
+15825892,3765728,other,no official annotation,UNK bridge left,UNK bridge right; AF6: Munin Output right,56
+6011278,9288827,other,no official annotation,DPLm1 contralateral 1 left,DPLm1 contralateral 1 right; Bilateral DS Smash,56
+3946432,2935173,LHN,_WS,WS: from olfactory to Hugin interneuron left,WS: from olfactory to Hugin interneuron right,56
+11687072,18425189,other,no official annotation,CPb pointer 1 left,CPb pointer 1 right; CP23 d 11 - TO FOLLOW AT GAP,56
+2439150,11851588,LHN,no official annotation,inner bridge 2 left,inner bridge 2 right,56
+17641913,13429045,LHN,no official annotation,AF4: TOH left,AF4: TOH right; Large Spider Neuron right,56
+4785242,2935198,LN,no official annotation,AF3 thermo 3rd left,AF3 thermo 3rd right,56
+14162492,2854715,other,no official annotation,DPLam neuron left,DPLam neuron right,56
+7901791,2506050,MBIN,DAN-f1,MBE4a left,MBE4a right,57
+7983899,7616956,MBIN,OAN-e1,MBE9a left,MBE9a right,57
+15571194,3234817,LN,APL,MBE12 left,MBE12 right,57
+12475432,3890028,MBIN,MBIN-e2,MBE24a left,MBE24a right,57
+4414163,4414184,MBIN,DAN-j1,MBE1d left,MBE1d right,57
+3886356,5966099,MBIN,DAN-d1,MBE4h left,MBE4h right,57
+15592096,16240569,MBIN,DAN-c1,MBE4g left,MBE4g right,57
+17295912,16353832,MBIN,MBIN-b2,MBE10b left,MBE10b right,57
+4381129,15404207,MBIN,MBIN-l1,MBE19 left,MBE19 right,57
+4381377,10673895,MBIN,DAN-g1,MBE4f left,MBE4f right,57
+15421363,3299214,MBON,MBON-j1,MBE2a left,MBE2a right,57
+8689674,8319311,MBIN,MBIN-b1,MBE10a left,MBE10a right,57
+7057894,6611894,MBIN,DAN-i1,MBE1c left,MBE1c right,57
+12871993,4884579,MBIN,DAN-k1,MBE1b left,MBE1b right,57
+16554856,18570360,other,no official annotation,DAMd1 bilateral left,DAMd1 bilateral right,58
+17639784,17438424,CN,CN-9,SLP1_left; CM13 lat 9?,SLP1_right; CM13 lat 9,58
+16444552,16339645,CN,CN-35,CG_left,JI_right,58
+16545179,14501257,pre-DN-VNC,no official annotation,Lure-3 left,Lure-3 right,58
+12868041,17340931,CN,CN-35,JI_left,CG_right ,58
+12869029,13953356,other,no official annotation,IL; DAMd23_left,IL; DAMd23_right,58
+12866697,11465297,other,no official annotation,CC ; DPLm post 1_left,CC ; DPLm post 1_right,58
+16444758,17762417,pre-DN-SEZ,no official annotation,MB2ON-205 like left,MB2ON-205 like right,58
+11389855,16484888,other,no official annotation,SKY_left,SKY_right,58
+17360262,14758420,LN,no official annotation,DALv1_PB2_left,DALv1_PB2_right,58
+11216417,8451818,CN,no official annotation,ADC1_left,ADC1_right,58
+5675990,15688523,pre-DN-VNC,no official annotation,CPa Minnow left,CPa Minnow right,58
+17360296,14757992,LN,no official annotation,DALv1_PB4_left,DALv1_PB4_right,58
+2797480,13713529,pre-DN-VNC,no official annotation,DPLc_post_med descending left,DPLc_post_med descending right,58
+8864778,9767705,other,no official annotation,CPf small bilateral left,CPf small bilateral right,58
+3043970,16181130,other,no official annotation,SLO_left,SLO_right,58
+4721538,8069365,LHN,no official annotation,QI; visual interneuron_left,QI; visual interneuron_right,58
+10875625,4067286,LHN,CN-26,SLP2_left,SLP2_right,58
+12389097,15674269,MB-FFN,FFN-10,neuron 12389098,N4_right,58
+8877158,10163418,MBON,MBON-a1,MBE7a left,MBE7a right,59
+5395823,11524047,MBON,MBON-g2,MBE15b left,MBE15b right,59
+7055857,4241237,MBON,MBON-d1,MBE6 left,MBE6 right,59
+16223537,8980589,MBON,MBON-c1; CN-59,MBE18 left,MBE18 right,59
+17147698,8094859,MBON,MBON-b1,MBE11a left,MBE11a right,59
+4401350,4598363,MBON,MBON-g1,MBE15a left,MBE15a right,59
+8798010,4195012,MBON,MBON-h1; MBON-h2,MBE13b left,MBE13a right,59
+7802210,16797672,MBON,MBON-i1,MBE5a left,MBE5a right,59
+16883909,4234009,MBON,MBON-b3,MBE33 left,MBE33 right,59
+16846805,18028397,MBON,MBON-k1,MBE5b left,MBE5b right,59
+4408369,16758011,other,no official annotation,Baso_left,Baso_right,59
+8338584,4230749,MBON,MBON-h1; MBON-h2,MBE13a left,MBE13b right,59
+16782830,9469519,MBON,MBON-b2,MBE11b left,MBE11b right,59
+17355757,15617305,MBON,MBON-a2,MBE7b left,MBE7b right,59
+10612094,12122924,MB-FBN,FBN-28; mechano-Ch 2nd_order PN,CZ2_left,CZ2_right,60
+16089743,10340880,LHN,no official annotation,P1: BLAd ant lat_left,P1: BLAd ant lat_right,61
+13197236,8075484,LN,FBN-17; CN-7,M ; F6 pair_left,M ; F6 pair_right,61
+15566333,15568333,CN,PL-6,V ; DPMpm2 4_left,V ; DPMpm2 4_right,61
+5938794,8310955,LHN,no official annotation,DPLl i ( BLDa b 4 ) left,DPLl i ( BLDa b 4 ) right,61
+11013351,11909406,LN,CN-11; FBN-12,U3 ; bilateral-2_left,U3 ; bilateral-2_right,61
+9015745,9583435,MB-FFN,FFN-14,NI? left_former:Left Mid,NI? right,61
+16442113,3814175,LHN,FFN-3,T Neuron_sibling left,T Neuron_sibling right,61
+5874480,17058350,other,CN-8,Bridge V_left,Bridge V_right,61
+2369444,10119916,LHN,no official annotation,Z: contra_left ,Z: contra_right,61
+11409587,17019327,CN,mechano-II/III 2nd_order PN,CF ; pDM_left,CF ; pDM_right,61
+9078240,7688300,pre-DN-VNC,no official annotation,AW ; Left At Gap With Soma,AW ; Right CP2/3d obPl 11; CP23 d 4 ,61
+12299621,8034919,LHN,CN-17,AV ; DPLc ant lat 1_left,AV ; DPLc ant lat 1_right,61
+15766806,13863331,MB-FBN,FBN-15; LHN-12; CN-48,Bridge I_left,Bridge I_right,61
+10842099,10882750,pre-DN-VNC,no official annotation,SLQ2_left,SLQ2_right,62
+21300466,18644088,pre-DN-SEZ,no official annotation,UNK horseshoe left,UNK horseshoe right,62
+17777981,16685117,pre-DN-VNC,no official annotation,SLR_left,SLR_right,62
+16348875,15601640,pre-DN-SEZ,no official annotation,SLT_left,SLT_right,62
+16167914,13834125,pre-DN-VNC,no official annotation,LX1_left,LX1_right,62
+5769582,9753418,PN-somato,noci 2nd_order PN,LH-LN2_left,LH-LN2_right,62
+10842047,14914182,pre-DN-SEZ,no official annotation,CPa medial bilateral 1 left; SLS?_left,CPa medial bilateral 1 right,62
+12782494,15585114,pre-DN-SEZ,no official annotation,SLU_left,SLU_right,62
+16433696,19132527,pre-DN-SEZ,no official annotation,BLAl_I-X 2 left,BLAl_I-X 2 right,62
+10382686,16100103,LHN,no official annotation,MS: CM4 bc 2 ant lat left,MS: CM4 bc 2 ant lat right,62
+10400440,18264509,CN,no official annotation,Fragment with soma left,neuron 18264510 right,62
+10411574,17379420,DN-VNC,CN-28; PL-17,OL: CM4 ven ant 2 DNs_left,OL: CM4 ven ant 2 DNs_right,62
+18500915,16846902,CN,no official annotation,BLVa12 contralateral 1 left,BLVa12 contralateral 1 right,62
+10523825,17455871,pre-DN-VNC,no official annotation,BLVp bonsai left,BLVp bonsai right,62
+16937815,13411525,CN,no official annotation,DPMm1 ipsilateral sheet left,DPMm1 ipsilateral sheet right,62
+9236708,9212816,CN,CN-23,IO; down_oct_left,IO; down_oct_right,62
+16428373,5369028,pre-DN-VNC,no official annotation,DPLc post med 1 left,DPLc post med 1 right,62
+10600188,8571259,pre-DN-VNC,no official annotation,DPMm1 4_left,DPMm1 4_right ,62
+17237305,14948339,CN,CN-18,IT_left,IT_right,62
+10100020,1868538,pre-DN-VNC,no official annotation,CP4 8 left,CP4 8 right,62
+15792643,15610774,pre-DN-VNC,no official annotation,LX_left,LX_right,62
+16468935,10781924,pre-DN-VNC,no official annotation,gate1_left,gate1_right,62
+17354414,3021609,pre-DN-VNC,no official annotation,DPM contralateral horseshoe left,DPM contralateral horseshoe right,62
+10880408,10875178,pre-DN-VNC,no official annotation,PZ_left,PZ_right,62
+16683943,7530253,RGN,no official annotation,ITP candidate 4 left,ITP candidate 4 right,63
+5615961,5601924,RGN,no official annotation,hugin-RG left 2,hugin-RG right 2,63
+10563755,13535387,RGN,no official annotation,DH44 3 left,DH44 3 right,63
+1395971,15574231,sensory,enteric,AN-L-Sens-B1-ACa-11,AN-R-Sens-B1-ACa-08,63
+5617164,10963761,sensory,respiratory,v'td_a2l,v'td_a2r ,63
+1398253,15574199,sensory,enteric,AN-L-Sens-B1-ACa-05,AN-R-Sens-B1-ACa-06,63
+10418394,2260755,RGN,no official annotation,DH44 1 left,DH44 1 right,63
+1367171,15559195,sensory,enteric,AN-L-Sens-B1-ACa-04,AN-R-Sens-B1-ACa-04,63
+16683883,5956787,RGN,no official annotation,ITP candidate pair 3 left; ITP candidate 3 left,ITP candidate pair 3 right; ITP candidate 2 right,63
+4874953,5469039,RGN,no official annotation,Capa right,Capa left,63
+11874130,10868477,sensory,respiratory,v'td-2_a1l,v'td1_a1r,63
+7476468,3762787,RGN,no official annotation,CRZ 3 left,CRZ 2 right,63
+3915835,5638694,sensory,respiratory,v'td_a3l,v'td_ a3r,63
+15639294,7571966,DN-VNC,no official annotation,CPe contralateral descending left; CPobPm4 is CPe3/pep asc cand Left,CPe contralateral descending right; CPe3/pep asc cand Right; CP1 d 4,63
+40152,15573396,sensory,enteric,AN-L-Sens-B1-ACa-10,AN-R-Sens-B1-ACa-09,63
+3925724,5955853,RGN,no official annotation,ITP candidate 1 left,ITP candidate 1 right,63
+3926669,3727026,RGN,no official annotation,CRZ 1 left,CRZ 1 right,63
+15769419,15548107,sensory,enteric,AN-L-Sens-B1-ACa-08,AN-R-Sens-B1-ACa-17,63
+3926438,3727004,RGN,no official annotation,CRZ 2 left,CRZ 3 right,63
+15770032,3556191,sensory,enteric,AN-L-Sens-B1-ACa-03,AN-R-Sens-B1-ACa-03,63
+3926904,7529574,RGN,no official annotation,ITP candidate pair 2 left; ITP candidate 2 left,ITP candidate pair 2 right; candidate 3 right,63
+3729496,3762317,DN-SEZ,no official annotation,"Input from both Munin 3, into SOG left, PAIR #2","Input from both Munin 3, into SOG right, PAIR #3",63
+2138427,5038703,RGN,no official annotation,hugin-RG left 1,hugin-RG right 1,63
+14541927,4235139,MBIN,MBIN-e1,AVM011f left,AVM011f right,64
+9109799,9074101,MBON,MBON-d3,MBE35 left,MBE35 right,64
+7056904,17176927,pre-DN-SEZ,CN-30,KU: DALcm12 L m ant lat 6_left,KU: DALcm12 L m ant lat 6_right,64
+16475849,16823703,MB-FBN,CN-25; FAN-12,AT ; DPMpm2 1_left,AT ; DPMpm2 1_right,64
+14540633,4473922,MB-FBN,CN-36; FAN-4; PL-9,B ; DALcm12 m ant lat 5_left,B ; DALcm12 m ant lat 5_right,64
+7540581,5516552,MB-FBN,FBN-13; mechano-Ch 2nd_order PN,I ; Bala12 #9_left,I ; Bala12 #9_right,64
+10702736,14206030,CN,CN-16,AQ ;  DPMpm2_1_left,AQ ;  DPMpm2_1_right,64
+12832017,19091931,MB-FFN,FFN-16,CM13 lat 12 gap,Neuron 19091932 gap,64
+16544462,4515496,other,no official annotation,BAmv1/2 #3_left,BAmv12 #3_right,64
+9409359,3913620,CN,CN-6,T5; offPVL09_3_large_left,T5; offPVL09_3_large_right,64
+17150791,8712361,MB-FBN,CN-10; FAN-2,AB_left,AB_right,64
+15810983,6699205,MBON,MBON-d2,MBE30 left,MBE30 right,64
+8078096,4514494,MB-FBN,CN-44; FAN-3,BG ; Baso-anterior target neuron #2 MB PN_left,BG ; Baso-anterior target neuron #2 MB PN_right,64
+12478620,16318521,PN,gustatory-pharyngeal 2nd_order PN,neuron 12478621 left,ASB PN right,64
+5169587,4228119,other,no official annotation,P ; DALcm12  m ant lat #4_left,P ; DALcm12  m ant lat #4_right,64
+14891367,5771934,other,no official annotation,BAmd1 d_left,BAmd1 d_right,64
+15668309,17165711,MB-FBN,CN-14; FAN-11,J ; Mid DPMpl lat  (F4 pair)_left,J ; Mid DPMpl lat  (F4 pair)_right,64
+17176911,4575178,CN,CN-42,CH ; BAmd1 lineage_left,CH ; BAmd1 lineage_right,64
+15253921,4598109,MBON,MBON-f1,MBE34 left,MBE34 right,64
+15398730,6703240,MBON,MBON-n1,MBE23 left,MBE23 right,64
+16868923,17013073,MBON,MBON-o1; CN-60,MBE24b left,MBE24b right,64
+10202724,5480553,PN,FBN-3; enteric 2nd_order PN,LP: BAmas d 3_left,LP: BAmas d 3_right,64
+11257084,7612147,LHN,LHN-20; CN-56,Q; CP23d med of obPl 1 Gap; CP23 d 14_left,Q?; CP23d med of obPl 1 Gap; CP23 d 14_right,64
+5321459,10809383,MB-FBN,CN-43; FBN-14,O ; BAmd1 v_right,O ; BAmd1 v_left,64
+7910624,7897469,MBON,MBON-q1,MBE2as left,MBE2as right,64
+11003660,16594509,MB-FBN,FBN-1,BJ_left,BJ_right,64
+10543751,11464638,CN,CN-4,DPMpl lat 7_left,DPMpl lat 7_right,64
+14082322,7840791,MBON,MBON-e1,MBE9b left,MBE9b right,64
+17140424,9753530,CN,no official annotation,BH ; Descending 2; CP1 v 2_left,BH ; Descending 2; CP1 v 2_right,64
+8922644,8297018,MBON,MBON-e2,MBE16 left,MBE16 right,64
+16383966,7371184,pre-DN-VNC,no official annotation,neuron 16383967 left,BAmd1 d 6 right,65
+17728781,13644685,pre-DN-VNC,no official annotation,BAlp4 ascending 5 left,BAlp4 ascending 5 right,65
+17356442,16443509,pre-DN-VNC,no official annotation,valentine neuron left,valentine neuron right,65
+16713227,17659014,DN-SEZ,no official annotation,PVM21-like 2 left,PVM21-like 2 right,65
+9787592,13191017,DN-SEZ,no official annotation,BAmas12_ven descending 3 left,BAmas12_ven descending 3 right,65
+3944330,15732050,DN-SEZ,no official annotation,Output of PC Hugin left,Output of PC Hugin right,65
+16545101,4812481,pre-DN-VNC,no official annotation,double-hook BAmv1/2 left,double-hook BAmv1/2 right,65
+15997666,15508735,sensory,gustatory-pharyngeal,AN-L-Sens-B2-ACp-01,AN-R-Sens-B2-ACp-01,65
+17306107,6111289,other,no official annotation,CM4 contralateral 2 left,CM4 contralateral 2 right; DPMpm b 4 MEF int comm; CM4 dor pos 4,65
+4408362,4721087,other,no official annotation,NH; BAmd2_left -axon incomplete,NH; BAmd2_right,65
+16935790,11359482,PN-somato,proprio 2nd_order PN,CM4 contralateral 1 left; BZ ; CM4 dor pos 2 left,CM4 contralateral 1 right; DPMpm c 3 MEF ven and comm; CM4 dor pos 8,65
+8801736,6049565,pre-DN-VNC,PL-14,Stirrups left,Stirrups right,65
+15431408,16714214,pre-DN-VNC,no official annotation,pacman-2? left,pacman-2 right,65
+12299805,7422595,other,no official annotation,DALl1 5 left,DALl1 5 right,66
+12299647,11624548,other,no official annotation,SLV_left,SLV_right,66
+10345590,15048530,pre-DN-SEZ,no official annotation,BLAl F neuron 1 left,BLAl F neuron 1 right,66
+7388340,15606239,pre-DN-SEZ,no official annotation,BLAl_l-X left,BLAl_l-X right,66
+9428865,13674287,pre-DN-VNC,no official annotation,AP ;  BAla34 dor 2_left,AP ;  BAla34 dor 2_right,66
+10792617,11278919,pre-DN-VNC,no official annotation,DPMpm1  2_left,DPMpm1 2_right,66
+10797407,14760757,pre-DN-VNC,no official annotation,Bike Bars left,Bike Bars right; DALl1 7,66
+16444548,7807684,other,no official annotation,crab-1 left,crab-1 right,66
+3044500,6317793,DN-SEZ,no official annotation,DPLc1 Descending L,DPLc1 Descending R,66
+14034311,5976168,DN-SEZ,no official annotation,DPMl b 1 loSM left,DPMl b 1 loSM right,66
+19088042,8717042,CN,no official annotation,neuron 19088043 left,AU : Right BLAv2 post early dor neuron 8717043,66
+5091874,9287906,MB-FBN,FB2N-15,DPLm1(D CB)3_left,DPLm1(D CB)3_right,66
+3946166,3620633,DN-VNC,no official annotation,Pre-goro3 left,Pre-goro3 right,66
+17177103,17177115,MB-FFN,FFN-22,neuron 17177104,N5_right,66
+15568134,5973097,pre-DN-SEZ,no official annotation,Bilaterial downstream BPL-to-MB left,Bilaterial downstream BPL-to-MB right; CP4 3,66
+11329998,13365464,CN,no official annotation,DPMm1 FB4_left,DPMm1 FB4_right,66
+16492104,10617840,MB-FFN,FFN-40,lowercase-h left,lowercase-h right,66
+16051878,8951591,pre-DN-SEZ,no official annotation,BLVa12 bilateral left,BLVa12 bilateral right; Mediates descend from LH,66
+15577444,5656152,other,no official annotation,neuron 15577445,Review weird fork,66
+16848475,17980792,MB-FBN,FB2N-17,Exclusive to 24; CP4 5 -left,Exclusive to 24; CP4 5 right,66
+13199414,11234536,MB-FFN,FFN-20,Headphone-2_left,Headphone-2_right,66
+9527333,13210358,MB-FBN,FB2N-19,Headphone_left,Headphone_right,66
+12279909,8471817,pre-DN-SEZ,no official annotation,BLAl F neuron 2 left,BLAl F neuron 2 right,66
+10583715,11306294,pre-DN-VNC,no official annotation,DPMm1 FB1_left,DPMm1 FB1_right,66
+12233237,11528017,MB-FBN,FB2N-1,AF11: ipsi PDL left,AF11: check if new 3rd BME  (ipsi PDL right?) neuron 11528018 ,67
+12364717,11356523,pre-DN-SEZ,no official annotation,AO ; Left No branching in the lower part,AO ;  Right Sister of BPL to MB?,67
+15605301,15607335,pre-DN-SEZ,no official annotation,DALl1 bilateral 1 left,DALl1 bilateral 1 right,67
+3931398,3793760,PN-somato,mechano-II/III 2nd_order PN,Output of Munin 3 left - PAIR #1,Output of Munin 3 right - PAIR #1; CP4 9,67
+2597151,3158085,pre-DN-VNC,no official annotation,AF5: Short-presynaptic-D-1R,AF5: Short-presynaptic-D-1L,67
+17096642,16751955,MB-FFN,FFN-28,Dumbo_left,Dumbo_right,67
+12299704,10768709,pre-DN-SEZ,no official annotation,Bilateral near MB_left,Bilateral near MB_right,67
+12293334,13405613,other,no official annotation,inner bridge 1 left,inner bridge 1 right,67
+7557604,3276003,pre-DN-VNC,no official annotation,L1: Short-presynapticD-3-L,L1: Short-presynapticD-3-R,67
+15576292,17384874,pre-DN-SEZ,no official annotation,CPd bilateral 1 left,CPd bilateral 1 right; CP4 7,67
+9408003,6061068,other,no official annotation,AF1 left,AF1 right,67
+5462159,6446394,DN-VNC,no official annotation,PDM-DN_right,PDM-DN_left,68
+16007457,8840343,other,no official annotation,BLA pointer left,BLA pointer right,68
+11079069,10986253,pre-DN-VNC,no official annotation,UNK ipsilateral 2 left,UNK ipsilateral 2 right; Above-BPL to telegoro ipsilateral right,68
+11073313,16347476,pre-DN-VNC,no official annotation,DPM splitter left,DPM splitter right,68
+19166349,13167730,pre-DN-VNC,no official annotation,BAla12 ascending 1 left,BAla12 ascending 1 right,68
+5690425,19010160,DN-VNC,no official annotation,CPf descending ipsilateral left,CPf descending ipsilateral right,68
+12654063,12990900,pre-DN-SEZ,no official annotation,UNK ipsilateral 1 left,UNK ipsilateral 1 right; DPLc ant med 2 right,68
+8047280,7587948,DN-VNC,no official annotation,down pOLP left,down pOLP right,68
+5680013,17658978,DN-VNC,no official annotation,CPf descending 1 left,CPf descending 1 right,68
+5754346,3764792,DN-VNC,_telegoro-1,telegoro-1L,telegoro-1R,68
+17729335,8592501,pre-DN-VNC,no official annotation,BLP12 hook 4 left,BLP12 hook 4 right,68
+4409374,4234559,other,no official annotation,CM13 lat 3_left,CM13 lat 3_right,69
+9251793,4190567,MB-FBN,FBN-20,SJ: DALv23 L LAL dor pos 2_left,SJ: DALv23 L LAL dor pos 2_right,69
+17373283,10339991,CN,no official annotation,DPMpm1 3_left,DPMpm1 3_right,69
+4433197,15668497,other,no official annotation,DALcl12 v d 3 L,DALcl12 v d 3 R,69
+17315288,5326407,pre-DN-SEZ,no official annotation,CP23 v 11_left,CP23 v 11_right,69
+15974183,15662776,CN,PL-8,DALcl12 v d 1 left,DALcl12 v d 1 right,69
+16933362,4234016,MB-FFN,FFN-41,DPLal A_left,DPLal A_right,69
+9252296,4201555,MB-FBN,FB2N-10; proprio 2nd_order PN,DALv23 L LAL dor pos 3 left,DALv23 LAL 12 right,69
+17340955,15605297,other,no official annotation,DALcl12 v d 4 L,DALcl12 v d 4 R,69
+9048462,10612630,MB-FFN,FFN-1,MBE7a-like left,To finish with soma; CP23 v 10 right,69
+17177419,4227880,pre-DN-VNC,no official annotation,EV_left,EV_right ,69
+8802069,4665627,MB-FFN,FFN-9,neuron 8802070 down_oct,N2_right,69
+8052161,4152272,MB-FBN,FB2N-14,DALv23 L subMB 1 or 2_left,DALv23 sub MB 1_right,69
+11908619,8318813,CN,no official annotation,DALcl12 v d 5 Left,DALcl12 v d 5 right,69
+17813457,17083341,pre-DN-VNC,PL-24,neuron 17813458 left,CM13 med right,69
+10918898,4228105,pre-DN-VNC,no official annotation,ML_left,ML_right,69
+14539753,12962772,DN-SEZ,no official annotation,BS; CM4 dor ant 1 DNs_left,BS; CM4 dor ant 1 DNs_right ,69
+9072237,4201020,PN-somato,FFN-8; proprio 2nd_order PN,DALv23 L dor pos 1 left,DALv23 LAL 11 right,69
+18412747,17336347,PN-somato,proprio 2nd_order PN,HAS SOMA Neuron 18412748,To Finish with soma; CM13 lat 18,69
+13718916,15673454,other,no official annotation,DALcl12 v d 2 left,DALcl12 v d 2 right,69
+17280216,4337398,MB-FBN,FB2N-13,DALv23 L subMB 1 or 2_left,DALv23 sub MB 2_right,69
+4110483,17587726,DN-VNC,no official annotation,BAmv12 descending 2 left,BAmv12 descending 2 right,70
+18088813,17660233,pre-DN-VNC,no official annotation,CM4 small 1 left,CM4 small 1 right,70
+17732071,18909888,other,no official annotation,DPLal medial left -FORCED,DPLal medial right,70
+18458734,13775497,ascending,unknown modality,A06k_a1l,A06k_a1r,70
+18123575,17543765,DN-VNC,no official annotation,BAla34 lateral descending 1b left,BAla34 lateral descending 1b right,70
+8810141,12422355,pre-DN-VNC,no official annotation,CM13 horseshoe 1 left,CM13 horseshoe 1 right,70
+15629759,2659504,pre-DN-VNC,no official annotation,CM4-dm horseshoe 1 left,CM4-dm horseshoe 1 right,70
+17102002,1065967,DN-VNC,no official annotation,DPMl_ant_ven descending left,DPMl_ant_ven descending right,70
+12390459,19989037,PN-somato,proprio 2nd_order PN,BAla12 big axon left,BAla12 big axon right,70
+18305433,17587730,DN-VNC,no official annotation,BAmv12 descending 1 left,BAmv12 descending 1 right,70
+10382824,17297936,pre-DN-VNC,no official annotation,DPMpl12 fork left,DPMpl12 fork right,70
+10018150,17379298,DN-VNC,no official annotation,CM4 sparse descending left,CM4 sparse descending right; CM4 dor ant 6 DNs_JMpair17,70
+17359111,16316973,DN-SEZ,no official annotation,BAmas12_dor SEZ descending left,BAmas12_dor SEZ descending right,70
+16928740,15560623,DN-VNC,no official annotation,DALcm12-v descending left,DALcm12-v descending right,70
+17732076,17378475,other,no official annotation,DPlal Small 3 left,DPlal Small 3 right,70
+5768240,1805418,pre-DN-SEZ,no official annotation,BLP post ven neuron 1 left,BLP post ven neuron 1 right; BLP34 a 6,70
+13370624,14756440,pre-DN-VNC,no official annotation,DALv1 bilateral 1 left,DALv1 bilateral 1 right,70
+17728730,17629213,other,no official annotation,lasso-top 2 left,lasso-top 2 right,70
+17728723,13084891,other,no official annotation,lasso-top left,lasso-top right,70
+10018161,17379360,DN-SEZ,no official annotation,PVM21-like 1 left,PVM21-like 1 right; CM4 dor med_r; CM4 dor ant 7 DNs,70
+6729443,17937991,pre-DN-VNC,no official annotation,BLVa_t ascending medial 2 left,BLVa_t ascending medial 2 right,70
+17354403,12030078,DN-VNC,no official annotation,MIXED descending T left,MIXED descending T right TODO axon to VNC across gap,70
+10317031,2504517,pre-DN-VNC,no official annotation,CM13 horseshoe 2 left,CM13 horseshoe 2 right,70
+17827011,17654973,pre-DN-VNC,no official annotation,BLP12 hook 7 left; ASB Handover,BLP12 hook 7 right,70
+17352824,13137623,pre-DN-VNC,no official annotation,DPlal Small 1 left,DPlal Small 1 right,70
+17729347,20479904,pre-DN-VNC,no official annotation,BLP12 hook 2 left,BLP12 hook 2 right,70
+16937799,17654991,pre-DN-VNC,PL-16,BLP12 bilateral horseshoe 1 left,BLP12 bilateral horseshoe 1 right,70
+20379247,17658602,pre-DN-VNC,no official annotation,BLP12 bilateral horseshoe 3 left,BLP12 bilateral horseshoe 3 right,70
+16544712,5730322,pre-DN-VNC,no official annotation,BAmv12 fork left),BAmv12 fork right,70
+17732346,17378648,DN-VNC,no official annotation,DPMl12_post descending left,DPMl12_post descending right,70
+8723983,16115255,DN-VNC,no official annotation,CM13 descending left,CM13 descending right; neuron 16115256 down_oct; CM13 lat 13,70
+17746794,18720819,other,no official annotation,UNK horseshoe 2 left,UNK horseshoe 2 right,70
+19091995,18302931,pre-DN-VNC,no official annotation,UNK horseshoe 3 left,UNK horseshoe 3 right,70
+20316708,19167389,pre-DN-VNC,no official annotation,UNK horseshoe ventral left,UNK horseshoe ventral right,70
+10358617,17298108,other,no official annotation,CM13 med 10? left,CM13 med 10 right,70
+12420377,13242252,pre-DN-VNC,no official annotation,MIXED looper left,MIXED looper right,70
+8142831,17655000,pre-DN-VNC,PL-15,BLP12 bilateral horseshoe 2 left,BLP12 bilateral horseshoe 2 right,70
+10355356,5898284,pre-DN-VNC,no official annotation,CMb 3 varic around loVP; CM13 med 7 left,CMb 3 varic around loVP; CM13 med 7 right,70
+17732334,16347786,DN-VNC,no official annotation,DPMl descending ipsi left,DPMl descending ipsi right,70
+14638686,11891098,pre-DN-VNC,no official annotation,BAla34 bilateral 4 left,BAla34 bilateral 4 right (defect?),70
+16693923,17654967,pre-DN-VNC,no official annotation,BLP12 hook 1 left,BLP12 hook 1 right -missing dendrite,70
+17360266,14755393,pre-DN-VNC,no official annotation,DALv1 contralateral 4 left,DALv1 contralateral 4 right,71
+4901087,18133444,pre-DN-VNC,no official annotation,DAMv12 Mandible 1 left,DAMv12 Mandible 1 right,71
+18035063,17937986,pre-DN-VNC,no official annotation,BLVp1 bilateral 4 left,BLVp1 bilateral 4 right,71
+17359501,13763548,DN-VNC,no official annotation,BAmd descending left,BAmd descending right,71
+18023286,9753494,pre-DN-VNC,no official annotation,CM13 bilateral 2 left,CM13 bilateral 2 right; ASB Baba Yaga 9753494,71
+17728922,9234420,DN-SEZ,no official annotation,BLAv12 ring-like left,BLAv12 ring-like right,71
+14723506,17850822,pre-DN-SEZ,no official annotation,BAlp4 ascending 4 left,BAlp4 ascending 4 right,71
+16686371,15431795,other,no official annotation,SLS_left,SLS_right (CP23 v 5),71
+16676038,13645610,DN-SEZ,no official annotation,DPMl Skis left,DPMl Skis right,71
+19298644,17537254,DN-VNC,no official annotation,CM4 cen ant 1 left,CM4 cen ant 1 right,71
+6572414,13081886,DN-VNC,no official annotation,PVM21?_left (= Pre-goro15) (Munin PC Output (lower confidence branch)),ASB Orca right 3081887 PVM21?; CM4 dor ant 13 DNs,71
+14655602,15672269,pre-DN-VNC,no official annotation,DPML1_l,DPML1_r,71
+13818467,17813001,pre-DN-SEZ,no official annotation,DPMl12 loopy left,DPMl12 loopy right,71
+5745929,16617920,pre-DN-VNC,no official annotation,BR ; Left posterior contralateral,BR ; Right,71
+3945136,13948718,pre-DN-VNC,no official annotation,DAMv12 Mandible 2 left,DAMv12 Mandible 2 right,71
+13749806,14034206,DN-VNC,no official annotation,telegoro-2 left; Txx_t1r,telegoro-2 right; (ipsigoro lineage),71
+14586769,19048289,pre-DN-VNC,no official annotation,BAla34 brush left ,BAla34 brush right,71
+10760217,2669331,other,no official annotation,DPMpm1 horseshoe left,DPMpm1 horseshoe right,71
+14270761,9103710,other,no official annotation,BLVp1 bilateral 1 left; LH bilateral axon 7_mediates ascend,BLVp1 bilateral 1 right; Tel-like 1 BPL bilateral; BLVp1 6,71
+8809171,18187865,other,no official annotation,lasso-top 3 left,lasso-top 3 right,71
+10766722,16450562,other,no official annotation,DPMpm2 small arc left,DPMpm2 small arc right,71
+9351843,17990556,pre-DN-SEZ,no official annotation,DPLam ASB Mackerel left,DPLam ASB Mackerel right,71
+16361363,13953184,pre-DN-SEZ,no official annotation,DAMd23 bilateral left,DAMd23 bilateral right; no loSM branch,71
+16434560,17328580,pre-DN-SEZ,no official annotation,BAla34 bilateral 2 left,BAla34 bilateral 2 right,71
+12195879,20443598,PN-somato,noci 2nd_order PN,Tel-like 8 left,Tel-like 8 right; CP23 v 8,71
+19298625,16154290,DN-VNC,no official annotation,Downstream of mPN iACT A1 18067335 left,CM4 ven pos 2 right,71
+16422727,20443571,pre-DN-VNC,no official annotation,BLP34 descending 6 left,BLP34 descending 6 right,71
+10449035,17658948,pre-DN-VNC,no official annotation,CP crossover left,CP crossover right,71
+17729973,10870424,pre-DN-VNC,no official annotation,CPd contralateral 1 left,CPd contralateral 1 right; CP4 5,71
+1961182,9177218,pre-DN-VNC,no official annotation,CPf contralateral 3 left,CPf contralateral 3 right,71
+11217208,5993001,DN-SEZ,no official annotation,DPMl a 1 DPPT descending left,DPMl a 1 DPPT descending right,71
+18501001,1805669,pre-DN-VNC,no official annotation,BLP34 descending 3 left,BLP34 descending 3 right,71
+7130033,5996485,DN-SEZ,no official annotation,Brain into VNC,DPMpl lat 2 loSM,71
+11027071,3010486,pre-DN-VNC,no official annotation,AF0: neuron left,AF0: neuron right,71
+18099401,5975584,other,no official annotation,CM4-dm bilateral descending left,CM4-dm bilateral descending right; DPMpm c 2 loSM; CM4 dor pos 7,71
+4188290,5010581,DN-VNC,no official annotation,EH left,EH right,71
+15514582,8826198,PN-somato,noci 2nd_order PN,CPf Lever Puller left,CPf Lever Puller right,71
+12279941,17328632,pre-DN-SEZ,no official annotation,BLAl_I-X 3 left,BLAl_I-X 3 right,71
+10568310,2667980,other,no official annotation,DPMm1 horseshoe 2 left,DPMm1 horseshoe 2 right,71
+19268007,13411394,other,no official annotation,DPMm1 horseshoe 1 left,DPMm1 horseshoe 1 right; DPMm1 FB2_right,71
+17087885,17324711,DN-SEZ,no official annotation,DNs-1_left,DNs-1_right,71
+11009492,17304269,DN-SEZ,no official annotation,DPMpl12 tall 1 left,DPMpl12 tall 1 right,71
+8070872,12422147,pre-DN-SEZ,no official annotation,UNK horseshoe 3 upper left; LNM_downstream_16.05,UNK horseshoe 3 upper right,71
+1980134,7982307,DN-VNC,no official annotation,CPf descending ipsilateral-like left,CPf descending ipsilateral-like right,71
+14522404,13774384,ascending,proprio,NB5-2 lineage 6 (HMD X?)_a1l,NB5-2 lineage 6 (HMD X?)_a1r,72
+15315491,15556861,ascending,proprio,A10i2?_a1l Chair-5-like?,A10i2?_a1r Chair-5-like?,72
+17574013,9085808,pre-DN-VNC,no official annotation,UNK brancher 7 left - missing dendrite,UNK brancher 7 right,72
+17109286,6653450,pre-DN-SEZ,no official annotation,DALcl12 r vv 6,DALcl12 l vv 6,72
+8814524,17340973,PN-somato,proprio 2nd_order PN,DPM long neck left,DPM long neck right,72
+10792336,5163599,other,no official annotation,DPMpm1 FB3?_left,DPMpm1 FB3?_right,72
+17110024,9037152,PN-somato,PL-3; proprio 2nd_order PN,DALcl12 r vv 8 = 1 or 5,DALcl12 vv 5,72
+17110189,6182848,PN-somato,proprio 2nd_order PN,DALcl12 vv 1 left,DALcl12 vv 1 right,72
+18597845,15553218,other,no official annotation,DALcm12 horseshoe left; DALcm12 L m ant med 15,DALcm12 horseshoe right; DALcm12 v e 23,72
+12998937,14938436,ascending,proprio,A10i2?_a1l Chair-5? ,A10i2?_a1r Chair-5?,72
+19881737,2505266,PN-somato,proprio 2nd_order PN,CP contralateral left,CP contralateral right; helper-gap neuron down_oct,72
+17975547,15018449,pre-DN-VNC,no official annotation,UNK crinkled left,UNK crinkled right,72
+12551020,14756061,pre-DN-VNC,no official annotation,DALv1_PB3_left,DALv1_PB3_right,73
+11348509,3765735,pre-DN-VNC,no official annotation,BLAl horseshoe neuron left,BLAl horseshoe neuron right,73
+17176767,17176781,LN,FB2N-18,bilateral-3 L,bilateral-3 R,73
+10281116,10351681,MB-FFN,FFN-24,neuron 10281117,Horns_right,73
+16415910,9116228,pre-DN-VNC,no official annotation,WQ_left,WQ_right,73
+16848587,14753815,pre-DN-VNC,no official annotation,SLQ1_left,SLQ1_right,73
+9424902,3027876,DN-SEZ,no official annotation,Tomato Vine 2_left,Tomato Vine 2_right,73
+6591182,6597872,LN,FB2N-11,bilateral L,bilateral R,73
+3945756,8566140,pre-DN-VNC,no official annotation,DPMm1 3 (Output of Munin)_left,DPMm1 3 (Output of Munin)_right,73
+3945246,19271710,LN,FB2N-6,AS ; Left DAL neuron L,AS ; Right DAL neuron R,73
+10872426,8572353,pre-DN-VNC,no official annotation,VB: DPMm1 4_left,VB: DPMm1 4_right,73
+3944626,16195633,DN-SEZ,no official annotation,DPMpm1 bushy descending left,DPMpm1 bushy descending right,73
+8993049,17867309,pre-DN-SEZ,no official annotation,CZ_left,CZ_right,74
+11525714,12805363,MBIN,OAN-g1,MBE22 left,MBE22 right,74
+12587013,9015568,LHN,CN-39,scythe left,scythe right,74
+11871574,11102156,CN,no official annotation,BM : BALp neuron_left,BM : BALp neuron_right,74
+14260575,16987409,MB-FBN,FAN-9,DPMpl lat 4 loSMpl_left,DPMpl lat 4 loSMpl_right,74
+14493841,11361875,PN-somato,FFN-27; noci 2nd_order PN,neuron 14493842,DPMpm a 1 MEF comm,74
+13743125,17854345,MB-FBN,CN-31; FBN-26; noci 2nd_order PN,ASB B1 left,ASB B1 right,74
+14329745,19786464,CN,no official annotation,BP 1 ; Left,BP 1 ; Right,74
+16026677,14495367,CN,no official annotation,BP_left,BP_right,74
+6298455,6193472,pre-DN-VNC,no official annotation,AA: DALcl12 d_left,AA: DALcl12 d_right,74
+10758204,2650887,pre-DN-VNC,no official annotation,CA ; DPMpm1 1_left,CA ; DPMpm1 1_right,74
+16342197,12031406,pre-DN-VNC,no official annotation,DPLc4_5_left (PB to LAL),DPLc4_5_right (PB to LAL),74
+1646076,10276161,pre-DN-VNC,no official annotation,DALd_l  3,DALd_r 10 10276162 - JL,74
+16445338,16350988,pre-DN-VNC,no official annotation,IK; Loopy_left,IK; Loopy_right,74
+4274518,19156025,pre-DN-VNC,no official annotation,Brain looper left,Brain looper right,74
+16464284,8184598,CN,no official annotation,BI ; NI_left,BI ; NI_right,74
+15510288,6300434,MB-FFN,FFN-7,DALcl12 L d 3 left,DALcl12 d 3 neuron 6300435 right,75
+14313750,11889676,MB-FBN,CN-12; FBN-8,E ; BAMD PN_left,E ; BAMD PN_right,75
+12424940,5971400,other,no official annotation,DS of Headphones left; CP23 d 6,DS of Headphones right; CP23 d 6,75
+12398622,4103336,MB-FBN,FB2N-7,"MBON-F-V8;14+4 cell body close to other relays the other side, left ","MBON-F-V8;14+4 cell body close to other relays, right",75
+12262910,5738449,MB-FBN,CN-38; FAN-6,W_left,W_right,75
+16160495,8814922,MB-FBN,FB2N-16,2+5 BLAd ant lat 1_left,BLAd ant lat 1_right,75
+2966602,12704069,MB-FBN,CN-21; FBN-4,K ; DPLam med _left,K ; DPLam med _right,75
+7026287,7980369,MB-FBN,FBN-23,BN ; DALcm12 L m ant lat 3_left,BN ; DALcm12 L m ant lat 3_right,75
+7053966,4214582,CN,no official annotation,Y ; DALcm12 L m ant lat 2_left,Y ; DALcm12 L m ant lat 2_right,75
+18062678,7065182,LN,CN-20,F ; Convergence Sibling-2_left; DALcm12 m ant lat 11_left,F ; Convergence Sibling-2_right; DALcm12 m ant lat 11_right,75
+9527522,14083681,MB-FBN,CN-19; FBN-9,X ; F1 pair; DALcm12 L m ant lat 9_left,X ; F1 pair; DALcm12 L m ant lat 9_right,75
+8118947,14077615,MB-FBN,FBN-16,D ; Feedback neuron from nociceptive_left,D ; Feedback neuron from nociceptive_right,75
+11018254,15480928,MB-FBN,CN-13; FBN-6,G ; 4th order Thermo (Stops Halfway); DALcm12 L m ant lat 10_left,G ; 4th order Thermo (Stops Halfway); DALcm12 L m ant lat 10_right,75
+9083312,14077179,MB-FBN,FB2N-2,MBE34-like_left; Left Handlebar?,MBE34-like_right; Right Handlebar?_TODO,76
+9057998,14214039,CN,no official annotation,S ; Convergence Sibling AB Left; DALcm12 L m ant lat 2_left,S ; Convergence Sibling AB Right; DALcm12 m ant lat 2_right,76
+14071449,13953546,CN,no official annotation,Crab Arm DAMd23_left,Crab Arm DAMd23_right,76
+14071613,4411542,CN,CN-22,T1 ; DALcl12 d 4_left,T1 ; DALcl12 d 4_right,76
+14133114,17166682,LHN,no official annotation,down_pvl09_left,down_pvl09_right,76
+15594113,15590555,pre-DN-SEZ,no official annotation,CE ; NI_left,CE ; NI_right,76
+10323628,8370111,PN,respiratory 2nd_order PN,Pre-ipsigoro-2_left,Pre-ipsigoro-2_right,76
+9051960,17813006,CN,no official annotation,AD ; DALcm12 m ant lat 7_left,AD ; DALcm12 m ant lat 7_right,76
+16385470,18098174,MB-FFN,FFN-23,Tel-ipsigoro_left,Tel-ipsigoro_right?,76
+8540770,15488316,MB-FBN,FB2N-8,BAmd1 v 2 right,contralateral in brain like A01 left,76
+17334530,no pair,other,no official annotation,DLPc_post_med-1_left; confirmed nonpaired,no pair,77
+17360282,14754777,pre-DN-VNC,no official annotation,DALv1_PB1_left,DALv1_PB1_right,77
+16978882,14127447,MB-FFN,FFN-15,Major upstream of 4g_left,Major upstream of 4g_right,77
+15522152,15548844,DN-VNC,no official annotation,DALcm12_v_p_11_left,DALcm12_v_p_11(22)_right TODO lateral large dendrite,77
+19017386,8127390,pre-DN-VNC,no official annotation,down_oct1_left,down_oct1_right,77
+17176808,17176819,MB-FFN,FFN-6,Same Line as Looping left ,To finish with Soma right,77
+14617508,14680483,pre-DN-VNC,CN-34,GH_left,GH_right,77
+16444544,8981761,LHN,no official annotation,DPLc_post_med-2_left,DPLc_post_med-2_right; offPVL09d_right; DPLc,77
+10596949,13411445,pre-DN-VNC,no official annotation,DPMm1_2 left ipsi cross-layer CC,DPMm1_2 right ipsi cross-layer CC,77
+16445073,15481779,pre-DN-VNC,no official annotation,offPVL09d_left; DPLc,DPLc_post_med-1_right,77
+1679034,14374534,pre-DN-VNC,no official annotation,UNK brain ascending left,UNK brain ascending right,78
+20151537,12474815,pre-DN-VNC,no official annotation,CPf contralateral 2 left,CPf contralateral 2 right,78
+18111410,4876839,pre-DN-VNC,no official annotation,BLAv1_3_left,BLAv1_3_right (DALcl n1)?,78
+10017944,16913476,pre-DN-VNC,no official annotation,WI; CM4 dor ant 10 to LAL_left,WI; CM4 dor ant 10 to LAL_right,78
+15524629,15736398,other,no official annotation,BK1;DALcl12 v d 20_left,BK: DALcl12 v d 19_right,78
+15468308,17330632,CN,no official annotation,To Complete with soma left,To Complete with soma right,78
+15055590,14492880,pre-DN-VNC,no official annotation,DPMl stick left,DPMl stick right,78
+14621584,17355864,pre-DN-VNC,no official annotation,BAla34 bilateral 3 left,BAla34 bilateral 3 right,78
+8357933,13764822,DN-SEZ,no official annotation,BT; BAmd2 ven desc lat 5_left,BSD; BAmd2 ven desc lat 5_right,78
+14492757,14656798,pre-DN-VNC,no official annotation,BAlp1_left,BAlp1_right,78
+15722990,9604434,pre-DN-VNC,no official annotation,UNK brancher 2 left,UNK brancher 2 right,78
+16340977,18232369,DN-SEZ,no official annotation,Dorsal contralateral 1 left,Dorsal contralateral 1 right,78
+16340998,8007556,MB-FFN,FFN-25,oct1_left,oct1_right,78
+16541149,10079731,PN-somato,noci 2nd_order PN,BLAv12 ipsi 1 left,BLAv12 ipsi 1 right,78
+15612283,8912726,other,no official annotation,BK: DALcl12 v d 19_left,BK1;DALcl12 v d 20_right,78
+16851791,16340461,pre-DN-VNC,no official annotation,DPMl12a_left,DPMl12a_right,78
+9384504,5935744,pre-DN-VNC,no official annotation,CM4 l MEF comm; CM4 dor ant 9 to LAL left,CM4 l MEF comm; CM4 dor ant 9 to LAL right,78
+9480916,9077224,pre-DN-VNC,no official annotation,ni contralateral 3 left,ni contralateral 3 right,78
+16931001,8709865,pre-DN-VNC,no official annotation,BLAv12_ant descending 1 left,BLAv12_ant descending 1 right,78
+17067625,16340011,pre-DN-VNC,no official annotation,DPMl anterior hook left,DPMl anterior hook right,78
+10581624,13564607,pre-DN-VNC,no official annotation,DPMm1_1_left - ipsi cross-layer CC,DPMm1_1_right - ipsi cross-layer CC,78
+10234576,19090042,pre-DN-VNC,no official annotation,CM13 hook 4 left,CM13 hook 4 right,78
+10229852,16347283,PN-somato,noci 2nd_order PN,CM13 lat 14 left,CM13 lat 14 right,78
+17728695,10367190,pre-DN-VNC,no official annotation,BAlp_ant ascending left,BAlp_ant ascending right,78
+9239759,9034378,pre-DN-VNC,no official annotation,ni contralateral 4 left,ni contralateral 4 right,78
+15623649,20443457,PN,FB2N-12; gustatory-pharyngeal 2nd_order PN,Mickey Mouse_left,Mickey Mouse_right; BLP12 b 2,79
+17300165,9848760,MB-FBN,FAN-5,AR ; Putative MBE; CP4 1_left,AR ; Putative MBE; CP4 1_right,79
+15770140,12049797,other,no official annotation,neuron 15770141 left,To Finish with Soma; CP23 d 15 right,79
+18035864,4411688,MB-FBN,FB2N-3,neuron 18035865 left,M_right,79
+8864785,4617479,MB-FBN,FBN-7,N_left,N_right,79
+14158399,17784367,MB-FBN,FB2N-21,AF12: CP23 d 1_left,EX 2 ; Right (?),79
+14073503,5669107,CN,no official annotation,L ; DALcm12 m lat 4_left,L ; DALcm12 m lat 4_right,79
+12789813,16405545,CN,no official annotation,Tomato Vine_left,Tomato Vine_right,79
+15588620,7594047,MB-FBN,FBN-5,BF ; F3 pair; CP4 2_left,BF ; F3 pair; CP4 2_right,79
+16435325,8995807,PN,gustatory-external 2nd_order PN,BAla34 ascending 4 left,BAla34 ascending 4 right,80
+16950097,4847079,pre-DN-VNC,no official annotation,DALcm?_l  16,DALcm12 v p 25,80
+12199095,17435678,MB-FFN,FFN-35,"neuron 12199096 upstr sog, oct left",HAS SOMA Neuron 17435679 right NL,80
+16547268,15732485,pre-DN-SEZ,no official annotation,BAmv12 looper 1 left,BAmv12 looper 1 right,80
+16444754,9072560,other,no official annotation,ni contralateral 2 left,ni contralateral 2 right,80
+17000062,17755491,pre-DN-VNC,no official annotation,pacman? left,pacman right,80
+5902352,5936935,pre-DN-VNC,no official annotation,CM4 horseshoe left,CM4 horseshoe right; DPMpl3 a 3 MEF CPMneuron 5936936,80
+7005145,7590264,DN-VNC,no official annotation,CP descending contralateral 2 left,CP descending contralateral 2 right,80
+15897280,2669844,DN-VNC,no official annotation,Horseshoe deviant left,Horseshoe deviant right,80
+14342744,15618614,CN,no official annotation,Tidal wave left,Tidal wave right,80
+14579509,13835439,pre-DN-VNC,no official annotation,fishing_rod_left,fishing_rod_right,80
+9062992,8792477,MB-FBN,FBN-21,BL1 ; CM13 lat 1_left,BL1 ; CM13 lat 1_right,81
+9238937,9103732,MB-FBN,FAN-10,DA_left,DA_right,81
+19175973,4227831,other,no official annotation,AC ; DALcm12 m ant med 1_left,AC ; DALcm12 m ant med 1_right,81
+11003551,17913199,PN-somato,noci 2nd_order PN,HAS SOMA Neuron 11003552 left,ASB TODO 17913200 right,81
+9965610,8132513,other,PL-10,BX ; CM4 dor pos 1_left,BX ; CM4 dor pos 1_right,81
+9064208,5934511,MB-FBN,FBN-19,BL ; CM13 med 4_left,BL ; CM13 med 4_right,81
+18500988,14334367,pre-DN-SEZ,no official annotation,BQ 1 ; DPMl12 ant 1_left,BQ 1 ; DPMl12 ant 1_right ,81
+4408397,4199033,MB-FBN,FAN-8,NK_left,NK_right,81
+17276867,6611100,CN,CN-41,H ; DALcm r v ant med_left,H ; DALcm r v ant med_right,81
+17177005,8019816,MB-FBN,FB2N-5,BL 2 : Left,BL 2 ; Right; CM13 med 1,81
+11600886,7980189,CN,CN-24,T ; Convergence; DALcm12 m ant lat 3_left,T ; Convergence; DALcm12 m ant lat 3_right,82
+11017761,16178283,MBON,MBON-p1; CN-61,MBE26 left,MBE26 right,82
+15741865,6290724,MB-FBN,CN-32; FBN-10,C ; DALcl12 L d 2_left,C ; DALcl12 L d 2_right,82
+9141404,16691937,MB-FBN,CN-37; FBN-2,A ; 4th order Thermo_left,A ; 4th order Thermo_right,82
+14000746,16699958,MB-FBN,CN-33; FAN-7,U ; Convergence Sibling; DALcm12 m ant lat 12_left,U ; Convergence Sibling; DALcm12 m ant lat 12_right,82
+17016974,4022539,MBON,MBON-m1; CN-62,MBE20 left,MBE20 right,82
+3046503,2355126,RGN,no official annotation,IPC 7 left,IPC 7 right,83
+4523803,13793212,RGN,no official annotation,DMS 2 left,DMS 2 right,83
+12634154,2357110,RGN,no official annotation,IPC pair 1; IPC 3 left,IPC pair 1; IPC 6 right,83
+13744425,2340336,sensory,enteric,AN-L-Sens-B1-ACa-02,AN-R-Sens-B1-ACa-02,83
+2284021,2456826,sensory,enteric,AN-L-Sens-B1-ACa-01,AN-R-Sens-B1-ACa-01,83
+17776982,6554358,DN-SEZ,no official annotation,DPMpl12 double descending left,DPMpl12 double descending right,83
+6445994,3436420,DN-SEZ,no official annotation,Pre PMN left,Pre PMN right,83
+4523584,2659386,RGN,no official annotation,DMS 1 left,DMS 1 right,83
+6978585,5869204,RGN,no official annotation,CA-LP-2_left1,CA-LP-2_right2,83
+10459723,13535380,RGN,no official annotation,IPC pair 2; IPC 2 left,IPC pair 2; IPC 1 right,83
+7005184,7569260,DN-VNC,no official annotation,CP1 d 1 left,CP1 d 1 right,83
+10059655,11639192,DN-SEZ,no official annotation,contra-vine 2 right,contra-vine 2 left,83
+3498479,3414508,DN-SEZ,no official annotation,contra-vine right,contra-vine left,83
+10329208,3561724,RGN,no official annotation,IPC pair 3; IPC 1 left,IPC pair 3; IPC 5 right,83
+3281684,15202263,RGN,no official annotation,IPC pair 5; IPC 5 left,IPC pair 5; IPC 4 right,83
+4453485,2283495,RGN,no official annotation,IPC pair 4; IPC 4 left,IPC pair 4; IPC 3 right,83
+4506509,2852273,RGN,no official annotation,IPC pair 6; IPC 6 left,IPC pair 6; IPC 2 right,83
+7335439,5500958,DN-VNC,no official annotation,Coaster (NPF) 2 left,Coaster (NPF) 2 right,83
+7338309,17352470,DN-SEZ,no official annotation,DPMpl12 Brain into SEZ left,DPMpl12 Brain into SEZ? right,83
+12252572,16651566,pre-DN-VNC,no official annotation,BLAv12 hook 1 left,BLAv12 hook 1 right,84
+9237734,15800115,pre-DN-VNC,no official annotation,BS: ni left,BS: ni right,84
+16635345,5859372,pre-DN-VNC,no official annotation,CM13 bilateral 1 left,CM13 bilateral 1 right; CM a 6; CM13 lat 6,84
+20421224,17466463,pre-DN-VNC,no official annotation,CM13 hook 2 left,CM13 hook 2 right; CM13 lat 16 - Uncertain At Gap,84
+16547292,15732497,pre-DN-VNC,no official annotation,BAmv12_dor loop left,BAmv12_dor loop right,84
+15525711,9068346,pre-DN-VNC,no official annotation,DALcl12 vv 12 left,DALcl12 vv 12 right,84
+17105842,13849274,other,no official annotation,BLAv12 hook 2 left,BLAv12 hook 2 right,84
+16547252,13003574,other,no official annotation,BAmv12 spearhead left,BAmv12 spearhead right,84
+17383431,9532295,pre-DN-VNC,no official annotation,BAlp_ant ascending dendrite left,BAlp_ant ascending dendrite right,84
+16562142,15894278,DN-VNC,no official annotation,UNK contralateral 3 left,UNK contralateral 3 right,84
+14241490,16924423,pre-DN-VNC,no official annotation,Commissure neuron left,Commissure neuron right,84
+18267838,4173633,pre-DN-VNC,no official annotation,DALv23 LAL 5 left,DALv23 LAL 5 right,84
+10240382,5895651,pre-DN-VNC,no official annotation,CM13 hook 3 left,CM13 hook 3 right; CMa 8 to loVP; CM13 lat 8 - Uncertain At Gap,84
+18106257,17031293,PN-somato,mechano-Ch 2nd_order PN; proprio 2nd_order PN,Hydra_left,Hydra_right,84
+18485293,17647621,DN-VNC,no official annotation,CM4 descending left,CM4 descending right,84
+17105218,9067063,pre-DN-VNC,PL-18,DALcl12 r vv 5,DALcl12 vv 6,84
+11303036,15823055,pre-DN-VNC,no official annotation,Neuron 11303037,CM4 dor ant 14,84
+16992171,17356024,pre-DN-VNC,no official annotation,BAla12_34 neuron left,BAla12_34 neuron right,84
+17053270,5319633,DN-VNC,no official annotation,LAL to VNC up to A6_left,LAL to VNC up to A6_right,84
+16345627,16671014,pre-DN-VNC,PL-22,UNK contralateral 2 left,UNK contralateral 2 right,85
+9870483,12935696,CN,PL-12,BX 1; column of protocerebral bridge_left,BZ ; CM4 dor pos 2 right,85
+10921106,16388736,DN-VNC,no official annotation,CM4 contralateral descending 1 left_JMpair17,CM4 contralateral descending 1 right,85
+10248031,17380319,pre-DN-VNC,no official annotation,CM13 bilateral 4 left,CM13 bilateral 4 right,85
+16753901,14328512,other,PL-11,potential MB2ON-234 16753902 left,BX 1; column of protocerebral bridge_right,85
+9961098,4311241,pre-DN-VNC,no official annotation,CM Contra to LAL #1; CM4 dor ant 3 to LAL left,CM4 dor med_r; CM4 dor ant 3 to LAL right,85
+16545264,5164129,pre-DN-VNC,no official annotation,BAmv12 local neuron left,BAmv12 local neuron right,85
+5865628,10287315,other,no official annotation,DALv1 contralateral 3 left,DALv1 contralateral 3 right; Tel-like 9?,85
+10728333,13557064,DN-VNC,no official annotation,MDNa_left; pair 1 left,MDNb_right; pair 1 right,85
+10728328,18464581,DN-VNC,no official annotation,MDNb_left; pair 2 left,MDNa_right; pair 2 right,85
+15028907,11362589,PN-somato,proprio 2nd_order PN,DPMpl3 contralateral left TODO,DPMpl3 contralateral right; DPMpl3 4 MEF ant and comm subGC,85
+10447988,16540741,pre-DN-VNC,no official annotation,CPf contralateral 1 left,CPf contralateral 1 right,85
+6623089,17897230,pre-DN-VNC,no official annotation,BLAv12 ipsi 2 left,BLAv12 ipsi 2 right,85
+14726012,9091922,pre-DN-VNC,no official annotation,UNK brancher 4 left - missing dendrite,UNK brancher 4 right - missing dendrite,85
+18566361,16471422,pre-DN-VNC,no official annotation,BS ; Left,BS ; Right,85
+14726069,5805651,pre-DN-VNC,no official annotation,BAlp_ant bilateral left,BAlp_ant bilateral right,85
+17110007,6188181,pre-DN-VNC,no official annotation,BV ; Left DALcl12 r vv 7,DALcl12 vv 3 (BV ; RIGHT DALcl12 r vv 7) right,85
+17108278,9051500,PN-somato,noci 2nd_order PN,BPL local 6 left,BPL local 6 right,85
+14999928,4591713,pre-DN-VNC,PL-21,LAL bilateral coordination left,LAL bilateral coordination right; J. II. Posterior target neuron #2 MB PN; CM4 dor pos 9,85
+12935706,16852421,pre-DN-VNC,no official annotation,BAlp_ant bilateral 2 left,BAlp_ant bilateral 2 right,85
+4966994,16578252,pre-DN-VNC,PL-23,CM13 bilateral 3 left,CM13 bilateral 3 right; CM13 lat 19,85
+11625573,18545747,pre-DN-VNC,no official annotation,HAS SOMAL neuron 11625574,I. III. Posterior target neuron #2 MB PN; CM13 med 8,85
+9594273,16934932,pre-DN-VNC,PL-20,UNK contralateral 1 left,UNK contralateral 1 right,85
+9612903,17535542,pre-DN-SEZ,no official annotation,DALv contra #1 neuron 9612904 left,BW ; Right DALc12 vv 2,85
+9235545,17435815,pre-DN-VNC,no official annotation,ni contralateral 1 left,ni contralateral 1 right,85
+13714311,8710444,pre-DN-VNC,no official annotation,BLAv1_2_left,BLAv1_2_right,85
+9714476,16709072,pre-DN-VNC,no official annotation,BAmd1 contralateral 1 left,BAmd1 contralateral 1 right,85
+10238739,5893912,pre-DN-VNC,no official annotation,CM13 hook 1 left; CMa 7 to loVP; CM13 lat 7_left,CM13 hook 1 right; CMa 7 to loVP; CM13 lat 7_right,85
+17813499,10785260,other,no official annotation,DALcl12 vv 11 right,DALcl12 vv 11 left,85
+15539984,8271875,pre-DN-VNC,no official annotation,PT ; DALcm12 m ant med 14_left,PT ; DALcm12 m ant med 14_right,85
+16886842,10784285,other,no official annotation,DALcl12 r vv 3,DALcl12 vv 10,85
+12928099,15474790,CN,no official annotation,MB2ON-163 right,MB2ON-163 left,85
+16937395,9519425,pre-DN-VNC,no official annotation,UNK brancher 1 left,UNK brancher 1 right,85
+18538744,11362334,pre-DN-VNC,no official annotation,DPMpl3 a 2 left,DPMpl3 a 2 right,85
+8025665,6190181,pre-DN-VNC,no official annotation,DALcl contralateral 1 left; DALcl r vv 10 left,DALcl contralateral 1 right; DALcl12 vv 4 neuron 6190182,85
+7439913,15934458,DN-VNC,no official annotation,BAlp descending 3 left,BAlp descending 3 right,86
+17353986,18604097,DN-VNC,no official annotation,DPMl_ant_ven descending 3 left,DPMl_ant_ven descending 3 right,86
+17358891,19190681,DN-VNC,no official annotation,ASB Gust descending left,ASB Gust descending right,86
+8801715,19092010,pre-DN-VNC,no official annotation,From Visual to CPM? left,From Visual to CPM right,86
+9429085,17247877,pre-DN-SEZ,no official annotation,neu1_left,neu1_right,86
+5760480,4127096,pre-DN-VNC,no official annotation,BLP34 descending 5 left,BLP34 descending 5 right,86
+12736001,15155348,pre-DN-VNC,no official annotation,BAlp_ant Y neuron left,BAlp_ant Y neuron right,86
+14651659,13760954,DN-VNC,no official annotation,BAmd2_v descending left,BAmd2_v descending right,86
+16561660,13652117,DN-VNC,PL-19,DPMl_ant_ven descending-like left,DPMl_ant_ven descending-like right,86
+12420898,5162462,pre-DN-VNC,no official annotation,BAmv12 looper 2 left,BAmv12 looper 2 right,86
+20139548,17380345,DN-SEZ,no official annotation,CM4 Bridle left,CM4 Bridle right,86
+17075832,14039007,DN-VNC,no official annotation,BAlp descending 1 left,BAlp descending 1 right,86
+3564452,3571478,ascending,unknown modality,ASC2_left (Projection neuron a2cb),ASC2_right,86
+16863538,20443362,pre-DN-VNC,no official annotation,BLP34 descending 2 left,BLP34 descending 2 right,86
+16547297,15589738,pre-DN-VNC,no official annotation,BAmv12 splitter 1 left,BAmv12 splitter 1 right,86
+11841664,5856647,pre-DN-VNC,no official annotation,BL 3 ; CM13 lat 2_left,BL 3 ; CM13 lat 2_right,87
+11468088,4188325,pre-DN-VNC,no official annotation,DALv23 LAL 7 left,DALv23 LAL 7 right,87
+12598741,15706875,pre-DN-VNC,no official annotation,CP1 v 5; left,CP1 v 5; right,87
+10682660,16856539,MB-FBN,FBN-22,BL4_left,BL4_right; CM13 med 2,87
+15512408,4917442,pre-DN-VNC,no official annotation,DALcm12 L v ap 7,DALcm12 v ap 12 wrong asc branch,87
+15512404,5786898,pre-DN-VNC,no official annotation,DALcm12-v forked left; DALcm12 L v ap 6_left,DALcm12-v forked right; 1+0 DALcm12 v ap 3_right,87
+17484564,17335266,other,no official annotation,DPMl_ant_dor tall left,DPMl_ant_dor tall right,87
+17448356,13675374,pre-DN-VNC,no official annotation,BAla34 ven 1 d left,BAla34 ven 1 d right,87
+1622901,6156152,DN-VNC,no official annotation,DALd bushy left; DALd_l  2,DALd bushy right; DALd_r 5 Review,87
+15513540,5790355,pre-DN-VNC,no official annotation,DALcm12 fork 2 left; DALcm12 L v ap 8,DALcm12 fork 2 right; DALcm12 v ap 4 ,87
+9154024,16947349,pre-DN-VNC,no official annotation,DALv23 L LAL #10 counterpart left,DALv23 LAL 4 right,87
+16545113,15732503,pre-DN-VNC,no official annotation,BAmv1/2 2 left,BAmv1/2 2 right,87
+7057730,4017464,pre-DN-VNC,no official annotation,DALcm12 v ap 11 left,DALcm12 v ap 11 right,87
+16952691,5052370,DN-VNC,no official annotation,DALd descending 1 left; DALd_l X?,DALd descending 1 right; DALd_r 1,87
+17022668,12474164,DN-VNC,no official annotation,DPMm2 descending left,DPMm2 descending right,87
+16561284,17173922,PN-somato,noci 2nd_order PN,DALv3 ring1_left (LAL neuron),DALv3 ring1_right (LAL neuron),87
+5681132,7574701,MB-FBN,FBN-25,DE: CPe 1_left,DE: CPe 1_right,87
+16547281,13722900,pre-DN-VNC,no official annotation,Lure-2 left,Lure-2 right,87
+16950121,4849988,PN-somato,proprio 2nd_order PN,WF; DALcm12 v p 13_left,DP: DALcm12 v p 24_right,87
+4324567,15732509,pre-DN-VNC,no official annotation,Lure-1 left,Lure-1 right,87
+7058243,15478720,MB-FFN,FFN-26,DALcm12 r 11-21-13 neuron left hemisphere 3; DALcm12 L v ap 5,DALcm12 v ap 21,87
+16851577,16950798,DN-VNC,no official annotation,DALd descending 5 left; DALd_l  7,DALd descending 5 right; DALd_r 9 right,87
+16327998,17173852,pre-DN-VNC,no official annotation,DALv3 ring2_left (LAL neuron),DALv3 ring2_right (LAL neuron),87
+5870071,4144377,MB-FBN,FBN-27,DALv23 L LAL #2 counterpart left,DALv23 LAL 2 right,87
+16950115,6609380,pre-DN-VNC,no official annotation,DP: DALcm12 v p 24_left,WF; DALcm12 v p 13_right,87
+16427492,4180774,MB-FBN,FBN-24,HL; DALv23 L LAL_left,HL; DALv23 L LAL_right,87
+20172310,9521722,LN,no official annotation,UNK brancher 3 left,UNK brancher 3 right,88
+16952671,6154200,DN-VNC,no official annotation,DALd midloop 2 left; DALd_l  13,DALd midloop 2 right; DALd_r 2 neuron 6154202,88
+8059283,14913093,ascending,proprio,A08s1_a1l ,A08s1_a1r,88
+16972043,4507955,MB-FFN,FFN-36,N1_left,N1_right,88
+4206755,7124156,ascending,noci,A10f-like a1l,A10f-like a1r (not part of A10 lineage),88
+7955278,12026822,DN-SEZ,no official annotation,DPMl12 ant Left,DPMl12 ant Right,88
+11013583,17589475,DN-VNC,no official annotation,UNK descending contralateral left,UNK descending contralateral right,88
+10237401,5858788,other,no official annotation,CM13 splitter left,CM13 splitter right; CM a 5; CM13 lat 5 Lost At Gap,88
+18305476,13007383,DN-SEZ,no official annotation,BAmv12 contralateral 1 left,BAmv12 contralateral 1 right,88
+16952648,5900426,DN-VNC,no official annotation,DALd midloop 1 left; DALd_l  9,DALd midloop 1 right; DALd_r 13,88
+20556072,17025508,DN-VNC,no official annotation,DPM descending thin left,DPM descending thin right; WB_DPMl R,88
+17736748,17639824,DN-VNC,no official annotation,DALl2 descending left,DALl2 descending right - where's the axon?,88
+17732256,17656886,DN-VNC,no official annotation,UNK descending to T1 left,UNK descending to T1 right,88
+7283193,18163015,other,no official annotation,UNK brancher 6 left,UNK brancher 6 right,88
+19785305,9094797,other,no official annotation,UNK brancher 5 left,UNK brancher 5 right,88
+17356467,20242957,other,no official annotation,BAla34 lateral descending 1a left,BAla34 lateral descending 1a right,88
+17777031,15672263,DN-VNC,no official annotation,DPM descending left,DPM descending right,88
+16547287,5167842,pre-DN-VNC,no official annotation,BAmv12 looper 3 left,BAmv12 looper 3 right,88
+13736919,17877682,DN-VNC,no official annotation,BAmd2 descending 1 left,BAmd2 descending 1 right,88
+17732311,5995125,DN-VNC,no official annotation,DPMl a 3 DPPT left,DPMl a 3 DPPT right,88
+18695745,17587734,DN-SEZ,no official annotation,BAmv12 contralateral 2 left,BAmv12 contralateral 2 right,88
+16675987,13646473,DN-VNC,no official annotation,DPMl_ant_ven descending 2 left,DPMl_ant_ven descending 2 right,88
+18058793,14588375,DN-VNC,no official annotation,UNK contralateral descending left,UNK contralateral descending right,88
+17736755,15964206,DN-VNC,no official annotation,UNK descending 2 left,UNK descending 2 right,88
+17736654,20911961,DN-VNC,no official annotation,UNK descending 3 left,UNK descending 3 right,89
+18929470,6700147,DN-VNC,no official annotation,BAmd2 descending 2 left,BAmd2 descending 2 right; BAmd2 ven desc lat 4  ipsi VMC neuron 6700148,89
+16952665,6154921,DN-VNC,no official annotation,DALd sparse descending left; DALd_l  12,DALd sparse descending right; DALd_r 3 neuron 6154922,89
+16670540,16950443,DN-VNC,no official annotation,DALd descending 4 left; DALd_l  1,DALd descending 4 right; DALd_r 9,89
+10756813,2648254,DN-SEZ,no official annotation,Fragment with soma,DPMpm1 4 DNs,89
+17736641,20911955,DN-VNC,no official annotation,UNK3 descending left,UNK3 descending right,89
+11876076,15674282,pre-DN-VNC,no official annotation,BAlp4 ascending 2 left,BAlp4 ascending 2 right,89
+18076102,17654514,DN-VNC,no official annotation,UNK descending 1 left,UNK descending 1 right,89
+16852622,16950767,DN-VNC,no official annotation,LAL output neuron DALcm left,LAL output neuron DALcm right; DALd_r 11,89
+16856369,4185530,PN-somato,proprio 2nd_order PN,DALv23 LAL crinkled left; DALv23 L LAL #6 counterpart,DALv23 LAL crinkled right,89
+11022546,17663944,pre-DN-VNC,no official annotation,DPMpl12 Hook 2 left,DPMpl12 Hook 2 right,89
+16856617,16561429,LN,no official annotation,DALv23 LAL 6 left,DALv23 LAL 6 right; neuron 16561430 down_oct right,89
+16952642,6155577,DN-VNC,no official annotation,DALd descending thin left; DALd_l  8 continues after gap,DALd descending thin right; DALd_r 4 neuron 6155578 small,89
+19835787,17380309,pre-DN-VNC,no official annotation,UNK posterior hook left,UNK posterior hook right,89
+13028455,4142619,pre-DN-VNC,no official annotation,DALv23 LAL 3 left,DALv23 LAL 3 right,89
+15516413,5816138,pre-DN-VNC,no official annotation,DALcm12 fork left; DALcm12 L v ap 9,DALcm12 fork right; DALcm12 v ap 2 ,89
+7025831,5782947,pre-DN-VNC,no official annotation,DALcm12 v ap 1 left,DALcm12 v ap 1 right,89
+15995958,18080008,pre-DN-VNC,no official annotation,BAlp4 ascending 1 left,BAlp4 ascending 1 right,89
+10473853,16355225,pre-DN-VNC,no official annotation,DPMpl12 Hook 1 left,DPMpl12 Hook 1 right,89
+4324479,19950281,pre-DN-VNC,no official annotation,seahorse left,seahorse? right,89
+17358864,13842372,DN-SEZ,no official annotation,BAmd2 contralateral descending 2 left,BAmd2 contralateral descending 2 right,89
+17360404,4390116,pre-DN-VNC,no official annotation,DALv23 LAL 1 left; L LAL #7 counterpart,DALv23 LAL 1 right,89
+17809869,17654519,DN-SEZ,no official annotation,BAlp descending 2 left,BAlp descending 2 right,89
+9423829,9057043,MB-FBN,FBN-11,BY_left,BY_right,90
+16852589,6610913,pre-DN-SEZ,no official annotation,DALcm v 6; DALcm12 m lat 3 left (probably),DALcm v 6; DALcm12 m lat 3 right,91
+16560178,9068024,pre-DN-VNC,no official annotation,BW ; DALcl12-v left,BW ; DALcl12 vv 13 DALcl12 v int 6 right,91
+11476614,18084995,MB-FBN,FB2N-20,neuron 11476615_left,N6_right,91
+4749004,17323054,pre-DN-VNC,no official annotation,DPLc_post_med contralateral left;A. Dorso-posterior target neuron #2 MB PN,DPLc_post_med contralateral right,91
+15005403,15894178,DN-VNC,no official annotation,UNK descending contralateral 2 left,UNK descending contralateral 2 right,91
+16667306,16520950,DN-VNC,no official annotation,LAL output neuron 2 left,LAL output neuron 2 right (DALd_r),91
+16667592,16950550,DN-VNC,no official annotation,DALd descending 2 left; DALd_l  6,DALd descending 2 right; DALd_r 8,91
+17165755,13727202,DN-VNC,no official annotation,UNK contralateral descending 2 left,UNK contralateral descending 2 right,91
+7700444,16910799,pre-DN-VNC,no official annotation,BT ; CM13 med 5_left,BT ; CM13 med 5_right,91
+10964258,17357979,pre-DN-VNC,PL-13,BQ_left,BQ_right,91
+3979181,5794678,DN-VNC,no official annotation,ipsigoro left,ipsigoro right,91
+19361427,16950354,DN-VNC,no official annotation,DALd descending 3 left; LAL output neuorn_l 2?; DALd_l 5,DALd descending 3 right; DALd_r 12,91
+9061235,13836327,CN,no official annotation,BO ; BAmd2 ven desc 7_left,BO ; BAmd2 ven desc 7_right,91
+15525794,9069084,pre-DN-VNC,no official annotation,DALcl contralateral 2 left; DALcl r vv 2 left,DALcl contralateral 2 right; DALcl12 vv 2 right; DALcl12 vv 8 ,91
+16561224,6702943,DN-SEZ,no official annotation,BAmd2 contralateral descending 1 left,BAmd2 contralateral descending 1 right,91
+10553248,8496618,DN-VNC,no official annotation,DNs-17_left,DNs-17_right,92
+7025064,8161142,pre-DN-VNC,no official annotation,DALcm12 L v ap 2_left,DALcm12 v ap 13,92
+16851496,16339338,DN-VNC,no official annotation,DALd LAL output neuron 1 left,DALd LAL output neuron 1 right,92
+17454636,15467736,pre-DN-VNC,no official annotation,DALcm12 v ap 20_left,DALcm12 v ap 20_right,92
+18551732,8161148,pre-DN-VNC,no official annotation,DALcm12 v ap 14_left,DALcm12 v ap 14_right,92
+1678567,6153877,DN-VNC,no official annotation,BU ; DALd 4_left,BU ; DALd 4_right,92
+16851718,9097065,pre-DN-VNC,no official annotation,DPlal crinkled 2 left,DPlal crinkled 2 right,92
+no pair,17476964,KC,KC; partially differentiated,no pair,KC very young,no cluster
+16054240,no pair,KC,KC; partially differentiated,KC very young,no pair,no cluster
+16053670,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+no pair,17476975,KC,KC; partially differentiated,no pair,KC very young,no cluster
+16053650,no pair,KC,KC; partially differentiated,KC very young,no pair,no cluster
+no pair,17519626,other,no official annotation,no pair,BLD? right,no cluster
+16026042,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+17015609,8790590,MB-FFN,FFN-38,T19f_t2l,T27h_t2r,no cluster
+15995074,no pair,KC,KC; partially differentiated,KC very young,no pair,no cluster
+no pair,17476934,KC,KC; partially differentiated,no pair,KC very young,no cluster
+15939179,no pair,KC,KC; partially differentiated,KC very young,no pair,no cluster
+15939130,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+no pair,16145456,KC,KC; partially differentiated,no pair,KC101 very young,no cluster
+10017661,11460897,other,partially differentiated,CM4-dm Tiny 3 left,CM4-dm Tiny 3 right; CM4 s loSM 11 Right,no cluster
+16220042,no pair,KC,KC; partially differentiated,KC young no claws,no pair,no cluster
+no pair,16471397,other,partially differentiated,no pair,ni right or very young KC,no cluster
+16464614,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+16448983,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+16448979,no pair,KC,KC; partially differentiated,KC young no claws,no pair,no cluster
+16448971,no pair,KC,KC; partially differentiated,KC young no claws,no pair,no cluster
+16448967,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+10017804,2660767,other,partially differentiated,CM4-dm Tiny 1 left,CM4-dm Tiny 1 right,no cluster
+16448954,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+16628000,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+16448934,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+16448930,no pair,KC,KC; partially differentiated,KC young no claws,no pair,no cluster
+no pair,17476920,KC,KC; partially differentiated,no pair,KC very young,no cluster
+16448926,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+16443747,no pair,KC,KC; partially differentiated,KC very young,no pair,no cluster
+16443548,no pair,KC,KC; partially differentiated,KC very young,no pair,no cluster
+16443544,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+16443536,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+16443532,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+16939501,no pair,other,no official annotation,KC frag?,no pair,no cluster
+no pair,17379283,other,partially differentiated,no pair,CM4-dm Tiny unpaired right; CM4 dor med_r; CM4 dor ant 5,no cluster
+17454963,no pair,KC,KC; partially differentiated,KC very young,no pair,no cluster
+no pair,17476873,KC,KC; partially differentiated,no pair,KC very young,no cluster
+no pair,17476916,KC,KC; partially differentiated,no pair,KC very young,no cluster
+16435406,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+18568094,17941609,other,partially differentiated,DALv1 small left,DALv1 small right,no cluster
+15828093,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+15713206,15629888,sensory,gustatory-external,MN-L-Sens-B2-VM-18,MN-R-Sens-B2-VM-18,no cluster
+15788419,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+no pair,8766921,KC,KC; partially differentiated,no pair,KC59 young,no cluster
+no pair,8765865,KC,KC; partially differentiated,no pair,KC58 very young,no cluster
+no pair,8764750,KC,KC; partially differentiated,no pair,KC57 very young,no cluster
+no pair,8761400,KC,KC; partially differentiated,no pair,KC56 young,no cluster
+no pair,8723397,KC,KC; partially differentiated,no pair,KC55 young,no cluster
+15998913,15508475,sensory,gustatory-pharyngeal,AN-L-Sens-B2-VM-04,AN-R-Sens-B2-VM-04,no cluster
+15998899,15605657,sensory,gustatory-pharyngeal,AN-L-Sens-B2-AVp-02,AN-R-Sens-B2-AVp-03,no cluster
+5120990,4044654,sensory,gustatory-external,AN-L-Sens-B3-VM-13,AN-R-Sens-B3-VM-13,no cluster
+15998319,15594038,sensory,gustatory-pharyngeal,AN-L-Sens-B2-VM-05,AN-R-Sens-B2-VM-05,no cluster
+no pair,8260935,KC,KC; partially differentiated,no pair,KC47 very young,no cluster
+no pair,8260011,KC,KC; partially differentiated,no pair,KC46 young,no cluster
+no pair,8259199,KC,KC; partially differentiated,no pair,KC45 very young,no cluster
+no pair,8259192,KC,KC; partially differentiated,no pair,KC44 young,no cluster
+no pair,8773165,KC,KC; partially differentiated,no pair,KC60 very young,no cluster
+no pair,8259179,KC,KC; partially differentiated,no pair,KC43 very young,no cluster
+no pair,8247315,KC,KC; partially differentiated,no pair,KC104 very young,no cluster
+no pair,8199012,sensory,gustatory-pharyngeal,no pair,MN-R-Sens-B3-?-00,no cluster
+17729029,no pair,other,no official annotation,only soma 17729029,no pair,no cluster
+no pair,8127911,other,no official annotation,no pair,soma only; CP23 v 2 right,no cluster
+no pair,8066411,KC,KC; partially differentiated,no pair,KC41 young,no cluster
+no pair,3565102,KC,KC; partially differentiated,no pair,KC6 young,no cluster
+17729418,5523203,other,partially differentiated,BLVa34 young left,BLVa34 young right,no cluster
+15524852,9060993,other,partially differentiated,DALcl12 v d 8 L,DALcl12 v d 8 R,no cluster
+no pair,3605630,KC,KC; partially differentiated,no pair,KC8 young,no cluster
+no pair,7215582,KC,KC; partially differentiated,no pair,KC103 very young,no cluster
+no pair,3679411,KC,KC; partially differentiated,no pair,KC9 young,no cluster
+6229682,no pair,other,partially differentiated,BAlc_post young neuron,no pair,no cluster
+15632371,15673715,other,partially differentiated,DALcl12 v d 7 L,DALcl12 v d 7 R,no cluster
+14659793,6651098,other,partially differentiated,DALcl12 v d 6 left,DALcl12 v d 6 right,no cluster
+15788431,no pair,KC,KC; partially differentiated,KC young no claws,no pair,no cluster
+no pair,8773716,KC,KC; partially differentiated,no pair,KC61 very young,no cluster
+no pair,8792120,KC,KC; partially differentiated,no pair,KC63 young,no cluster
+15764960,no pair,KC,KC; partially differentiated,KC young no claws,no pair,no cluster
+15741951,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+15741782,no pair,KC,KC; partially differentiated,KC very young,no pair,no cluster
+15734666,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+15691122,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+15691118,no pair,KC,KC; partially differentiated,KC young no claw,no pair,no cluster
+11192283,6254216,other,partially differentiated,BAlc post lat lat #4 ALT neuron left,BAlc post lat lat #4 ALT neuron 6254217 right,no cluster
+no pair,15542199,sensory,gustatory-pharyngeal,no pair,AN-R-Sens-B2-?-00,no cluster
+no pair,14547259,KC,KC; partially differentiated,no pair,KC32,no cluster
+10455234,no pair,KC,KC; partially differentiated,KC young no claws,no pair,no cluster
+10450307,no pair,KC,KC; partially differentiated,KC young,no pair,no cluster
+10316044,no pair,other,no official annotation,soma only 10316045,no pair,no cluster
+no pair,4919895,KC,KC; partially differentiated,no pair,KC18 young,no cluster
+no pair,8773879,KC,KC; partially differentiated,no pair,KC62 young,no cluster
+no pair,10246566,KC,KC; partially differentiated,no pair,KC98 young,no cluster
+no pair,9782026,KC,KC; partially differentiated,no pair,KC89 young,no cluster
+no pair,9770016,KC,KC; partially differentiated,no pair,KC88 very young,no cluster
+no pair,9769559,KC,KC; partially differentiated,no pair,KC87 very young,no cluster
+no pair,9741463,KC,KC; partially differentiated,no pair,KC85 young,no cluster
+no pair,9606354,KC,KC; partially differentiated,no pair,KC81 very young,no cluster
+no pair,9578602,KC,KC; partially differentiated,no pair,KC80 young,no cluster
+no pair,9574259,KC,KC; partially differentiated,no pair,KC79 young,no cluster
+no pair,9517477,KC,KC; partially differentiated,no pair,KC75 young,no cluster
+no pair,9511772,KC,KC; partially differentiated,no pair,KC74 young,no cluster
+no pair,9012340,KC,KC; partially differentiated,no pair,KC71 young,no cluster
+no pair,8978117,KC,KC; partially differentiated,no pair,KC69 young,no cluster
+no pair,8957325,KC,KC; partially differentiated,no pair,KC68 young,no cluster
+10017931,6978516,other,partially differentiated,CM4-dm Tiny 2 left,CM4-dm Tiny 2 right; CM4 dor ant 4,no cluster
+17732426,12989453,other,no official annotation,DPLc ant med 1 left?,DPLc ant med 1 right,no cluster
+17360034,17378455,other,partially differentiated,DPlal Small 2 left,DPlal Small 2 right,no cluster
+3813487,3813487,MBIN,OAN-a2,Ladder (olfactory) post.,Ladder (olfactory) post.,no cluster
+17068730,17068730,MBIN,OAN-a1,Ladder (olfactory) ant.,Ladder (olfactory) ant.,no cluster
