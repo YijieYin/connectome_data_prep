@@ -47,7 +47,7 @@ def main(args):
     def regularisation(tensor):
         return torch.norm(tensor, 1)
 
-    target_index_dic = {i: args.target_index for i in range(rgs.num_layers)}
+    target_index_dic = {i: [args.target_index] for i in range(args.num_layers)}
 
     opt_in, out, act_loss, out_reg_loss, in_reg_los, snapshots = coin.activation_maximisation.activation_maximisation(ml_model,
                                                                                                                       target_index_dic,
@@ -60,9 +60,9 @@ def main(args):
 
     # save the optimised input
     np.save(args.optimised_input_path + '/' +
-            'opt_in' + args.job_id + '.npy', opt_in)
+            'opt_in_' + args.job_id + '.npy', opt_in)
     # save the output
-    np.save(args.output_path + '/' + 'out' + args.job_id + '.npy', out)
+    np.save(args.output_path + '/out_' + args.job_id + '.npy', out)
 
 
 if __name__ == "__main__":

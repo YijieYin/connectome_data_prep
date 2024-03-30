@@ -3,21 +3,21 @@
 # SLURM submission script for multiple runs with different parameters
 
 #SBATCH --job-name=test_multiple_inputs
-#SBATCH --partition=gpu
+#SBATCH --partition=ml
 #SBATCH --gres=gpu:1
 #SBATCH --mem=16G
-#SBATCH --output=result_%A_%a.out  # %A is replaced by job ID, %a by array index
-#SBATCH --error=error_%A_%a.err
+#SBATCH --output=/cephfs2/yyin/random_inputs/output_messages/result_%A_%a.out  # %A is replaced by job ID, %a by array index
+#SBATCH --error=/cephfs2/yyin/random_inputs/error_messages/error_%A_%a.err
 #SBATCH --time=01:00:00
-#SBATCH --array=1-10  # Example for 100 tasks
+#SBATCH --array=1-100  # Example for 100 tasks
 
 # Activate your Python environment
-source .bashrc
+source ../.bashrc
 
 conda activate act_max
 
 inprop_path='data/adult_type_inprop.npz'
-meta_path='data/adult_meta_meta.npz'
+meta_path='data/adult_type_meta.csv'
 target_index=13702
 num_layers=9
 optimised_input_path="/cephfs2/yyin/random_inputs/optimised_input/"
