@@ -46,8 +46,9 @@ def main(args):
 
     def regularisation(tensor):
         return torch.norm(tensor, 1)
-
-    target_index_dic = {i: [args.target_index] for i in range(args.num_layers)}
+    
+    target_indices = list(map(int, args.target_indices.split(',')))
+    target_index_dic = {i: target_indices for i in range(args.num_layers)}
 
     opt_in, out, act_loss, out_reg_loss, in_reg_los, snapshots = coin.activation_maximisation.activation_maximisation(ml_model,
                                                                                                                       target_index_dic,
@@ -72,16 +73,16 @@ if __name__ == "__main__":
                         help='Path to the connectivity (input proportion) matrix')
     parser.add_argument('--meta_path', type=str, required=True,
                         help='Path to the meta data')
-    parser.add_argument('--target_index', type=int, required=True,
-                        help='Index of the target cell type to maximise the activation for')
+    parser.add_argument('--target_indices', type=str, required=True,
+                        help='Index of the target cell type to maximise the activation for, separated by ","')
     parser.add_argument('--num_layers', type=int, required=True,
                         help='Number of layers in the network')
     parser.add_argument('--optimised_input_path', type=str, required=True,
                         help='Path to store the optimised input')
     parser.add_argument('--output_path', type=str, required=True,
                         help='Path to store the output after optimisation')
-    parser.add_argument('--job_id', type=str, required=True,
-                        help='Job ID to be used in the result name')
+    parser.add_argument('--array_id', type=str, required=True,
+                        help='Array ID to be used in the result name')
     # Add more arguments as needed
 
     # Parse arguments
