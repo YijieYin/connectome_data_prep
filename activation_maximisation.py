@@ -7,7 +7,6 @@ import connectome_interpreter as coin
 
 
 def main(args):
-    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
     # The script:
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -39,14 +38,16 @@ def main(args):
     inprop_tensor = torch.from_numpy(inprop_dense).t().to(device)
 
     # make model
-    sensory_indices = list(
-        set(meta.idx[meta.super_class.isin(['sensory', 'visual_projection', 'ascending'])]))
+    # sorting sensory_indices is important because it makes the ordering of indices reproducible down the line
+    # set() doesn't preserve the order
+    sensory_indices = sorted(list(
+        set(meta.idx[meta.super_class.isin(['sensory', 'visual_projection', 'ascending'])])))
     ml_model = coin.activation_maximisation.MultilayeredNetwork(
         inprop_tensor, sensory_indices, threshold=0, tanh_steepness=5, num_layers=args.num_layers).to(device)
 
     def regularisation(tensor):
         return torch.norm(tensor, 1)
-    
+
     target_indices = list(map(int, args.target_indices.split(',')))
     target_index_dic = {i: target_indices for i in range(args.num_layers)}
 
@@ -57,13 +58,13 @@ def main(args):
                                                                                                                       out_regularisation_lambda=0.1,
                                                                                                                       device=device,
                                                                                                                       stopping_threshold=1e-6,
-                                                                                                                      wandb=False)
+                                                                                                                      wandb=args.wandb)
 
     # save the optimised input
-    np.save(args.optimised_input_path + '/' +
-            'opt_in_' + args.job_id + '.npy', opt_in)
+    np.save(args.optimised_input_path + 'opt_in_' +
+            args.array_id + '.npy', opt_in)
     # save the output
-    np.save(args.output_path + '/out_' + args.job_id + '.npy', out)
+    np.save(args.output_path + 'out_' + args.array_id + '.npy', out)
 
 
 if __name__ == "__main__":
@@ -83,6 +84,8 @@ if __name__ == "__main__":
                         help='Path to store the output after optimisation')
     parser.add_argument('--array_id', type=str, required=True,
                         help='Array ID to be used in the result name')
+    parser.add_argument('--wandb', type=bool, required=False, default=False,
+                        help='Whether to use Weights and Biases for logging')
     # Add more arguments as needed
 
     # Parse arguments
