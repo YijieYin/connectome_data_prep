@@ -29,12 +29,20 @@ array_id=${SLURM_ARRAY_TASK_ID}
 # Assuming the modified script accepts initializations and output directory as arguments
 python activation_maximisation.py --inprop_path $inprop_path --meta_path $meta_path --target_indices $target_index --num_layers $num_layers --optimised_input_path $optimised_input_path --output_path $output_dir --array_id $array_id
 
-$inprop_path='data/adult_type_inprop.npz'                                                                                                                      
-$meta_path='data/adult_type_meta.csv'                                                                                                                          
-$target_index='12303,12304,12305,12306,12307,12308,12309,12310,12311,12312,12313,12314,12315,12316,12317,12318,12319,12320,12321'                              
-$num_layers=3                                                                                                                                                  
-$optimised_input_path='optimised_input/'                                                                                                                       
-$output_dir='output/'                                                                                                                                          
-$array_id = 1
+# to run locally in powershell (Windows)
+# $inprop_path='data/adult_type_inprop.npz'                                                                                                                      
+# $meta_path='data/adult_type_meta.csv'                                                                                                                          
+# $target_index='12303,12304,12305,12306,12307,12308,12309,12310,12311,12312,12313,12314,12315,12316,12317,12318,12319,12320,12321'
+# # $target_index='13702'                              
+# $num_layers=5                                                                                                                                                  
+# $optimised_input_path='optimised_input/'                                                                                                                       
+# $output_dir='output/'                                                                                                                                          
+# $array_id = 1
 
-python activation_maximisation.py --inprop_path $inprop_path --meta_path $meta_path --target_indices $target_index --num_layers $num_layers --optimised_input_path $optimised_input_path --output_path $output_dir --array_id $array_id --wandb $true
+# # run once 
+# # python activation_maximisation.py --inprop_path $inprop_path --meta_path $meta_path --target_indices $target_index --num_layers $num_layers --optimised_input_path $optimised_input_path --output_path $output_dir --array_id $array_id --wandb $false
+
+# # for loop 
+# for ($array_id = 1; $array_id -le 100; $array_id++) {
+#     python activation_maximisation.py --inprop_path $inprop_path --meta_path $meta_path --target_indices $target_index --num_layers $num_layers --optimised_input_path $optimised_input_path --output_path $output_dir --array_id $array_id 
+# }
