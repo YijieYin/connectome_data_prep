@@ -1,6 +1,6 @@
 # compress paths (matrix multiplications) using HPC
 import argparse
-
+import os
 import pandas as pd
 import scipy as sp
 
@@ -29,13 +29,7 @@ def main(args):
                                           0)
 
     # compress paths
-    steps = coin.compress_paths.compress_paths(inprop, args.n_steps)
-
-    # turn tensor into sparse matrices on CPU
-    steps_cpu = []
-
-    for tensor in steps:
-        steps_cpu.append(coin.utils.tensor_to_csc(tensor))
+    steps_cpu = coin.compress_paths.compress_paths(inprop, args.n_steps)
     # steps_cpu is a list of matrices, were each matrix is the effective connectivity between any two neurons of path length [index_number]
     # so the first matrix are the direct connections
     # presynaptic neurnos in the rows, postsynaptic in the columns
@@ -61,6 +55,10 @@ if __name__ == "__main__":
 
     # Parse arguments
     args = parser.parse_args()
+
+    # check if the output directory exists, and create it if not 
+    if not os.path.exists(args.output_path): 
+        os.makedirs(args.output_path)
 
     # Call the main function with parsed arguments
     main(args)
