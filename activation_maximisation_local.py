@@ -5,6 +5,7 @@ import torch
 import matplotlib.pyplot as plt
 import plotly.express as px
 import connectome_interpreter as coin
+import seaborn as sns
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -19,6 +20,8 @@ meta = pd.read_csv(
 idx_to_type = dict(zip(meta.idx, meta.cell_type))
 idx_to_cell_class = dict(zip(meta.idx, meta.cell_class))
 idx_to_sign = dict(zip(meta.idx, meta.sign))
+idx_to_root = dict(zip(meta.idx, meta.root_id))
+root_to_type = dict(zip(meta.root_id, meta.cell_type))
 
 num_layers = 5
 target_indices = meta.idx[meta.cell_class == 'Kenyon_Cell'].unique()
@@ -37,6 +40,10 @@ meta.idx = meta.idx.astype(int)
 # remove connections from KCs and DANs to KCs, since they are axo-axonic
 inprop = coin.utils.modify_coo_matrix(inprop, input_idx=meta.idx[meta.cell_class.isin(['Kenyon_Cell', 'DAN'])].unique(),
                                       output_idx=meta.idx[meta.cell_class == 'Kenyon_Cell'].unique(), value=0)
+inprop = coin.utils.modify_coo_matrix(inprop,
+                                    set(meta.idx[meta.cell_class == 'Kenyon_Cell']),
+                                    set(meta.idx[meta.cell_class == 'DAN']),
+                                    0)   
 # sp.sparse.save_npz('C:\\Users\\44745\\projects\\interpret_connectome\\data\\adult_inprop.npz', inprop)
 
 # add negative connections
@@ -70,6 +77,12 @@ def regularisation(tensor):
 # target_index_dic = {i: target_indices for i in range(num_layers)}
 # activate target neurons in the last layer
 target_index_dic = {num_layers-1: target_indices}
+bump1 = meta.idx[(meta.side == 'left') & (meta.ito_lee_hemilineage == 'DM2_CX_d2') & (meta.cell_type == 'EPG')].tolist()
+bump2 = meta.idx[(meta.side == 'right') & (meta.ito_lee_hemilineage == 'DM3_CX_d2') & (meta.cell_type == 'EPG')].tolist()
+bump3 = meta.idx[(meta.side == 'left') & (meta.ito_lee_hemilineage == 'DM2_CX_d1') & (meta.cell_type == 'EPG')].tolist()
+target_index_dic = dict.fromkeys(range(6), bump1)
+target_index_dic.update(dict.fromkeys(range(6,9,1), bump2))
+target_index_dic.update(dict.fromkeys(range(9,12,1), bump3))
 
 opt_in, out, act_loss, out_reg_loss, in_reg_los, snapshots = coin.activation_maximisation.activation_maximisation(ml_model,
                                                                                                                   target_index_dic,
@@ -81,19 +94,20 @@ opt_in, out, act_loss, out_reg_loss, in_reg_los, snapshots = coin.activation_max
                                                                                                                   wandb=False)
 
 # or load from files
-opt_in = np.load('C:\\Users\\44745\\Downloads\\opt_in.npy')
+opt_in = np.load('/cephfs2/yyin/moving_bump/optimised_input/opt_in_4664990.npy')
+out = np.load('/cephfs2/yyin/moving_bump/output/out_4664990.npy')
 
 # plot network
 paths = coin.activation_maximisation.activations_to_df(
     inprop_dense, opt_in, out, sensory_indices,
-    inidx_mapping=idx_to_type,
+    inidx_mapping=idx_to_root,
     activation_threshold=0.3, connectivity_threshold=0.01)
 
 # optionally remove the ones that don't lead from input to output
 paths_f = coin.path_finding.remove_excess_neurons(paths,
                                                   #   keep=meta.cell_class[meta.idx.isin(
                                                   #       sensory_indices)],
-                                                  target_indices=meta.cell_type[meta.idx.isin(target_indices)])
+                                                  target_indices=meta.root_id[meta.idx.isin(bump1 + bump2 + bump3)])
 coin.utils.plot_layered_paths(paths_f, figsize=(10, 20),
                               # choose cells to be put on top
                               priority_indices=meta.cell_type[meta.idx.isin(
@@ -106,10 +120,38 @@ coin.utils.plot_layered_paths(paths_f, figsize=(10, 20),
 in_act = coin.utils.get_activations(
     opt_in, sensory_indices, idx_map=idx_to_type)
 out_act = coin.utils.get_activations(
-    out, non_sensory_indices, idx_to_type, threshold=0.5)
+    out, list(range(meta.idx.max()+1)), idx_to_root)
 
-df = pd.DataFrame(out_act[3].items(), columns=['cell_type', 'activation'])
-df[df.activation > 0].sort_values('activation', ascending=False)
+neurons_of_interest = meta.root_id[meta.idx.isin(bump1 + bump2 + bump3)].tolist()
+neurons_of_interest.extend(meta.root_id[meta.cell_type.isin(['Delta7']) | meta.cell_sub_class.isin(['ring neuron'])].tolist())
+neurons_of_interest.extend(meta.root_id[meta.cell_type.isin(['AN_IPS_LAL_1','MeTu1','MeTu2','MeTu3','MeTu4'])].tolist())
+dfs = []
+for i in range(len(out_act)): 
+    act_layer = pd.DataFrame({n: out_act[i][n] for n in neurons_of_interest}.items(), columns = ['neuron','activation'])
+    act_layer.loc[:,['timestep']] = i+1
+    dfs.append(act_layer)
+
+neuron_activation = pd.concat(dfs, axis = 0)
+neuron_activation = neuron_activation.pivot(index = 'neuron', columns = 'timestep', values = 'activation')
+url = coin.utils.get_ngl_link(neuron_activation)
+pd.DataFrame.from_dict({'url': [url]}).to_csv('export_url.csv')
+
+from nglscenes import *
+sc = Scene.from_string(url)
+
+neuron_activation.loc[:,['cell_type']] = neuron_activation.index.map(root_to_type)
+neuron_activation.sort_values(['cell_type'], inplace = True)
+
+# Plotting the heatmap ---- 
+plt.figure(figsize=(10, 100))  # You can adjust the size to fit your dataset
+sns.heatmap(neuron_activation.set_index('cell_type'), 
+            # annot=True, fmt=".2f", 
+            cmap="coolwarm", cbar=True)
+plt.title('Neuron Activity Heatmap')
+plt.xlabel('Timestep')
+plt.ylabel('Neuron ID')
+plt.savefig('plots/neurons_of_interest.png')
+
 # ------------------------------------------------------------------------------------------------
 # plot snapshots across training
 layer = 3
@@ -127,6 +169,19 @@ plt.xlabel('Snapshots through training')
 # plt.title(f'Changes in Column {column_index} During Training')
 plt.show()
 
+#-------------------------------------------------
+# and histograms 
+df = out.copy()
+plt.figure(figsize=(10, 6))
+for i in range(df.shape[1]): 
+    filtered = np.where(df[:,i]>0.2)
+    if len(filtered[0])>0: 
+        plt.hist(df[filtered[0],i], label = i, alpha = 0.4)
+    else: 
+        continue
+
+plt.legend()
+plt.savefig('plots/neuron_activation_hist.png')
 
 # ----------------------------------------------
 # plot input neuron activation across timesteps
@@ -137,6 +192,8 @@ plt.colorbar(label='Input neuron activation')
 plt.xlabel('Timesteps')
 # plt.ylabel(f'Elements in Column {column_index}')
 # plt.title(f'Changes in Column {column_index} During Training')
+plt.savefig('plots/all_input_across_time.png')
+
 plt.show()
 
 
@@ -148,6 +205,8 @@ plt.colorbar(label='Output neuron activation')
 plt.xlabel('Timesteps')
 # plt.ylabel(f'Elements in Column {column_index}')
 # plt.title(f'Changes in Column {column_index} During Training')
+plt.savefig('plots/all_activation_across_time.png')
+
 plt.show()
 
 # ----------------------------------------------
