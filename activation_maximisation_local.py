@@ -41,9 +41,10 @@ meta.idx = meta.idx.astype(int)
 inprop = coin.utils.modify_coo_matrix(inprop, input_idx=meta.idx[meta.cell_class.isin(['Kenyon_Cell', 'DAN'])].unique(),
                                       output_idx=meta.idx[meta.cell_class == 'Kenyon_Cell'].unique(), value=0)
 inprop = coin.utils.modify_coo_matrix(inprop,
-                                    set(meta.idx[meta.cell_class == 'Kenyon_Cell']),
-                                    set(meta.idx[meta.cell_class == 'DAN']),
-                                    0)   
+                                      set(meta.idx[meta.cell_class ==
+                                          'Kenyon_Cell']),
+                                      set(meta.idx[meta.cell_class == 'DAN']),
+                                      0)
 # sp.sparse.save_npz('C:\\Users\\44745\\projects\\interpret_connectome\\data\\adult_inprop.npz', inprop)
 
 # add negative connections
@@ -77,12 +78,15 @@ def regularisation(tensor):
 # target_index_dic = {i: target_indices for i in range(num_layers)}
 # activate target neurons in the last layer
 target_index_dic = {num_layers-1: target_indices}
-bump1 = meta.idx[(meta.side == 'left') & (meta.ito_lee_hemilineage == 'DM2_CX_d2') & (meta.cell_type == 'EPG')].tolist()
-bump2 = meta.idx[(meta.side == 'right') & (meta.ito_lee_hemilineage == 'DM3_CX_d2') & (meta.cell_type == 'EPG')].tolist()
-bump3 = meta.idx[(meta.side == 'left') & (meta.ito_lee_hemilineage == 'DM2_CX_d1') & (meta.cell_type == 'EPG')].tolist()
+bump1 = meta.idx[(meta.side == 'left') & (
+    meta.ito_lee_hemilineage == 'DM2_CX_d2') & (meta.cell_type == 'EPG')].tolist()
+bump2 = meta.idx[(meta.side == 'right') & (
+    meta.ito_lee_hemilineage == 'DM3_CX_d2') & (meta.cell_type == 'EPG')].tolist()
+bump3 = meta.idx[(meta.side == 'left') & (
+    meta.ito_lee_hemilineage == 'DM2_CX_d1') & (meta.cell_type == 'EPG')].tolist()
 target_index_dic = dict.fromkeys(range(6), bump1)
-target_index_dic.update(dict.fromkeys(range(6,9,1), bump2))
-target_index_dic.update(dict.fromkeys(range(9,12,1), bump3))
+target_index_dic.update(dict.fromkeys(range(6, 9, 1), bump2))
+target_index_dic.update(dict.fromkeys(range(9, 12, 1), bump3))
 
 opt_in, out, act_loss, out_reg_loss, in_reg_los, snapshots = coin.activation_maximisation.activation_maximisation(ml_model,
                                                                                                                   target_index_dic,
@@ -94,7 +98,8 @@ opt_in, out, act_loss, out_reg_loss, in_reg_los, snapshots = coin.activation_max
                                                                                                                   wandb=False)
 
 # or load from files
-opt_in = np.load('/cephfs2/yyin/moving_bump/optimised_input/opt_in_4664990.npy')
+opt_in = np.load(
+    '/cephfs2/yyin/moving_bump/optimised_input/opt_in_4664990.npy')
 out = np.load('/cephfs2/yyin/moving_bump/output/out_4664990.npy')
 
 # plot network
@@ -122,30 +127,35 @@ in_act = coin.utils.get_activations(
 out_act = coin.utils.get_activations(
     out, list(range(meta.idx.max()+1)), idx_to_root)
 
-neurons_of_interest = meta.root_id[meta.idx.isin(bump1 + bump2 + bump3)].tolist()
-neurons_of_interest.extend(meta.root_id[meta.cell_type.isin(['Delta7']) | meta.cell_sub_class.isin(['ring neuron'])].tolist())
-neurons_of_interest.extend(meta.root_id[meta.cell_type.isin(['AN_IPS_LAL_1','MeTu1','MeTu2','MeTu3','MeTu4'])].tolist())
+neurons_of_interest = meta.root_id[meta.idx.isin(
+    bump1 + bump2 + bump3)].tolist()
+neurons_of_interest.extend(meta.root_id[meta.cell_type.isin(
+    ['Delta7']) | meta.cell_sub_class.isin(['ring neuron'])].tolist())
+neurons_of_interest.extend(meta.root_id[meta.cell_type.isin(
+    ['AN_IPS_LAL_1', 'MeTu1', 'MeTu2', 'MeTu3', 'MeTu4']) & (meta.side == 'left')].tolist())
 dfs = []
-for i in range(len(out_act)): 
-    act_layer = pd.DataFrame({n: out_act[i][n] for n in neurons_of_interest}.items(), columns = ['neuron','activation'])
-    act_layer.loc[:,['timestep']] = i+1
+for i in range(len(out_act)):
+    act_layer = pd.DataFrame({n: out_act[i][n] for n in neurons_of_interest}.items(
+    ), columns=['neuron', 'activation'])
+    act_layer.loc[:, ['timestep']] = i+1
     dfs.append(act_layer)
 
-neuron_activation = pd.concat(dfs, axis = 0)
-neuron_activation = neuron_activation.pivot(index = 'neuron', columns = 'timestep', values = 'activation')
-url = coin.utils.get_ngl_link(neuron_activation)
-pd.DataFrame.from_dict({'url': [url]}).to_csv('export_url.csv')
+neuron_activation = pd.concat(dfs, axis=0)
+neuron_activation = neuron_activation.pivot(
+    index='neuron', columns='timestep', values='activation')
+url = coin.utils.get_ngl_link(neuron_activation, colour_saturation=0.1)
+df = pd.DataFrame.from_dict({'url': [url]})
+df.url.to_clipboard(index=False, header=False)
+df.to_csv('export_url.csv')
 
-from nglscenes import *
-sc = Scene.from_string(url)
+neuron_activation.loc[:, ['cell_type']
+                      ] = neuron_activation.index.map(root_to_type)
+neuron_activation.sort_values(['cell_type'], inplace=True)
 
-neuron_activation.loc[:,['cell_type']] = neuron_activation.index.map(root_to_type)
-neuron_activation.sort_values(['cell_type'], inplace = True)
-
-# Plotting the heatmap ---- 
+# Plotting the heatmap ----
 plt.figure(figsize=(10, 100))  # You can adjust the size to fit your dataset
-sns.heatmap(neuron_activation.set_index('cell_type'), 
-            # annot=True, fmt=".2f", 
+sns.heatmap(neuron_activation.set_index('cell_type'),
+            # annot=True, fmt=".2f",
             cmap="coolwarm", cbar=True)
 plt.title('Neuron Activity Heatmap')
 plt.xlabel('Timestep')
@@ -169,15 +179,15 @@ plt.xlabel('Snapshots through training')
 # plt.title(f'Changes in Column {column_index} During Training')
 plt.show()
 
-#-------------------------------------------------
-# and histograms 
+# -------------------------------------------------
+# and histograms
 df = out.copy()
 plt.figure(figsize=(10, 6))
-for i in range(df.shape[1]): 
-    filtered = np.where(df[:,i]>0.2)
-    if len(filtered[0])>0: 
-        plt.hist(df[filtered[0],i], label = i, alpha = 0.4)
-    else: 
+for i in range(df.shape[1]):
+    filtered = np.where(df[:, i] > 0.2)
+    if len(filtered[0]) > 0:
+        plt.hist(df[filtered[0], i], label=i, alpha=0.4)
+    else:
         continue
 
 plt.legend()
