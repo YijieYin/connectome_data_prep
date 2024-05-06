@@ -74,19 +74,17 @@ def regularisation(tensor):
 
 
 # target_indices = list(map(int, target_indices.split(',')))
-# activate target neurons in every layer
+# activate target neurons in every layer: 
 # target_index_dic = {i: target_indices for i in range(num_layers)}
-# activate target neurons in the last layer
-target_index_dic = {num_layers-1: target_indices}
-bump1 = meta.idx[(meta.side == 'left') & (
-    meta.ito_lee_hemilineage == 'DM2_CX_d2') & (meta.cell_type == 'EPG')].tolist()
-bump2 = meta.idx[(meta.side == 'right') & (
-    meta.ito_lee_hemilineage == 'DM3_CX_d2') & (meta.cell_type == 'EPG')].tolist()
-bump3 = meta.idx[(meta.side == 'left') & (
-    meta.ito_lee_hemilineage == 'DM2_CX_d1') & (meta.cell_type == 'EPG')].tolist()
+# activate target neurons in the last layer: 
+# target_index_dic = {num_layers-1: target_indices}
+bump1 = meta.idx[meta.root_id.isin([720575940610901930, 720575940618612952, 720575940658101889])].tolist()
+bump2 = meta.idx[meta.root_id.isin([720575940619296365, 720575940626137895, 720575940632614295])].tolist()
+bump3 = meta.idx[meta.root_id.isin([720575940605827761, 720575940623046548, 720575940624784280])].tolist()
+
 target_index_dic = dict.fromkeys(range(6), bump1)
-target_index_dic.update(dict.fromkeys(range(6, 9, 1), bump2))
-target_index_dic.update(dict.fromkeys(range(9, 12, 1), bump3))
+target_index_dic.update(dict.fromkeys(range(6,10,1), bump2))
+# target_index_dic.update(dict.fromkeys(range(8,10,1), bump3))
 
 opt_in, out, act_loss, out_reg_loss, in_reg_los, snapshots = coin.activation_maximisation.activation_maximisation(ml_model,
                                                                                                                   target_index_dic,
@@ -98,9 +96,8 @@ opt_in, out, act_loss, out_reg_loss, in_reg_los, snapshots = coin.activation_max
                                                                                                                   wandb=False)
 
 # or load from files
-opt_in = np.load(
-    '/cephfs2/yyin/moving_bump/optimised_input/opt_in_4664990.npy')
-out = np.load('/cephfs2/yyin/moving_bump/output/out_4664990.npy')
+opt_in = np.load('/cephfs2/yyin/moving_bump/optimised_input/opt_in_4666683.npy')
+out = np.load('/cephfs2/yyin/moving_bump/output/out_4666683.npy')
 
 # plot network
 paths = coin.activation_maximisation.activations_to_df(
@@ -127,12 +124,24 @@ in_act = coin.utils.get_activations(
 out_act = coin.utils.get_activations(
     out, list(range(meta.idx.max()+1)), idx_to_root)
 
-neurons_of_interest = meta.root_id[meta.idx.isin(
-    bump1 + bump2 + bump3)].tolist()
-neurons_of_interest.extend(meta.root_id[meta.cell_type.isin(
-    ['Delta7']) | meta.cell_sub_class.isin(['ring neuron'])].tolist())
-neurons_of_interest.extend(meta.root_id[meta.cell_type.isin(
-    ['AN_IPS_LAL_1', 'MeTu1', 'MeTu2', 'MeTu3', 'MeTu4']) & (meta.side == 'left')].tolist())
+# make dictionary of neurons to wedges 
+wedge_dict = root_to_type.copy()
+wedge_dict.update(dict.fromkeys([720575940610901930, 720575940618612952, 720575940658101889], 'EPG-10'))
+wedge_dict.update(dict.fromkeys([720575940619296365, 720575940626137895, 720575940632614295], 'EPG-12'))
+wedge_dict.update(dict.fromkeys([720575940605827761, 720575940623046548, 720575940624784280], 'EPG-1'))
+wedge_dict.update(dict.fromkeys([720575940615177099, 720575940621074835, 720575940625021796, 720575940625407107], 'PEN-12'))
+wedge_dict.update(dict.fromkeys([720575940610453427, 720575940625351354, 720575940638850512], 'EPG-3'))
+wedge_dict.update(dict.fromkeys([720575940617828731, 720575940626469909], 'PEN-10'))
+wedge_dict.update(dict.fromkeys([720575940605639858, 720575940638832512], 'PEN-1'))
+
+neurons_of_interest = meta.root_id[meta.idx.isin(bump1 + bump2)].tolist()
+# add more neurons 
+neurons_of_interest.extend([720575940615177099, 720575940621074835, 720575940625021796, 720575940625407107])
+neurons_of_interest.extend(meta.root_id[meta.cell_type.isin(['Delta7'])].tolist())
+neurons_of_interest.extend(meta.root_id[meta.cell_type.str.contains('PEN')].tolist())
+
+neurons_of_interest.extend(meta.root_id[meta.cell_type.isin(['AN_IPS_LAL_1','MeTu1','MeTu2','MeTu3','MeTu4'])].tolist())
+# make activation df 
 dfs = []
 for i in range(len(out_act)):
     act_layer = pd.DataFrame({n: out_act[i][n] for n in neurons_of_interest}.items(
@@ -140,22 +149,23 @@ for i in range(len(out_act)):
     act_layer.loc[:, ['timestep']] = i+1
     dfs.append(act_layer)
 
-neuron_activation = pd.concat(dfs, axis=0)
-neuron_activation = neuron_activation.pivot(
-    index='neuron', columns='timestep', values='activation')
-url = coin.utils.get_ngl_link(neuron_activation, colour_saturation=0.1)
-df = pd.DataFrame.from_dict({'url': [url]})
-df.url.to_clipboard(index=False, header=False)
-df.to_csv('export_url.csv')
+neuron_activation = pd.concat(dfs, axis = 0)
+neuron_activation = neuron_activation.pivot(index = 'neuron', columns = 'timestep', values = 'activation')
+# make url (root ids have to be in the rows)
+url = coin.utils.get_ngl_link(neuron_activation)
+pd.DataFrame.from_dict({'url': [url]}).to_csv('export_url.csv')
 
-neuron_activation.loc[:, ['cell_type']
-                      ] = neuron_activation.index.map(root_to_type)
-neuron_activation.sort_values(['cell_type'], inplace=True)
+# label neurons by cell type 
+neuron_activation.loc[:,['cell_type']] = neuron_activation.index.map(wedge_dict)
+neuron_activation = neuron_activation.groupby('cell_type').mean()
+neuron_activation.sort_values(['cell_type'], inplace = True)
 
-# Plotting the heatmap ----
-plt.figure(figsize=(10, 100))  # You can adjust the size to fit your dataset
-sns.heatmap(neuron_activation.set_index('cell_type'),
-            # annot=True, fmt=".2f",
+
+# Plotting the heatmap ---- 
+plt.figure(figsize=(10, 10))  # You can adjust the size to fit your dataset
+# sns.heatmap(neuron_activation.set_index('cell_type'), 
+sns.heatmap(neuron_activation, 
+            # annot=True, fmt=".2f", 
             cmap="coolwarm", cbar=True)
 plt.title('Neuron Activity Heatmap')
 plt.xlabel('Timestep')
