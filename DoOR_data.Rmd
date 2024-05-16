@@ -98,6 +98,7 @@ So it seems like we don't really have a choice except for using the chemical des
 ```{r}
 write.csv(door_response_matrix, 'data/door_response_matrix.csv')
 write.csv(door_mappings, 'data/door_receptor_mappings.csv')
+write.csv(ab2B, 'data/door_chemical_meta.csv')
 ```
 
 
