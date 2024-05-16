@@ -1,0 +1,103 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+DoOR dataset is only accessible in R. 
+
+# load pacakges 
+```{r}
+library(dplyr)
+
+# installed from https://github.com/ropensci/DoOR.data 
+library(DoOR.data)
+# installed from https://github.com/ropensci/DoOR.functions 
+library(DoOR.functions)
+loadData()
+# say yes 
+```
+
+# general exploration 
+```{r}
+# this step is not necessary, but shows that all the relevant dataframes have the same set of odours, therefore no need to aggregate 
+# Get the names of all objects in the environment
+env_objects <- ls()
+
+# Initialize an empty list to store dataframes with the relevant columns
+dfs_with_columns <- list()
+
+# Loop through all objects in the environment
+for (obj_name in env_objects) {
+  # Check if the object is a dataframe
+  if (is.data.frame(get(obj_name))) {
+    df <- get(obj_name)
+    # Check if the dataframe contains the three columns of interest
+    if (all(c("Class", "Name", "InChIKey") %in% colnames(df))) {
+      # Select the relevant columns and add a new column with the dataframe name
+      selected_df <- df[, c("Class", "Name", "InChIKey")]
+      selected_df$df_name <- obj_name
+      # Add the selected dataframe to the list
+      dfs_with_columns[[length(dfs_with_columns) + 1]] <- selected_df
+    }
+  }
+}
+
+# Concatenate all selected dataframes vertically
+final_df <- do.call(rbind, dfs_with_columns)
+
+# Print the final concatenated dataframe
+print(final_df)
+
+```
+
+```{r}
+final_df %>% 
+  plyr::count(c('Class','Name', 'InChIKey'))
+```
+So all the meta information mapping between class, name and InChIKey are in all the relevant dataframes. So we only need one. 
+
+
+## receptors vs. glumeruli in adults? 
+```{r}
+door_mappings %>% 
+  filter(adult) %>% 
+  group_by(glomerulus) %>% 
+  summarise(n_receptor_per_glom = n_distinct(receptor)) %>% 
+  arrange(desc(n_receptor_per_glom))
+
+```
+
+```{r}
+door_mappings %>% 
+  filter(glomerulus == '') %>% 
+  filter(adult)
+```
+
+
+## any mismatch between recording and meta receptors? 
+```{r}
+# are all the receptors with data in door_mappings? 
+table(colnames(door_response_matrix) %in% door_mappings$receptor)
+```
+
+```{r}
+# which ones have meta information but no experimental data? 
+setdiff(door_mappings$receptor, colnames(door_response_matrix))
+```
+
+## chemical descriptor vs. name 
+```{r}
+ab2B %>% 
+  group_by(Name) %>% 
+  summarise(n_InChI_per_name = n_distinct(InChIKey)) %>% 
+  arrange(desc(n_InChI_per_name))
+```
+So it seems like we don't really have a choice except for using the chemical descriptors and the receptors, instead of the chemical names and the glomeruli. 
+
+# save the relevant data 
+```{r}
+write.csv(door_response_matrix, 'data/door_response_matrix.csv')
+write.csv(door_mappings, 'data/door_receptor_mappings.csv')
+```
+
+
