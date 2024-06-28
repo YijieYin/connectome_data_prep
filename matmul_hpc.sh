@@ -15,13 +15,19 @@ source ../.bashrc
 
 conda activate act_max
 
-inprop_path='data/adult_inprop_cb_neuron.npz'
-meta_path='data/adult_cb_neuron_meta.csv'
+inprop_path='data/neuprint_inprop_optic.npz'
+meta_path='data/neuprint_meta_optic.csv'
 n_steps=6
-output_path='precomputed/'
-prefix='adult_cb_neuron_'
+output_path='precomputed/maleCNS_neuprint_optic_neuron/'
+prefix='maleCNS_neuprint_optic_neuron_'
 
+# uncomment the following lines to record memory usage 
+# nvidia-smi -l 1 > gpu_usage.log &  # Log GPU usage every second
+# GPU_SMIPID=$!
 
-# Call your script with parameters
-# Assuming the modified script accepts initializations and output directory as arguments
-python matmul_hpc.py --inprop_path $inprop_path --meta_path $meta_path --n_steps $n_steps --output_path $output_path --prefix $prefix
+# optional flags: --nroot  # for n-rooting the results 
+python matmul_hpc.py --inprop_path $inprop_path --meta_path $meta_path --n_steps $n_steps --output_path $output_path --prefix $prefix 
+
+# uncomment the following lines to record memory usage 
+# kill $GPU_SMIPID
+# echo "Logged GPU usage to gpu_usage.log"
