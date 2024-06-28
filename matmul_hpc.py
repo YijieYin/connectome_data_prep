@@ -3,8 +3,12 @@ import argparse
 import os
 import pandas as pd
 import scipy as sp
+from scipy.sparse import coo_matrix
+import torch
+import numpy as np 
+from tqdm import tqdm 
 
-import connectome_interpreter as coin
+import connectome_interpreter as coin 
 
 
 def main(args):
@@ -13,23 +17,23 @@ def main(args):
     meta = pd.read_csv(args.meta_path, index_col=0)
 
     # modify connectivity
-    # this would take a few minutes if you have thousands of pre and post synaptic neuron combinations
-    # remove all the synapses from KCs to DANs, since they would be axo-axonic
-    inprop = coin.utils.modify_coo_matrix(inprop,
-                                          set(meta.idx[meta.cell_class ==
-                                                       'Kenyon_Cell']),
-                                          set(meta.idx[meta.cell_class == 'DAN']),
-                                          0)
-    # remove synapses from KCs and DANs to KCs
-    inprop = coin.utils.modify_coo_matrix(inprop,
-                                          set(meta.idx[meta.cell_class.isin(
-                                              ['Kenyon_Cell', 'DAN'])]),
-                                          set(meta.idx[meta.cell_class ==
-                                                       'Kenyon_Cell']),
-                                          0)
+    # # remove all the synapses from KCs to DANs, since they would be axo-axonic
+    # inprop = coin.utils.modify_coo_matrix(inprop,
+    #                                       set(meta.idx[meta.cell_class ==
+    #                                                    'Kenyon_Cell']),
+    #                                       set(meta.idx[meta.cell_class == 'DAN']),
+    #                                       0)
+    # # remove synapses from KCs and DANs to KCs
+    # inprop = coin.utils.modify_coo_matrix(inprop,
+    #                                       set(meta.idx[meta.cell_class.isin(
+    #                                           ['Kenyon_Cell', 'DAN'])]),
+    #                                       set(meta.idx[meta.cell_class ==
+    #                                                    'Kenyon_Cell']),
+    #                                       0)
 
     # compress paths
-    steps_cpu = coin.compress_paths.compress_paths(inprop, args.n_steps)
+    out_threshold = 0.1 if args.nroot else 1e-4  
+    steps_cpu = coin.compress_paths.compress_paths(inprop, args.n_steps, root = args.nroot, output_threshold=out_threshold)
     # steps_cpu is a list of matrices, were each matrix is the effective connectivity between any two neurons of path length [index_number]
     # so the first matrix are the direct connections
     # presynaptic neurnos in the rows, postsynaptic in the columns
@@ -51,7 +55,8 @@ if __name__ == "__main__":
                         help='Path to store the output matrices')
     parser.add_argument('--prefix', type=str, required=False, default='',
                         help='Prefix for the output matrices')
-    # Add more arguments as needed
+    parser.add_argument('--nroot', action='store_true', required=False, default=False,
+                        help='Add this flag if you want to n-root the results of matmul')
 
     # Parse arguments
     args = parser.parse_args()
