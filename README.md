@@ -1,4 +1,3 @@
-# interpret_connectome
 This repo contains the pre-processed publicly-available connectomics data (in `data` folder), and the code that processed them. For example usage/analysis, see [this repo](https://github.com/YijieYin/connectome_interpreter). For any questions/requests/thoughts/comments, please feel free to reach out to me at yy432[at]cam.ac.uk :). 
 
 ## Data 
