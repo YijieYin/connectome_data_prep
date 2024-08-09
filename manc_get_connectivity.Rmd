@@ -1,0 +1,62 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+```{r setup}
+library(malevnc)
+library(dplyr)
+
+# get released version of the dataset 
+choose_malevnc_dataset("MANC")
+
+# affects this R session 
+# scipen: scientific notation penalty: the larger it is, the less willing R it is to convert to scientific notation 
+options(scipen = 999)  # Prevent scientific notation globally
+```
+
+```{r}
+bodyann <- manc_neuprint_meta()
+annotations <- bodyann[!(is.na(bodyann$bodyid)),]
+annotations 
+```
+
+```{r}
+table(annotations$class, useNA = 'i')
+```
+
+```{r}
+annotations %>% 
+  filter(!(class %in% c("Interneuron TBD", "NA", "", "TBD", NA, "Unknown", "Primary_TBD", "glia", "Sensory TBD", 'Glia'))) %>%
+  mutate(bodyid = as.character(bodyid)) %>%
+  select(bodyid, hemilineage, class, predictedNt, somaNeuromere, rootSide, systematicType, type, somaSide, name) -> neurons
+neurons
+```
+
+```{r}
+table(neurons$class, useNA = 'i')
+```
+
+```{r}
+write.csv(neurons, 'manc_meta.csv')
+```
+
+```{r}
+inputs <- manc_connection_table(neurons$bodyid, partners ="inputs", moredetails = F)
+inputs = inputs %>% 
+  filter(partner %in% neurons$bodyid) %>% 
+  mutate(bodyid = as.character(bodyid)) %>% 
+  filter(weight != 0)
+# inputs <- data.table::fread('malevnc_inputs.csv')
+arrow::write_feather(inputs, 'malevnc_inputs.feather')
+# write.csv(inputs, 'malevnc_inputs.csv')
+
+outputs <- manc_connection_table(neurons$bodyid, partners ="outputs", moredetails=F)
+outputs = outputs %>% 
+  filter(partner %in% neurons$bodyid) %>% 
+  mutate(bodyid = as.character(bodyid)) %>% 
+  filter(weight != 0)
+arrow::write_feather(outputs, 'malevnc_outputs.feather')
+# write.csv(outputs, 'malevnc_outputs.csv')
+```
+
