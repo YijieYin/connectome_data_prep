@@ -325,7 +325,7 @@
 3714,720575940614377955,MeMe_e02,left,glutamate,visual_projection,bilateral,,6865,-1
 3726,720575940631421231,MeTu3,right,acetylcholine,visual_projection,,,36038,1
 3737,720575940613428135,LLPC1,right,acetylcholine,visual_projection,,,5875,1
-3741,720575940619074049,s-LNv_a,right,serotonin,visual_projection,,,12969,1
+3741,720575940619074049,s-LNv_a,right,glutamate,visual_projection,,,12969,-1
 3742,720575940611063770,LC29,right,acetylcholine,visual_projection,,,3524,1
 3746,720575940621006672,LC14a1,left,acetylcholine,optic,bilateral,,16165,1
 3754,720575940620764692,cM03,left,dopamine,visual_centrifugal,,,15652,1
@@ -760,7 +760,7 @@
 8143,720575940622213853,LLPC2,right,acetylcholine,visual_projection,,,18662,1
 8193,720575940641410189,LC10f,right,glutamate,visual_projection,,,45563,-1
 8194,720575940631357651,LC9,right,acetylcholine,visual_projection,,,35916,1
-8202,720575940623007100,cLP05,right,glutamate,visual_centrifugal,,,20219,-1
+8202,720575940623007100,cLP05,right,gaba,visual_centrifugal,,,20219,-1
 8217,720575940623124467,LPLC4,right,acetylcholine,visual_projection,,,20444,1
 8230,720575940609025628,MTe50,right,acetylcholine,visual_projection,,,2302,1
 8240,720575940631190016,cM15,right,acetylcholine,visual_centrifugal,,,35598,1
@@ -3441,7 +3441,7 @@
 34406,720575940611294562,aMe25,right,glutamate,visual_projection,,,3697,-1
 34417,720575940631562065,MTe01b,right,acetylcholine,visual_projection,,,36254,1
 34418,720575940614047890,LTe37,right,acetylcholine,visual_projection,,,6509,1
-34430,720575940625703923,cLP05,left,glutamate,visual_centrifugal,,,25203,-1
+34430,720575940625703923,cLP05,left,gaba,visual_centrifugal,,,25203,-1
 34495,720575940653577974,aMe17c,right,gaba,visual_centrifugal,,,48034,-1
 34500,720575940630247579,LTe21,right,acetylcholine,visual_projection,,,33857,1
 34511,720575940631058908,LT55,left,glutamate,visual_projection,bilateral,,35367,-1
@@ -3547,8 +3547,8 @@
 36469,720575940620827595,cM07,right,glutamate,visual_centrifugal,,,15785,-1
 36473,720575940620781515,MeMe_e07,right,glutamate,visual_projection,bilateral,,15697,-1
 36480,720575940633573836,cL16,right,dopamine,visual_centrifugal,,,39242,1
-36482,720575940613091290,H1,left,gaba,optic,bilateral,,5517,-1
-36490,720575940641501648,aMe3,right,acetylcholine,visual_projection,,,45602,1
+36482,720575940613091290,H1,left,glutamate,optic,bilateral,,5517,-1
+36490,720575940641501648,aMe3,right,gaba,visual_projection,,,45602,-1
 36503,720575940631023159,LTe26,right,acetylcholine,visual_projection,,,35313,1
 36511,720575940631622393,OCG01b,right,acetylcholine,visual_projection,ocellar,ocellar_interneuron,36345,1
 36514,720575940627702547,OCG01f,right,glutamate,visual_projection,ocellar,ocellar_interneuron,29100,-1
@@ -3585,7 +3585,7 @@
 36832,720575940613065130,cL21,right,gaba,visual_centrifugal,,,5493,-1
 36838,720575940626843536,l-LNv,right,serotonin,optic,bilateral,,27174,1
 36855,720575940628592968,LT11,right,gaba,visual_projection,,,30988,-1
-36857,720575940627348617,H1,right,gaba,optic,bilateral,,28433,-1
+36857,720575940627348617,H1,right,glutamate,optic,bilateral,,28433,-1
 36858,720575940630204155,cL22b,left,gaba,visual_centrifugal,,,33769,-1
 36871,720575940639209956,DCH,left,gaba,visual_centrifugal,,,44064,-1
 36876,720575940629148007,HSE,right,acetylcholine,visual_projection,,,32014,1
