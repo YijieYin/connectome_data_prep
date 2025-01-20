@@ -1,0 +1,42 @@
+odor,aldehyde,carboxyl,alcohol,terpene/terpe0id,ester,ketone,phenyl,amine,min_acid,alkene,alkane,aromatic,cas,full_name
+OilBl,0,0,0,0,0,0,0,0,0,0,0,0,,Pyridine
+WatBl,0,0,0,0,0,0,0,0,0,0,0,0,,Pyridine
+1HxOl,0,0,1,0,0,0,0,0,0,0,1,0,111-27-3,1-hexanol
+bCitr,0,0,1,1,0,0,0,0,0,1,0,0,106-22-9,b-citronellol
+Lnlol,0,0,1,1,0,0,0,0,0,1,0,0,78-70-6,linalool
+Frnsl,0,0,1,1,0,0,0,0,0,1,0,0,4602-84-0,
+Et3HB,0,0,1,0,1,0,0,0,0,0,1,0,5405-41-4,ethyl 3-hydroxybutyrate
+Geosn,0,0,1,0,0,0,0,0,0,0,1,0,16423-19-1,Geosmin
+E2Hex,1,0,0,0,0,0,0,0,0,1,0,0,6728-26-3,E2-hexenal
+Nonnl,1,0,0,0,0,0,0,0,0,0,1,0,124-19-6,nonanal
+Acoin,0,0,1,0,0,1,0,0,0,0,1,0,513-86-0,acetoin
+23BTD,0,0,0,0,0,1,0,0,0,0,1,0,431-03-8,"2,3-butanedione"
+AceAc,0,0,0,0,1,1,0,0,0,0,1,0,4906-24-5,acetoin acetate
+Prpyl,0,0,0,0,1,0,0,0,0,0,1,0,109-60-4,propyl acetate
+EtHex,0,0,0,0,1,0,0,0,0,0,1,0,123-66-0,ethyl hexanoate
+IPenA,0,0,0,0,1,0,0,0,0,0,1,0,123-92-2,isopentyl acetate
+HexAc,0,0,0,0,1,0,0,0,0,0,1,0,142-92-7,hexyl acetate
+MtAct,0,0,0,0,1,0,0,0,0,0,1,0,79-20-9,methyl acetate
+GerAc,0,0,0,1,1,0,0,0,0,1,0,0,105-87-3,geranyl acetate
+CiVAc,0,0,0,0,1,0,0,0,0,1,0,0,6186-98-7,CVA
+AcAcd,0,1,0,0,0,0,0,0,0,0,1,0,64-19-7,acetic acid
+PrpnA,0,1,0,0,0,0,0,0,0,0,1,0,79-09-4,propionic acid
+BtrAc,0,1,0,0,0,0,0,0,0,0,1,0,107-92-6,butyric acid
+HCL36,0,0,0,0,0,0,0,0,1,0,0,0,7647-01-0,
+Amnia,0,0,0,0,0,0,0,1,0,0,0,0,7664-41-7,
+Cdvrn,0,0,0,0,0,0,0,1,0,0,1,0,462-94-2,cadaverine
+Sprmn,0,0,0,0,0,0,0,1,0,0,1,0,71-44-3,
+EtAmn,0,0,0,0,0,0,0,1,0,0,1,0,75-04-7,
+Sprdn,0,0,0,0,0,0,0,1,0,0,1,0,124-20-9,
+Ptscn,0,0,0,0,0,0,0,1,0,0,1,0,110-60-1,putrescine
+Pyrdn,0,0,0,0,0,0,0,1,0,0,0,1,110-86-1,
+PEtAm,0,0,0,0,0,0,1,1,0,0,0,1,64-04-0,
+PAcHd,1,0,0,0,0,0,1,0,0,0,0,1,122-78-1,phenylacetaldehyde
+MetSl,0,0,1,0,1,0,1,0,0,0,0,1,119-36-8,methyl salicylate
+PeEtA,0,0,1,0,0,0,1,0,0,0,0,1,60-12-8,phenethyl alcohol
+2PnAc,0,0,0,0,1,0,1,0,0,0,0,1,103-45-7,phenethyl acetate
+PAcAc,0,1,0,0,0,0,1,0,0,0,0,1,103-82-2,Phenylacetic acid
+BeZal,1,0,0,0,0,0,1,0,0,0,0,1,100-52-7,benzaldehyde
+VinGe,0,0,0,0,0,0,0,0,0,0,0,0,,Pyridine
+Vingr,0,0,0,0,0,0,0,0,0,0,0,0,,Pyridine
+5OdMx,0,0,0,0,0,0,0,0,0,0,0,0,,Pyridine
