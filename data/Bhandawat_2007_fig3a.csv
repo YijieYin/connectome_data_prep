@@ -1,0 +1,253 @@
+response,odour,glomerulus,cell_class
+27.69,benzaldehyde,DL1,ORN
+-3.08,butyric acid,DL1,ORN
+0.0,"2,3-butanedione",DL1,ORN
+3.08,1-butanol,DL1,ORN
+-3.08,cyclohexanone,DL1,ORN
+-6.15,cis-3-hexen-1-ol,DL1,ORN
+-6.15,ethyl butyrate,DL1,ORN
+-9.23,ethyl acetate,DL1,ORN
+0.0,geranyl acetate,DL1,ORN
+83.08,isoamyl acetate,DL1,ORN
+9.23,4-methyl phenol,DL1,ORN
+169.23,methyl salicylate,DL1,ORN
+21.54,3-methylthio-1-propanol,DL1,ORN
+0.0,octanal,DL1,ORN
+-3.08,2-octanone,DL1,ORN
+0.0,pentyl acetate,DL1,ORN
+-3.08,trans-2-hexenal,DL1,ORN
+0.0,gamma-valerolactone,DL1,ORN
+61.54,benzaldehyde,DL1,PN
+30.77,butyric acid,DL1,PN
+33.85,"2,3-butanedione",DL1,PN
+46.15,1-butanol,DL1,PN
+6.15,cyclohexanone,DL1,PN
+30.77,cis-3-hexen-1-ol,DL1,PN
+95.38,ethyl butyrate,DL1,PN
+43.08,ethyl acetate,DL1,PN
+33.85,geranyl acetate,DL1,PN
+150.77,isoamyl acetate,DL1,PN
+21.54,4-methyl phenol,DL1,PN
+200.0,methyl salicylate,DL1,PN
+40.0,3-methylthio-1-propanol,DL1,PN
+24.62,octanal,DL1,PN
+30.77,2-octanone,DL1,PN
+21.54,pentyl acetate,DL1,PN
+43.08,trans-2-hexenal,DL1,PN
+67.69,gamma-valerolactone,DL1,PN
+0.0,benzaldehyde,DM1,ORN
+21.54,butyric acid,DM1,ORN
+172.31,"2,3-butanedione",DM1,ORN
+9.23,1-butanol,DM1,ORN
+0.0,cyclohexanone,DM1,ORN
+61.54,cis-3-hexen-1-ol,DM1,ORN
+233.85,ethyl butyrate,DM1,ORN
+203.08,ethyl acetate,DM1,ORN
+12.31,geranyl acetate,DM1,ORN
+6.15,isoamyl acetate,DM1,ORN
+0.0,4-methyl phenol,DM1,ORN
+-6.15,methyl salicylate,DM1,ORN
+6.15,3-methylthio-1-propanol,DM1,ORN
+3.08,octanal,DM1,ORN
+3.08,2-octanone,DM1,ORN
+6.15,pentyl acetate,DM1,ORN
+18.46,trans-2-hexenal,DM1,ORN
+12.31,gamma-valerolactone,DM1,ORN
+12.31,benzaldehyde,DM1,PN
+61.54,butyric acid,DM1,PN
+120.0,"2,3-butanedione",DM1,PN
+98.46,1-butanol,DM1,PN
+12.31,cyclohexanone,DM1,PN
+104.62,cis-3-hexen-1-ol,DM1,PN
+123.08,ethyl butyrate,DM1,PN
+175.38,ethyl acetate,DM1,PN
+49.23,geranyl acetate,DM1,PN
+52.31,isoamyl acetate,DM1,PN
+3.08,4-methyl phenol,DM1,PN
+24.62,methyl salicylate,DM1,PN
+80.0,3-methylthio-1-propanol,DM1,PN
+3.08,octanal,DM1,PN
+30.77,2-octanone,DM1,PN
+49.23,pentyl acetate,DM1,PN
+73.85,trans-2-hexenal,DM1,PN
+64.62,gamma-valerolactone,DM1,PN
+3.08,benzaldehyde,DM2,ORN
+3.08,butyric acid,DM2,ORN
+9.23,"2,3-butanedione",DM2,ORN
+24.62,1-butanol,DM2,ORN
+6.15,cyclohexanone,DM2,ORN
+3.08,cis-3-hexen-1-ol,DM2,ORN
+224.62,ethyl butyrate,DM2,ORN
+193.85,ethyl acetate,DM2,ORN
+0.0,geranyl acetate,DM2,ORN
+190.77,isoamyl acetate,DM2,ORN
+0.0,4-methyl phenol,DM2,ORN
+0.0,methyl salicylate,DM2,ORN
+3.08,3-methylthio-1-propanol,DM2,ORN
+3.08,octanal,DM2,ORN
+12.31,2-octanone,DM2,ORN
+184.62,pentyl acetate,DM2,ORN
+18.46,trans-2-hexenal,DM2,ORN
+12.31,gamma-valerolactone,DM2,ORN
+6.15,benzaldehyde,DM2,PN
+95.38,butyric acid,DM2,PN
+80.0,"2,3-butanedione",DM2,PN
+141.54,1-butanol,DM2,PN
+67.69,cyclohexanone,DM2,PN
+49.23,cis-3-hexen-1-ol,DM2,PN
+172.31,ethyl butyrate,DM2,PN
+196.92,ethyl acetate,DM2,PN
+30.77,geranyl acetate,DM2,PN
+196.92,isoamyl acetate,DM2,PN
+6.15,4-methyl phenol,DM2,PN
+9.23,methyl salicylate,DM2,PN
+24.62,3-methylthio-1-propanol,DM2,PN
+9.23,octanal,DM2,PN
+120.0,2-octanone,DM2,PN
+221.54,pentyl acetate,DM2,PN
+89.23,trans-2-hexenal,DM2,PN
+58.46,gamma-valerolactone,DM2,PN
+0.0,benzaldehyde,DM3,ORN
+0.0,butyric acid,DM3,ORN
+0.0,"2,3-butanedione",DM3,ORN
+-3.08,1-butanol,DM3,ORN
+0.0,cyclohexanone,DM3,ORN
+0.0,cis-3-hexen-1-ol,DM3,ORN
+0.0,ethyl butyrate,DM3,ORN
+3.08,ethyl acetate,DM3,ORN
+0.0,geranyl acetate,DM3,ORN
+33.85,isoamyl acetate,DM3,ORN
+43.08,4-methyl phenol,DM3,ORN
+0.0,methyl salicylate,DM3,ORN
+184.62,3-methylthio-1-propanol,DM3,ORN
+0.0,octanal,DM3,ORN
+46.15,2-octanone,DM3,ORN
+181.54,pentyl acetate,DM3,ORN
+-3.08,trans-2-hexenal,DM3,ORN
+0.0,gamma-valerolactone,DM3,ORN
+49.23,benzaldehyde,DM3,PN
+0.0,butyric acid,DM3,PN
+6.15,"2,3-butanedione",DM3,PN
+49.23,1-butanol,DM3,PN
+36.92,cyclohexanone,DM3,PN
+52.31,cis-3-hexen-1-ol,DM3,PN
+129.23,ethyl butyrate,DM3,PN
+215.38,ethyl acetate,DM3,PN
+3.08,geranyl acetate,DM3,PN
+246.15,isoamyl acetate,DM3,PN
+0.0,4-methyl phenol,DM3,PN
+18.46,methyl salicylate,DM3,PN
+240.0,3-methylthio-1-propanol,DM3,PN
+18.46,octanal,DM3,PN
+258.46,2-octanone,DM3,PN
+243.08,pentyl acetate,DM3,PN
+36.92,trans-2-hexenal,DM3,PN
+3.08,gamma-valerolactone,DM3,PN
+0.0,benzaldehyde,DM4,ORN
+0.0,butyric acid,DM4,ORN
+150.0,"2,3-butanedione",DM4,ORN
+12.5,1-butanol,DM4,ORN
+0.0,cyclohexanone,DM4,ORN
+9.37,cis-3-hexen-1-ol,DM4,ORN
+28.12,ethyl butyrate,DM4,ORN
+203.13,ethyl acetate,DM4,ORN
+53.12,geranyl acetate,DM4,ORN
+-3.13,isoamyl acetate,DM4,ORN
+3.12,4-methyl phenol,DM4,ORN
+31.25,methyl salicylate,DM4,ORN
+-3.13,3-methylthio-1-propanol,DM4,ORN
+-3.13,octanal,DM4,ORN
+9.37,2-octanone,DM4,ORN
+3.12,pentyl acetate,DM4,ORN
+-3.13,trans-2-hexenal,DM4,ORN
+6.25,gamma-valerolactone,DM4,ORN
+25.0,benzaldehyde,DM4,PN
+21.87,butyric acid,DM4,PN
+153.12,"2,3-butanedione",DM4,PN
+103.12,1-butanol,DM4,PN
+0.0,cyclohexanone,DM4,PN
+71.87,cis-3-hexen-1-ol,DM4,PN
+100.0,ethyl butyrate,DM4,PN
+162.5,ethyl acetate,DM4,PN
+78.12,geranyl acetate,DM4,PN
+18.75,isoamyl acetate,DM4,PN
+-6.25,4-methyl phenol,DM4,PN
+62.5,methyl salicylate,DM4,PN
+25.0,3-methylthio-1-propanol,DM4,PN
+9.37,octanal,DM4,PN
+62.5,2-octanone,DM4,PN
+87.5,pentyl acetate,DM4,PN
+6.25,trans-2-hexenal,DM4,PN
+34.37,gamma-valerolactone,DM4,PN
+3.08,benzaldehyde,VA2,ORN
+15.38,butyric acid,VA2,ORN
+138.46,"2,3-butanedione",VA2,ORN
+3.08,1-butanol,VA2,ORN
+3.08,cyclohexanone,VA2,ORN
+9.23,cis-3-hexen-1-ol,VA2,ORN
+92.31,ethyl butyrate,VA2,ORN
+49.23,ethyl acetate,VA2,ORN
+15.38,geranyl acetate,VA2,ORN
+9.23,isoamyl acetate,VA2,ORN
+3.08,4-methyl phenol,VA2,ORN
+12.31,methyl salicylate,VA2,ORN
+-3.08,3-methylthio-1-propanol,VA2,ORN
+0.0,octanal,VA2,ORN
+3.08,2-octanone,VA2,ORN
+3.08,pentyl acetate,VA2,ORN
+15.38,trans-2-hexenal,VA2,ORN
+24.62,gamma-valerolactone,VA2,ORN
+86.15,benzaldehyde,VA2,PN
+141.54,butyric acid,VA2,PN
+224.62,"2,3-butanedione",VA2,PN
+92.31,1-butanol,VA2,PN
+21.54,cyclohexanone,VA2,PN
+113.85,cis-3-hexen-1-ol,VA2,PN
+181.54,ethyl butyrate,VA2,PN
+181.54,ethyl acetate,VA2,PN
+141.54,geranyl acetate,VA2,PN
+101.54,isoamyl acetate,VA2,PN
+33.85,4-methyl phenol,VA2,PN
+110.77,methyl salicylate,VA2,PN
+132.31,3-methylthio-1-propanol,VA2,PN
+52.31,octanal,VA2,PN
+76.92,2-octanone,VA2,PN
+89.23,pentyl acetate,VA2,PN
+116.92,trans-2-hexenal,VA2,PN
+169.23,gamma-valerolactone,VA2,PN
+9.23,benzaldehyde,VM2,ORN
+120.0,butyric acid,VM2,ORN
+3.08,"2,3-butanedione",VM2,ORN
+76.92,1-butanol,VM2,ORN
+36.92,cyclohexanone,VM2,ORN
+83.08,cis-3-hexen-1-ol,VM2,ORN
+206.15,ethyl butyrate,VM2,ORN
+166.15,ethyl acetate,VM2,ORN
+15.38,geranyl acetate,VM2,ORN
+141.54,isoamyl acetate,VM2,ORN
+15.38,4-methyl phenol,VM2,ORN
+0.0,methyl salicylate,VM2,ORN
+9.23,3-methylthio-1-propanol,VM2,ORN
+33.85,octanal,VM2,ORN
+30.77,2-octanone,VM2,ORN
+107.69,pentyl acetate,VM2,ORN
+95.38,trans-2-hexenal,VM2,ORN
+15.38,gamma-valerolactone,VM2,ORN
+138.46,benzaldehyde,VM2,PN
+169.23,butyric acid,VM2,PN
+64.62,"2,3-butanedione",VM2,PN
+200.0,1-butanol,VM2,PN
+187.69,cyclohexanone,VM2,PN
+175.38,cis-3-hexen-1-ol,VM2,PN
+123.08,ethyl butyrate,VM2,PN
+113.85,ethyl acetate,VM2,PN
+95.38,geranyl acetate,VM2,PN
+116.92,isoamyl acetate,VM2,PN
+150.77,4-methyl phenol,VM2,PN
+21.54,methyl salicylate,VM2,PN
+120.0,3-methylthio-1-propanol,VM2,PN
+95.38,octanal,VM2,PN
+123.08,2-octanone,VM2,PN
+169.23,pentyl acetate,VM2,PN
+215.38,trans-2-hexenal,VM2,PN
+135.38,gamma-valerolactone,VM2,PN
