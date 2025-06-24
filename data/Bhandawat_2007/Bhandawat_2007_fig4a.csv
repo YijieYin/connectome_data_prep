@@ -1,0 +1,67 @@
+glomerulus,value,cell_class,dilution,odour
+DM4,1.04712,ORN,-3,benzaldehyde
+DM4,7.32984,ORN,-3,butyric acid
+DM4,103.66492,ORN,-3,"2,3-butanedione"
+DM4,17.80105,ORN,-3,1-butanol
+DM4,13.61257,ORN,-3,cis-3-hexen-1-ol
+DM4,20.94241,ORN,-3,ethyl butyrate
+DM4,152.87958,ORN,-3,ethyl acetate
+DM4,61.7801,ORN,-3,geranyl acetate
+DM4,25.13089,ORN,-3,methyl salicylate
+DM4,1.04712,ORN,-3,2-octanone
+DM4,12.56545,ORN,-3,pentyl acetate
+DM4,2.08333,ORN,-4,benzaldehyde
+DM4,0,ORN,-4,butyric acid
+DM4,56.25,ORN,-4,"2,3-butanedione"
+DM4,2.08333,ORN,-4,1-butanol
+DM4,2.08333,ORN,-4,cis-3-hexen-1-ol
+DM4,4.16667,ORN,-4,ethyl butyrate
+DM4,20.83333,ORN,-4,ethyl acetate
+DM4,16.66667,ORN,-4,geranyl acetate
+DM4,2.08333,ORN,-4,methyl salicylate
+DM4,2.08333,ORN,-4,2-octanone
+DM4,2.08333,ORN,-4,pentyl acetate
+DM4,-1.04712,ORN,-5,benzaldehyde
+DM4,-1.04712,ORN,-5,butyric acid
+DM4,23.03665,ORN,-5,"2,3-butanedione"
+DM4,1.04712,ORN,-5,1-butanol
+DM4,-1.04712,ORN,-5,cis-3-hexen-1-ol
+DM4,-2.09424,ORN,-5,ethyl butyrate
+DM4,20.94241,ORN,-5,ethyl acetate
+DM4,1.04712,ORN,-5,geranyl acetate
+DM4,0,ORN,-5,methyl salicylate
+DM4,-2.09424,ORN,-5,2-octanone
+DM4,-1.04712,ORN,-5,pentyl acetate
+DM4,28.27225,PN,-3,benzaldehyde
+DM4,36.64921,PN,-3,butyric acid
+DM4,99.47644,PN,-3,"2,3-butanedione"
+DM4,67.01571,PN,-3,1-butanol
+DM4,39.79058,PN,-3,cis-3-hexen-1-ol
+DM4,65.96859,PN,-3,ethyl butyrate
+DM4,103.66492,PN,-3,ethyl acetate
+DM4,59.68586,PN,-3,geranyl acetate
+DM4,53.40314,PN,-3,methyl salicylate
+DM4,45.02618,PN,-3,2-octanone
+DM4,52.35602,PN,-3,pentyl acetate
+DM4,2.08333,PN,-4,benzaldehyde
+DM4,26.04167,PN,-4,butyric acid
+DM4,90.625,PN,-4,"2,3-butanedione"
+DM4,10.41667,PN,-4,1-butanol
+DM4,14.58333,PN,-4,cis-3-hexen-1-ol
+DM4,37.5,PN,-4,ethyl butyrate
+DM4,50,PN,-4,ethyl acetate
+DM4,25,PN,-4,geranyl acetate
+DM4,17.70833,PN,-4,methyl salicylate
+DM4,2.08333,PN,-4,2-octanone
+DM4,21.875,PN,-4,pentyl acetate
+DM4,12.56545,PN,-5,benzaldehyde
+DM4,23.03665,PN,-5,butyric acid
+DM4,36.64921,PN,-5,"2,3-butanedione"
+DM4,4.18848,PN,-5,1-butanol
+DM4,5.2356,PN,-5,cis-3-hexen-1-ol
+DM4,19.89529,PN,-5,ethyl butyrate
+DM4,60.73298,PN,-5,ethyl acetate
+DM4,7.32984,PN,-5,geranyl acetate
+DM4,-2.09424,PN,-5,methyl salicylate
+DM4,18.84817,PN,-5,2-octanone
+DM4,7.32984,PN,-5,pentyl acetate
