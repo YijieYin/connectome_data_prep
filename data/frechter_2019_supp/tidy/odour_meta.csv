@@ -1,10 +1,10 @@
 odor,aldehyde,carboxyl,alcohol,terpene/terpe0id,ester,ketone,phenyl,amine,min_acid,alkene,alkane,aromatic,cas,full_name
-OilBl,0,0,0,0,0,0,0,0,0,0,0,0,,Pyridine
-WatBl,0,0,0,0,0,0,0,0,0,0,0,0,,Pyridine
+OilBl,0,0,0,0,0,0,0,0,0,0,0,0,,oil blank (control)
+WatBl,0,0,0,0,0,0,0,0,0,0,0,0,,water blank (control)
 1HxOl,0,0,1,0,0,0,0,0,0,0,1,0,111-27-3,1-hexanol
 bCitr,0,0,1,1,0,0,0,0,0,1,0,0,106-22-9,b-citronellol
 Lnlol,0,0,1,1,0,0,0,0,0,1,0,0,78-70-6,linalool
-Frnsl,0,0,1,1,0,0,0,0,0,1,0,0,4602-84-0,
+Frnsl,0,0,1,1,0,0,0,0,0,1,0,0,4602-84-0,farnesol
 Et3HB,0,0,1,0,1,0,0,0,0,0,1,0,5405-41-4,ethyl 3-hydroxybutyrate
 Geosn,0,0,1,0,0,0,0,0,0,0,1,0,16423-19-1,Geosmin
 E2Hex,1,0,0,0,0,0,0,0,0,1,0,0,6728-26-3,E2-hexenal
@@ -22,21 +22,21 @@ CiVAc,0,0,0,0,1,0,0,0,0,1,0,0,6186-98-7,CVA
 AcAcd,0,1,0,0,0,0,0,0,0,0,1,0,64-19-7,acetic acid
 PrpnA,0,1,0,0,0,0,0,0,0,0,1,0,79-09-4,propionic acid
 BtrAc,0,1,0,0,0,0,0,0,0,0,1,0,107-92-6,butyric acid
-HCL36,0,0,0,0,0,0,0,0,1,0,0,0,7647-01-0,
-Amnia,0,0,0,0,0,0,0,1,0,0,0,0,7664-41-7,
+HCL36,0,0,0,0,0,0,0,0,1,0,0,0,7647-01-0,hydrogen chloride
+Amnia,0,0,0,0,0,0,0,1,0,0,0,0,7664-41-7,ammonia
 Cdvrn,0,0,0,0,0,0,0,1,0,0,1,0,462-94-2,cadaverine
-Sprmn,0,0,0,0,0,0,0,1,0,0,1,0,71-44-3,
-EtAmn,0,0,0,0,0,0,0,1,0,0,1,0,75-04-7,
-Sprdn,0,0,0,0,0,0,0,1,0,0,1,0,124-20-9,
+Sprmn,0,0,0,0,0,0,0,1,0,0,1,0,71-44-3,spermine
+EtAmn,0,0,0,0,0,0,0,1,0,0,1,0,75-04-7,ethylamine
+Sprdn,0,0,0,0,0,0,0,1,0,0,1,0,124-20-9,spermidine
 Ptscn,0,0,0,0,0,0,0,1,0,0,1,0,110-60-1,putrescine
-Pyrdn,0,0,0,0,0,0,0,1,0,0,0,1,110-86-1,
-PEtAm,0,0,0,0,0,0,1,1,0,0,0,1,64-04-0,
+Pyrdn,0,0,0,0,0,0,0,1,0,0,0,1,110-86-1,pyridine
+PEtAm,0,0,0,0,0,0,1,1,0,0,0,1,64-04-0,2-phenylethylamine
 PAcHd,1,0,0,0,0,0,1,0,0,0,0,1,122-78-1,phenylacetaldehyde
 MetSl,0,0,1,0,1,0,1,0,0,0,0,1,119-36-8,methyl salicylate
 PeEtA,0,0,1,0,0,0,1,0,0,0,0,1,60-12-8,phenethyl alcohol
 2PnAc,0,0,0,0,1,0,1,0,0,0,0,1,103-45-7,phenethyl acetate
 PAcAc,0,1,0,0,0,0,1,0,0,0,0,1,103-82-2,Phenylacetic acid
 BeZal,1,0,0,0,0,0,1,0,0,0,0,1,100-52-7,benzaldehyde
-VinGe,0,0,0,0,0,0,0,0,0,0,0,0,,Pyridine
-Vingr,0,0,0,0,0,0,0,0,0,0,0,0,,Pyridine
-5OdMx,0,0,0,0,0,0,0,0,0,0,0,0,,Pyridine
+VinGe,0,0,0,0,0,0,0,0,0,0,0,0,,vinegar + geosmin
+Vingr,0,0,0,0,0,0,0,0,0,0,0,0,,vinegar
+5OdMx,0,0,0,0,0,0,0,0,0,0,0,0,,5 odour mix
