@@ -9,7 +9,7 @@ from pqdm.threads import pqdm
 from typing import Iterable, Union, Optional, Callable
 
 # Slurm info
-rank = int(os.getenv("SLURM_LOCALID", "0"))
+rank = int(os.getenv("SLURM_PROCID", "0"))
 world = int(os.getenv("SLURM_NTASKS", "1"))
 
 # bind GPU per task (CUDA_VISIBLE_DEVICES already narrowed by Slurm)
@@ -20,8 +20,8 @@ inprop = sp.sparse.load_npz("../data/fafb_all_neuron/fafb_inprop_all_neuron.npz"
 meta = pd.read_csv("../data/fafb_all_neuron/fafb_all_neuron_meta.csv")
 idx_to_type = dict(zip(meta.idx, meta.cell_type))
 
-npre = 100
-npost = 100
+npre = 1000
+npost = 1000
 
 # set NumPy seed
 np.random.seed(42)
@@ -70,6 +70,6 @@ def process_one(this_set):
     return out
 
 if __name__ == "__main__":
-    results = pqdm(pretypes, process_one, n_jobs=8)
-    pd.concat(results).to_csv("results.csv", index=False)
+    results = pqdm(my_pretypes, process_one, n_jobs=8)
+    pd.concat(results).to_csv(f"results_rank{rank}.csv", index=False)
 
