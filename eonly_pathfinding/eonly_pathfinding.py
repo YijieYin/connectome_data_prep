@@ -16,7 +16,9 @@ inprop = sp.sparse.load_npz("../data/fafb_all_neuron/fafb_inprop_all_neuron.npz"
 meta = pd.read_csv("../data/fafb_all_neuron/fafb_all_neuron_meta.csv")
 idx_to_type = dict(zip(meta.idx, meta.cell_type))
 
-inprop_e_only = modify_coo_matrix(inprop, meta.idx[meta.sign == -1], 
+inprop_e_only = modify_coo_matrix(inprop, 
+                                #   meta.idx[meta.top_nt != 'acetylcholine'], # to keep the excitatory connections
+                                  meta.idx[~meta.top_nt.isin(['glutamate', 'gaba'])], # to keep the inhibitory connections 
                                   meta.idx, 0, re_normalize=False)
 
 npre = 1000
@@ -72,5 +74,5 @@ if __name__ == "__main__":
     # 5GB per thread 
     # 20 tasks, 112 threads each
     results = pqdm(my_pairs, process_one, n_jobs=112, )
-    pd.concat(results).to_csv(f"eonly_pathfinding_results_rank{rank}.csv", index=False)
+    pd.concat(results).to_csv(f"ionly_pathfinding_results_rank{rank}.csv", index=False)
 
