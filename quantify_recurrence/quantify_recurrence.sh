@@ -8,5 +8,5 @@
 source ../../.bashrc
 conda activate act_max
 
-srun python quantify_recurrence.py
-python concat_result.py
+time srun python quantify_recurrence.py
+time python concat_result.py
