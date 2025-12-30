@@ -18,7 +18,9 @@ if torch.cuda.is_available():
 
 inprop = sp.sparse.load_npz("../data/fafb_all_neuron/fafb_inprop_all_neuron.npz")
 meta = pd.read_csv("../data/fafb_all_neuron/fafb_all_neuron_meta.csv")
+meta['type_side'] = meta['cell_type'] + "_" + meta['side']
 idx_to_type = dict(zip(meta.idx, meta.cell_type))
+idx_to_type_side = dict(zip(meta.idx, meta.type_side))
 
 npre = 1000
 npost = 1000
@@ -27,7 +29,7 @@ npost = 1000
 np.random.seed(42)
 
 # sample unique cell types without replacement
-valid_types = meta.cell_type[~meta.cell_type.str.isnumeric()].unique()
+valid_types = meta.type_side[~meta.cell_type.str.isnumeric()].unique()
 pretypes = np.random.choice(valid_types, npre, replace=False)
 posttypes = np.random.choice(valid_types, npost, replace=False)
 
@@ -40,11 +42,11 @@ def process_one(this_set):
     for post in posttypes:
         for plen in [2, 3, 4, 5]:
             out = {"pre": pre, "post": post, "plen": plen}
-            inidx = meta.idx[meta.cell_type == pre]
-            outidx = meta.idx[meta.cell_type == post]
+            inidx = meta.idx[meta.type_side == pre]
+            outidx = meta.idx[meta.type_side == post]
             path = find_paths_of_length(inprop, inidx, outidx, plen)
             if path is not None:
-                path = group_paths(path, idx_to_type, idx_to_type)
+                path = group_paths(path, idx_to_type_side, idx_to_type_side)
                 out['threshold_0'] = True
                 for threshold in [0.001, 0.01, 0.03, 0.05, 0.1]:
                     # skip if any layer is completely removed
