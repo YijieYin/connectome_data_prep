@@ -42,20 +42,16 @@ my_ids = np.array_split(meta.root_id[meta.top_nt.isin(['acetylcholine', 'gaba', 
 def process_one(pre):
     
     outs = []
-    for plen in [2, 3, 4, 5, 6]:
+    
+    for plen in [2, 3, 4, 5]:
         out = {"pre": pre, "post": pre, "plen": plen}
         inidx = meta.idx[meta.root_id == pre]
         outidx = meta.idx[meta.root_id == pre]
         path = find_paths_of_length(inprop, inidx, outidx, plen)
         if path is not None and (len(path) > 0):
-            # path = group_paths(path, idx_to_root, idx_to_root)
-            # remove intermediate if it's the same as starting point - only makes sense for single neuron level 
-            path = path[((path.layer ==1) | ((path.layer != 1) & (path.pre != inidx.values[0]))) # need to change inidx if grouped 
-                        # OR: last layer, or not-last-layer, and not neuron of interest as post 
-                        | ((path.layer == plen) | ((path.layer != plen) & (path.post != inidx.values[0])))]
-            path = remove_excess_neurons(path)
-            if path is not None: 
+            if path is not None:
                 effconn = effective_conn_from_paths(path)
+                # effconn = effconn_without_loops(path, quiet = True)
                 e,i = signed_effective_conn_from_paths(path, 
                 # to be changed if grouped at type level 
                 idx_to_nt = idx_to_sign)
@@ -73,14 +69,9 @@ def process_one(pre):
 
         path_e = find_paths_of_length(inprop_e_only, inidx, outidx, plen)
         if path_e is not None and (len(path_e) > 0):
-            # path_e = group_paths(path_e, idx_to_root, idx_to_root)
-            # remove intermediate if it's the same as starting point 
-            path_e = path_e[((path_e.layer ==1) | ((path_e.layer != 1) & (path_e.pre != pre))) 
-                        # OR: last layer, or not-last-layer, and not neuron of interest as post 
-                        | ((path_e.layer == plen) | ((path_e.layer != plen) & (path_e.post != pre)))]
-            path_e = remove_excess_neurons(path_e)
-            if path_e is not None: 
+            if path_e is not None:
                 effconn_e = effective_conn_from_paths(path_e)
+                # effconn_e = effconn_without_loops(path_e, quiet = True)
                 out['e_effconn'] = effconn_e.values[0][0]
             else: 
                 out['e_effconn'] = 0
@@ -89,14 +80,9 @@ def process_one(pre):
         
         path_ad = find_paths_of_length(ad_inprop, inidx, outidx, plen)
         if path_ad is not None and (len(path_ad) > 0):
-            # path_ad = group_paths(path_ad, idx_to_root, idx_to_root)
-            # remove intermediate if it's the same as starting point 
-            path_ad = path_ad[((path_ad.layer ==1) | ((path_ad.layer != 1) & (path_ad.pre != pre))) 
-                        # OR: last layer, or not-last-layer, and not neuron of interest as post 
-                        | ((path_ad.layer == plen) | ((path_ad.layer != plen) & (path_ad.post != pre)))]
-            path_ad = remove_excess_neurons(path_ad)
-            if path_ad is not None: 
+            if path_ad is not None:
                 effconn_ad = effective_conn_from_paths(path_ad)
+                # effconn_ad = effconn_without_loops(path_ad, quiet = True)
                 e,i = signed_effective_conn_from_paths(path_ad, idx_to_nt = idx_to_sign)
                 out['ad_effconn'] = effconn_ad.values[0][0]
                 out['ad_effconn_e'] = e.values[0][0] if len(e) > 0 else 0
@@ -112,14 +98,9 @@ def process_one(pre):
 
         path_ad_e = find_paths_of_length(ad_inprop_e_only, inidx, outidx, plen)
         if path_ad_e is not None and (len(path_ad_e) > 0):
-            # path_ad_e = group_paths(path_ad_e, idx_to_root, idx_to_root)
-            # remove intermediate if it's the same as starting point 
-            path_ad_e = path_ad_e[((path_ad_e.layer ==1) | ((path_ad_e.layer != 1) & (path_ad_e.pre != pre))) 
-                        # OR: last layer, or not-last-layer, and not neuron of interest as post 
-                        | ((path_ad_e.layer == plen) | ((path_ad_e.layer != plen) & (path_ad_e.post != pre)))]
-            path_ad_e = remove_excess_neurons(path_ad_e)
-            if path_ad_e is not None: 
+            if path_ad_e is not None:
                 effconn_ad_e = effective_conn_from_paths(path_ad_e)
+                # effconn_ad_e = effconn_without_loops(path_ad_e, quiet = True)
                 out['ad_e_effconn'] = effconn_ad_e.values[0][0]
             else:
                 out['ad_e_effconn'] = 0
@@ -127,9 +108,11 @@ def process_one(pre):
             out['ad_e_effconn'] = 0
         outs.append(out)
     out = pd.DataFrame(outs)  
-    return out
+    return out 
 
 if __name__ == "__main__":
-    results = pqdm(my_ids, process_one, n_jobs=28)
-
+    results = pqdm(my_ids, process_one, n_jobs=56)
+    
+    # Save dataframes
     pd.concat(results).to_csv(f"sc_recurrence_results_rank{rank}.csv", index=False)
+    
