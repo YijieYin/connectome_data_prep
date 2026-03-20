@@ -22,8 +22,8 @@ meta['type_side'] = meta['cell_type'] + "_" + meta['side']
 idx_to_type = dict(zip(meta.idx, meta.cell_type))
 idx_to_type_side = dict(zip(meta.idx, meta.type_side))
 
-npre = 1000
-npost = 1000
+npre = 100
+npost = 100
 
 # set NumPy seed
 np.random.seed(42)
@@ -33,45 +33,62 @@ valid_types = meta.type_side[~meta.cell_type.str.isnumeric()].unique()
 pretypes = np.random.choice(valid_types, npre, replace=False)
 posttypes = np.random.choice(valid_types, npost, replace=False)
 
-my_pretypes = np.array_split(pretypes, world)[rank]
+# list of pre, post tuples, containing all combinations of pre and post 
+prepost = [(pre, post) for pre in pretypes for post in posttypes]
+
+# for this rank: 
+my_pairs = np.array_split(prepost, world)[rank]
 
 def process_one(this_set):
     
-    pre = this_set
+    pre, post = this_set
     outs = []
-    for post in posttypes:
-        for plen in [2, 3, 4, 5]:
-            out = {"pre": pre, "post": post, "plen": plen}
-            inidx = meta.idx[meta.type_side == pre]
-            outidx = meta.idx[meta.type_side == post]
-            path = find_paths_of_length(inprop, inidx, outidx, plen)
-            if path is not None:
-                path = group_paths(path, idx_to_type_side, idx_to_type_side)
-                out['threshold_0'] = True
-                for threshold in [0.001, 0.01, 0.03, 0.05, 0.1]:
-                    # skip if any layer is completely removed
-                    if path[path.weight > threshold].layer.nunique() != path.layer.nunique():
-                        out[f'threshold_{threshold}'] = False
-                        continue
-                    p_thresh = filter_paths(path, threshold=threshold)
-                    if p_thresh is not None:
-                        out[f'threshold_{threshold}'] = True
-                    else: 
-                        out[f'threshold_{threshold}'] = False
-
-                effconn = effective_conn_from_paths(path)
-                out['effconn'] = effconn.values[0][0]
-
-            else:
-                out['threshold_0'] = False
-                for threshold in [0.001, 0.01, 0.03, 0.05, 0.1]:
+    
+    for plen in [2, 3, 4, 5]:
+        out = {"pre": pre, "post": post, "plen": plen}
+        inidx = meta.idx[meta.type_side == pre]
+        outidx = meta.idx[meta.type_side == post]
+        path = find_paths_of_length(inprop, inidx, outidx, plen)
+        if path is not None:
+            path = group_paths(path, idx_to_type_side, idx_to_type_side)
+            out['threshold_0'] = True
+            n_paths, n_paths_noloop = count_paths(path, loop_mode = 'both')
+            out['n_paths'] = n_paths
+            out['n_paths_noloop'] = n_paths_noloop
+            for threshold in [0.001, 0.01, 0.03, 0.05, 0.1]:
+                # skip if any layer is completely removed
+                if path[path.weight > threshold].layer.nunique() != path.layer.nunique():
                     out[f'threshold_{threshold}'] = False
-                out['effconn'] = None
-            outs.append(out)
+                    continue
+                p_thresh = filter_paths(path, threshold=threshold)
+                if p_thresh is not None:
+                    out[f'threshold_{threshold}'] = True
+                else: 
+                    out[f'threshold_{threshold}'] = False
+
+            effconn = effective_conn_from_paths(path)
+            out['effconn'] = effconn.values[0][0]
+            effconn_noloop = effconn_without_loops(path, quiet = True)
+            out['effconn_noloop'] = effconn_noloop.values[0][0]
+
+        else:
+            out['threshold_0'] = False
+            out['n_paths'] = 0
+            out['n_paths_noloop'] = 0
+            for threshold in [0.001, 0.01, 0.03, 0.05, 0.1]:
+                out[f'threshold_{threshold}'] = False
+            out['effconn'] = None
+            out['effconn_noloop'] = None
+            
+        outs.append(out)
     out = pd.DataFrame(outs)
-    return out
+    return out 
 
 if __name__ == "__main__":
-    results = pqdm(my_pretypes, process_one, n_jobs=8)
-    pd.concat(results).to_csv(f"results_rank{rank}.csv", index=False)
-
+    # 2240 cores available, 5GB per core 
+    # 5GB per thread 
+    # 20 tasks, 112 threads each
+    results = pqdm(my_pairs, process_one, n_jobs=56, )
+    
+    # Save dataframes
+    pd.concat(results).to_csv(f"noloop_results_rank{rank}.csv", index=False)

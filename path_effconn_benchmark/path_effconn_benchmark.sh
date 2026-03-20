@@ -1,6 +1,6 @@
 #!/bin/bash
 #SBATCH --job-name=pe
-#SBATCH --ntasks=20              
+#SBATCH --ntasks=20
 #SBATCH --cpus-per-task=112
 #SBATCH --output=%A_%a.out
 #SBATCH --error=%A_%a.err
