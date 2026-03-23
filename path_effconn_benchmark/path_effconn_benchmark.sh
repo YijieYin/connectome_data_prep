@@ -8,5 +8,6 @@
 source ../../.bashrc
 conda activate act_max
 
-time srun python path_effconn_benchmark.py
+time srun python path_effconn_benchmark.py #--count-paths \ # un-comment to count paths (time-consuming)
+# --effconn-noloop # un-comment to calculate effective connectivity without loops (time-consuming)
 time python concat_result.py
