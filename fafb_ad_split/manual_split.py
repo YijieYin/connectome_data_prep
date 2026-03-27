@@ -379,7 +379,7 @@ for pflrid in tqdm(pflr_shortids):
 
 # ---- sensory, ascending, motor neurons ---- 
 # sens_asc 
-sens_asc = meta[meta.super_class.isin(['sensory','ascending'])].root_id_short.values
+sens_asc = meta[meta.super_class.isin(['sensory','ascending','sensory_ascending'])].root_id_short.values
 sens_asc_syns = syn[syn.pre_root_id_720575940.isin(sens_asc) | syn.post_root_id_720575940.isin(sens_asc)]
 sens_asc_syns.loc[:,['compartment']] = 'axon'
 for sid in tqdm(sens_asc):
@@ -433,7 +433,7 @@ splited = set(meta[meta.cell_type.str.contains('^FR') | meta.cell_type.str.conta
 meta.root_id_short.isin(tan_shortids) |
 meta.cell_sub_class.isin(['ring neuron']) | 
 meta.cell_class.isin(['Kenyon_Cell']) |
-meta.super_class.isin(['sensory','ascending','motor']) |
+meta.super_class.isin(['sensory','ascending','sensory_ascending','motor']) |
 meta.cell_type.isin(['SA1', 'SA2', 'SA3',  'ExR1', 'ExR5', 'EPG']) | 
 meta.cell_type.str.contains('PFN|PEN|PEG|^PFL|PFR|PFGs') 
 ].cell_type)
