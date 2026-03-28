@@ -3,7 +3,7 @@ import pandas as pd
 from tqdm import tqdm
 
 prefix = "720575940"
-folder = '/lmb/home/yyin/ad_split'
+folder = '/cephfs2/yyin/ad_split'
 
 sk_path = os.path.join(folder, "sk_lod1_783_healed")
 skids = os.listdir(sk_path)

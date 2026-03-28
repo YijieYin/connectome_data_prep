@@ -5,7 +5,7 @@ from scipy.spatial import cKDTree
 from pqdm.processes import pqdm
 
 prefix = "720575940"
-folder = '/lmb/home/yyin/ad_split'
+folder = '/cephfs2/yyin/ad_split'
 conn_columns = ["connector_id", "node_id", "type", "x", "y", "z", "neuropil", 'pre_root_id_720575940','post_root_id_720575940', 'partner_x', 'partner_y', 'partner_z']
 sk_path = os.path.join(folder, "sk_lod1_783_healed")
 skids = os.listdir(sk_path)

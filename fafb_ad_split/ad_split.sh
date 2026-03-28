@@ -6,6 +6,8 @@
 #SBATCH --cpus-per-task=112
 #SBATCH --output=result_%A.out  # %A is replaced by job ID, %a by array index
 #SBATCH --error=error_%A.err
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=yy432@cam.ac.uk
 
 # Activate your Python environment - you should be in folder interpret_connectome 
 source ../.bashrc
@@ -23,6 +25,6 @@ time srun python fafb_ad_split/make_el.py
 # then go to axon_dendrite_split_FAFB.ipynb, section make_adj, to get the overall results 
 
 # to re-run, first remove all contents of : 
-# 1. folders in syn_count, and 
-# 2. folders axon_in, axon_out, dendrite_in, dendrite_out
-# 3. content of seg_indices 
+# 1. folders in syn_count (using `find /cephfs2/yyin/ad_split/syn_count/ -mindepth 2 -type f -delete`), and 
+# 2. folders axon_in, axon_out, dendrite_in, dendrite_out (`find /cephfs2/yyin/ad_split/{axon_in,axon_out,dendrite_in,dendrite_out} -mindepth 1 -type f -delete`)
+# 3. content of seg_indices (`find /cephfs2/yyin/ad_split/seg_indices -maxdepth 1 -type f -delete`)
