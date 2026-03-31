@@ -4,8 +4,8 @@
 #SBATCH --partition=cpu
 #SBATCH --ntasks=20              
 #SBATCH --cpus-per-task=112
-#SBATCH --output=result_%A.out  # %A is replaced by job ID, %a by array index
-#SBATCH --error=error_%A.err
+#SBATCH --output=fafb_ad_split/result_%A.out  # %A is replaced by job ID, %a by array index
+#SBATCH --error=fafb_ad_split/error_%A.err
 #SBATCH --mail-type=END,FAIL
 #SBATCH --mail-user=yy432@cam.ac.uk
 

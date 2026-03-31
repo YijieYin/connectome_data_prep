@@ -1,13 +1,20 @@
-import navis
-import os 
+import os
 import pandas as pd
-from tqdm import tqdm
+import numpy as np
 from pqdm.processes import pqdm
 
-prefix = "720575940"
-folder = '/lmb/home/yyin/ad_split'
+# --- Slurm sharding ---
+rank = int(os.getenv("SLURM_PROCID", "0"))
+world = int(os.getenv("SLURM_NTASKS", "1"))
 
-meta = pd.read_csv('https://raw.githubusercontent.com/YijieYin/connectome_data_prep/refs/heads/main/data/fafb_all_neuron/fafb_all_neuron_meta.csv', index_col=0)
+prefix = "720575940"
+folder = '/cephfs2/yyin/ad_split'
+
+meta = pd.read_csv(
+    'https://raw.githubusercontent.com/YijieYin/connectome_data_prep/refs/heads/main/data/fafb_all_neuron/fafb_all_neuron_meta.csv',
+    index_col=0,
+    low_memory=False,
+)
 meta.loc[:, ["root_id_short"]] = meta.root_id.apply(
     lambda x: int(str(x).split(prefix)[1])
 )
@@ -198,4 +205,8 @@ def count_syn(short_id):
         bb.to_csv(os.path.join(folder, "syn_count/bb", f"{prefix}{str(short_id)}.csv"), index=False)
 
 
-pqdm(meta.root_id_short.values, count_syn, n_jobs=112)
+if __name__ == "__main__":
+    all_ids = meta.root_id_short.values
+    my_ids = np.array_split(all_ids, world)[rank]
+    
+    pqdm(my_ids, count_syn, n_jobs=112)

@@ -1,8 +1,13 @@
 import navis
 import os 
 import pandas as pd
+import numpy as np
 from scipy.spatial import cKDTree
 from pqdm.processes import pqdm
+
+# Slurm info
+rank = int(os.getenv("SLURM_PROCID", "0"))
+world = int(os.getenv("SLURM_NTASKS", "1"))
 
 prefix = "720575940"
 folder = '/cephfs2/yyin/ad_split'
@@ -130,5 +135,7 @@ def split_one(sk):
     import gc; gc.collect()
 
 if __name__ == "__main__":
-    pqdm(selected_skids, split_one, n_jobs=int(os.getenv("SLURM_NTASKS", 1)))
+    all_ids = list(selected_skids)
+    my_ids = np.array_split(all_ids, world)[rank]
 
+    pqdm(my_ids, split_one, n_jobs=56)
