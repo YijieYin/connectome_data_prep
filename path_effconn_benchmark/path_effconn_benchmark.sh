@@ -4,10 +4,14 @@
 #SBATCH --cpus-per-task=112
 #SBATCH --output=%A_%a.out
 #SBATCH --error=%A_%a.err
+#SBATCH --mail-type=END,FAIL
+#SBATCH --mail-user=yy432@cam.ac.uk
 
 source ../../.bashrc
 conda activate act_max
 
-time srun python path_effconn_benchmark.py #--count-paths \ # un-comment to count paths (time-consuming)
+time srun python path_effconn_benchmark.py 
+# --count-paths # un-comment to count paths (time-consuming)
 # --effconn-noloop # un-comment to calculate effective connectivity without loops (time-consuming)
+# --effconn # un-comment to calculate effective connectivity
 time python concat_result.py
