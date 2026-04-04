@@ -22,7 +22,8 @@ time srun python fafb_ad_split/axon_dendrite_split.py
 python fafb_ad_split/manual_split.py
 # put together into edge list for each neuron in folder syn_count
 time srun python fafb_ad_split/make_el.py
-# then go to axon_dendrite_split_FAFB.ipynb, section make_adj, to get the overall results 
+# get the overall results 
+time python fafb_ad_split/make_adj.py
 
 # to re-run, first remove all contents of : 
 # 1. folders in syn_count (using `find /cephfs2/yyin/ad_split/syn_count/ -mindepth 2 -type f -delete`), and 
