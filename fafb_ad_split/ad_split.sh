@@ -14,6 +14,11 @@ source ../.bashrc
 
 conda activate flyconnectome
 
+# remove intermediate results from the previous run 
+find /cephfs2/yyin/ad_split/syn_count/ -mindepth 2 -type f -delete
+find /cephfs2/yyin/ad_split/{axon_in,axon_out,dendrite_in,dendrite_out} -mindepth 1 -type f -delete
+find /cephfs2/yyin/ad_split/seg_indices -maxdepth 1 -type f -delete
+
 # first general axon-dendrite split, to calculate e.g. segregation index
 # writing to axon_in, axon_out, dendrite_in, dendrite_out folders
 time srun python fafb_ad_split/axon_dendrite_split.py

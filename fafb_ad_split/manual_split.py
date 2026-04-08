@@ -1,5 +1,6 @@
 import os 
 import pandas as pd
+import numpy as np
 from tqdm import tqdm
 
 prefix = "720575940"
@@ -377,6 +378,79 @@ for pflrid in tqdm(pflr_shortids):
                  "pre_y": "partner_y", "pre_z": "partner_z"},)
     dendrite_in[['x', 'y', 'z', 'neuropil', 'pre_root_id_720575940', 'post_root_id_720575940', 'partner_x', 'partner_y', 'partner_z']].to_csv(os.path.join(folder, "dendrite_in", f"{prefix}{str(pflrid)}.csv"), index=False)
 
+# ---- MBONs ---- 
+# only the typical MBONs 
+# MBON10, MBON20, and MBON24+ are atypical MBONs according to Li et al. 2020 https://elifesciences.org/articles/62576 
+# MBON21-MBON23 & MBON02, MBON04, MBON05, MBON07, MBON11-MBON19 are probably better split automatically than by neuropil, so also excluded here 
+# and actually MBON06 does not split well with either neuropil or autoamtically. Will leave to automatic, but hopefully revisit later 
+mbon_shortids = meta.loc[meta.cell_type.isin(['MBON01', 'MBON03', 'MBON09']), "root_id_short"].values
+mbon_syns = syn[syn.pre_root_id_720575940.isin(mbon_shortids) | syn.post_root_id_720575940.isin(mbon_shortids)]
+
+# dendrite if connection with KC, or if in the MB 
+mask = (
+    mbon_syns['neuropil'].str.contains('MB', na=False) |
+    mbon_syns['pre_root_id_720575940'].isin(kc_shortids) |
+    mbon_syns['post_root_id_720575940'].isin(kc_shortids)
+)
+mbon_syns.loc[:, ['compartment']] = np.where(mask, 'dendrite', 'axon')
+
+for mbonid in tqdm(mbon_shortids):
+    axon_out = mbon_syns.loc[(mbon_syns.pre_root_id_720575940 == mbonid) & (mbon_syns.compartment == "axon")]
+    axon_out = axon_out.rename(
+        columns={"pre_x": "x", "pre_y": "y", "pre_z": "z", "post_x": "partner_x", 
+                 "post_y": "partner_y", "post_z": "partner_z"},)
+    axon_out[['x', 'y', 'z', 'neuropil', 'pre_root_id_720575940', 'post_root_id_720575940', 'partner_x', 'partner_y', 'partner_z']].to_csv(os.path.join(folder, "axon_out", f"{prefix}{str(mbonid)}.csv"), index=False)
+    axon_in = mbon_syns.loc[(mbon_syns.post_root_id_720575940 == mbonid) & (mbon_syns.compartment == "axon")]
+    axon_in = axon_in.rename(
+        columns={"post_x": "x", "post_y": "y", "post_z": "z", "pre_x": "partner_x", 
+                 "pre_y": "partner_y", "pre_z": "partner_z"},)
+    axon_in[['x', 'y', 'z', 'neuropil', 'pre_root_id_720575940', 'post_root_id_720575940', 'partner_x', 'partner_y', 'partner_z']].to_csv(os.path.join(folder, "axon_in", f"{prefix}{str(mbonid)}.csv"), index=False)
+    dendrite_out = mbon_syns.loc[(mbon_syns.pre_root_id_720575940 == mbonid) & (mbon_syns.compartment == "dendrite")]
+    dendrite_out = dendrite_out.rename(
+        columns={"pre_x": "x", "pre_y": "y", "pre_z": "z", "post_x": "partner_x", 
+                 "post_y": "partner_y", "post_z": "partner_z"},)
+    dendrite_out[['x', 'y', 'z', 'neuropil', 'pre_root_id_720575940', 'post_root_id_720575940', 'partner_x', 'partner_y', 'partner_z']].to_csv(os.path.join(folder, "dendrite_out", f"{prefix}{str(mbonid)}.csv"), index=False)
+    dendrite_in = mbon_syns.loc[(mbon_syns.post_root_id_720575940 == mbonid) & (mbon_syns.compartment == "dendrite")]
+    dendrite_in = dendrite_in.rename(
+        columns={"post_x": "x", "post_y": "y", "post_z": "z", "pre_x": "partner_x", 
+                 "pre_y": "partner_y", "pre_z": "partner_z"},)
+    dendrite_in[['x', 'y', 'z', 'neuropil', 'pre_root_id_720575940', 'post_root_id_720575940', 'partner_x', 'partner_y', 'partner_z']].to_csv(os.path.join(folder, "dendrite_in", f"{prefix}{str(mbonid)}.csv"), index=False)
+
+# ---- DANs ---- 
+# polarity of PPL2 is unclear, so leave to the automatic split 
+dan_shortids = meta.loc[(meta.cell_class == 'DAN') & ~meta.cell_type.str.contains('PPL2'), "root_id_short"].values
+dan_syns = syn[syn.pre_root_id_720575940.isin(dan_shortids) | syn.post_root_id_720575940.isin(dan_shortids)]
+
+# axon if connection with KC, or if in the MB 
+mask = (
+    dan_syns['neuropil'].str.contains('MB', na=False) |
+    dan_syns['pre_root_id_720575940'].isin(kc_shortids) |
+    dan_syns['post_root_id_720575940'].isin(kc_shortids)
+)
+dan_syns.loc[:, ['compartment']] = np.where(mask, 'axon', 'dendrite')
+
+for danid in tqdm(dan_shortids):
+    axon_out = dan_syns.loc[(dan_syns.pre_root_id_720575940 == danid) & (dan_syns.compartment == "axon")]
+    axon_out = axon_out.rename(
+        columns={"pre_x": "x", "pre_y": "y", "pre_z": "z", "post_x": "partner_x", 
+                 "post_y": "partner_y", "post_z": "partner_z"},)
+    axon_out[['x', 'y', 'z', 'neuropil', 'pre_root_id_720575940', 'post_root_id_720575940', 'partner_x', 'partner_y', 'partner_z']].to_csv(os.path.join(folder, "axon_out", f"{prefix}{str(danid)}.csv"), index=False)
+    axon_in = dan_syns.loc[(dan_syns.post_root_id_720575940 == danid) & (dan_syns.compartment == "axon")]
+    axon_in = axon_in.rename(
+        columns={"post_x": "x", "post_y": "y", "post_z": "z", "pre_x": "partner_x", 
+                 "pre_y": "partner_y", "pre_z": "partner_z"},)
+    axon_in[['x', 'y', 'z', 'neuropil', 'pre_root_id_720575940', 'post_root_id_720575940', 'partner_x', 'partner_y', 'partner_z']].to_csv(os.path.join(folder, "axon_in", f"{prefix}{str(danid)}.csv"), index=False)
+    dendrite_out = dan_syns.loc[(dan_syns.pre_root_id_720575940 == danid) & (dan_syns.compartment == "dendrite")]
+    dendrite_out = dendrite_out.rename(
+        columns={"pre_x": "x", "pre_y": "y", "pre_z": "z", "post_x": "partner_x", 
+                 "post_y": "partner_y", "post_z": "partner_z"},)
+    dendrite_out[['x', 'y', 'z', 'neuropil', 'pre_root_id_720575940', 'post_root_id_720575940', 'partner_x', 'partner_y', 'partner_z']].to_csv(os.path.join(folder, "dendrite_out", f"{prefix}{str(danid)}.csv"), index=False)
+    dendrite_in = dan_syns.loc[(dan_syns.post_root_id_720575940 == danid) & (dan_syns.compartment == "dendrite")]
+    dendrite_in = dendrite_in.rename(
+        columns={"post_x": "x", "post_y": "y", "post_z": "z", "pre_x": "partner_x", 
+                 "pre_y": "partner_y", "pre_z": "partner_z"},)
+    dendrite_in[['x', 'y', 'z', 'neuropil', 'pre_root_id_720575940', 'post_root_id_720575940', 'partner_x', 'partner_y', 'partner_z']].to_csv(os.path.join(folder, "dendrite_in", f"{prefix}{str(danid)}.csv"), index=False)
+
 # ---- sensory, ascending, motor neurons ---- 
 # sens_asc 
 sens_asc = meta[meta.super_class.isin(['sensory','ascending','sensory_ascending'])].root_id_short.values
@@ -431,6 +505,8 @@ nosplit_types = nosplit_types.union(segidx_nosplit)
 # but remove the previously manually split ones 
 splited = set(meta[meta.cell_type.str.contains('^FR') | meta.cell_type.str.contains('FS') | meta.cell_type.str.contains('FC') | 
 meta.root_id_short.isin(tan_shortids) |
+meta.root_id_short.isin(mbon_shortids) |
+meta.root_id_short.isin(dan_shortids) |
 meta.cell_sub_class.isin(['ring neuron']) | 
 meta.cell_class.isin(['Kenyon_Cell']) |
 meta.super_class.isin(['sensory','ascending','sensory_ascending','motor']) |
