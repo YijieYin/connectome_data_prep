@@ -451,9 +451,10 @@ for danid in tqdm(dan_shortids):
                  "pre_y": "partner_y", "pre_z": "partner_z"},)
     dendrite_in[['x', 'y', 'z', 'neuropil', 'pre_root_id_720575940', 'post_root_id_720575940', 'partner_x', 'partner_y', 'partner_z']].to_csv(os.path.join(folder, "dendrite_in", f"{prefix}{str(danid)}.csv"), index=False)
 
-# ---- sensory, ascending, motor neurons ---- 
+# ---- sensory, ascending, motor neurons, and IPC ---- 
 # sens_asc 
-sens_asc = meta[meta.super_class.isin(['sensory','ascending','sensory_ascending'])].root_id_short.values
+sens_asc = meta[meta.super_class.isin(['sensory','ascending','sensory_ascending'])
+                | (meta.cell_type == 'IPC')].root_id_short.values
 sens_asc_syns = syn[syn.pre_root_id_720575940.isin(sens_asc) | syn.post_root_id_720575940.isin(sens_asc)]
 sens_asc_syns.loc[:,['compartment']] = 'axon'
 for sid in tqdm(sens_asc):
@@ -510,7 +511,7 @@ meta.root_id_short.isin(dan_shortids) |
 meta.cell_sub_class.isin(['ring neuron']) | 
 meta.cell_class.isin(['Kenyon_Cell']) |
 meta.super_class.isin(['sensory','ascending','sensory_ascending','motor']) |
-meta.cell_type.isin(['SA1', 'SA2', 'SA3',  'ExR1', 'ExR5', 'EPG']) | 
+meta.cell_type.isin(['SA1', 'SA2', 'SA3',  'ExR1', 'ExR5', 'EPG', 'IPC']) | 
 meta.cell_type.str.contains('PFN|PEN|PEG|^PFL|PFR|PFGs') 
 ].cell_type)
 
