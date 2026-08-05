@@ -9,7 +9,7 @@ world = int(os.getenv("SLURM_NTASKS", "1"))
 
 folder = '/cephfs2/yyin/mcns_ad_split'
 
-meta = pd.read_csv('https://raw.githubusercontent.com/YijieYin/connectome_data_prep/refs/heads/main/data/maleCNS/mcns_all_neuron_meta.csv', index_col=0)
+meta = pd.read_csv('data/maleCNS/mcns_all_neuron_meta.csv', index_col=0)
 meta = meta.rename(columns={"superclass": "super_class", 'class': 'cell_class', 'subclass': 'cell_sub_class'})
 id2type = dict(zip(meta.bodyid, meta.cell_type))
 

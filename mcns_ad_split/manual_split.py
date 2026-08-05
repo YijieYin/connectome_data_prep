@@ -5,14 +5,14 @@ from tqdm import tqdm
 
 folder = '/cephfs2/yyin/mcns_ad_split'
 
-sk_path = os.path.join(folder, "skeletons")
+sk_path = os.path.join(folder, "skeletons-swc")
 skids = os.listdir(sk_path)
 
-meta = pd.read_csv('https://raw.githubusercontent.com/YijieYin/connectome_data_prep/refs/heads/main/data/maleCNS/mcns_all_neuron_meta.csv', index_col=0)
+meta = pd.read_csv('data/maleCNS/mcns_all_neuron_meta.csv', index_col=0)
 meta = meta.rename(columns={"superclass": "super_class", 'class': 'cell_class', 'subclass': 'cell_sub_class'})
 id2type = dict(zip(meta.bodyid, meta.cell_type))
 
-syn = pd.read_feather(os.path.join(folder, "syn-partners-male-cns-v0.9-minconf-0.5.feather"))
+syn = pd.read_feather(os.path.join(folder, "syn-partners-male-cns-v1.0-minconf-0.5.feather"))
 # remove autapses 
 syn = syn[syn.body_pre != syn.body_post]
 # and only keep those with meta 
