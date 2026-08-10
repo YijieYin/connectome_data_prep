@@ -33,8 +33,11 @@ time srun python mcns_ad_split/axon_dendrite_split.py
 python mcns_ad_split/manual_split.py
 # put together into edge list for each neuron in folder syn_count
 time srun python mcns_ad_split/make_el.py
-# get the overall results 
+# get the overall results
 time python mcns_ad_split/make_adj.py
+# sanity checks: every synapse counted exactly once, every neuron accounted for.
+# exits non-zero (and so fails the job) if anything is off
+time python mcns_ad_split/check_result.py
 
 # to re-run, first remove all contents of : 
 # 1. folders in syn_count (using `find /cephfs2/yyin/mcns_ad_split/syn_count/ -mindepth 1 -type f -delete`), and
