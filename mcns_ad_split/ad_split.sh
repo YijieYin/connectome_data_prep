@@ -14,10 +14,16 @@ source ../.bashrc
 
 conda activate flyconnectome
 
-# remove intermediate results from the previous run 
-find /cephfs2/yyin/mcns_ad_split/syn_count/ -mindepth 2 -type f -delete
+# remove intermediate results from the previous run
+# -mindepth 1 so from_nosplit_syn_count.csv and to_nosplit_syn_count.csv go too
+find /cephfs2/yyin/mcns_ad_split/syn_count/ -mindepth 1 -type f -delete
 find /cephfs2/yyin/mcns_ad_split/{axon_in,axon_out,dendrite_in,dendrite_out} -mindepth 1 -type f -delete
-find /cephfs2/yyin/mcns_ad_split/seg_indices -maxdepth 1 -type f -delete
+# split_failures may not exist yet on a first run, hence the 2>/dev/null
+find /cephfs2/yyin/mcns_ad_split/{seg_indices,split_failures} -maxdepth 1 -type f -delete 2>/dev/null
+
+# stop at the first failing stage: a stage that dies part-way leaves the later
+# ones running on incomplete/stale input, which silently produces wrong results
+set -e
 
 # first general axon-dendrite split, to calculate e.g. segregation index
 # writing to axon_in, axon_out, dendrite_in, dendrite_out folders
@@ -31,6 +37,6 @@ time srun python mcns_ad_split/make_el.py
 time python mcns_ad_split/make_adj.py
 
 # to re-run, first remove all contents of : 
-# 1. folders in syn_count (using `find /cephfs2/yyin/mcns_ad_split/syn_count/ -mindepth 2 -type f -delete`), and 
+# 1. folders in syn_count (using `find /cephfs2/yyin/mcns_ad_split/syn_count/ -mindepth 1 -type f -delete`), and
 # 2. folders axon_in, axon_out, dendrite_in, dendrite_out (`find /cephfs2/yyin/mcns_ad_split/{axon_in,axon_out,dendrite_in,dendrite_out} -mindepth 1 -type f -delete`)
-# 3. content of seg_indices (`find /cephfs2/yyin/mcns_ad_split/seg_indices -maxdepth 1 -type f -delete`)
+# 3. content of seg_indices and split_failures (`find /cephfs2/yyin/mcns_ad_split/{seg_indices,split_failures} -maxdepth 1 -type f -delete`)

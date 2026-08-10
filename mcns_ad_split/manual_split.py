@@ -473,8 +473,15 @@ for sid in tqdm(sens_asc):
         columns={"x_post": "x", "y_post": "y", "z_post": "z", "x_pre": "partner_x", 
                  "y_pre": "partner_y", "z_pre": "partner_z"},)
     axon_in[['x', 'y', 'z', 'neuropil', 'body_pre', 'body_post', 'partner_x', 'partner_y', 'partner_z']].to_csv(os.path.join(folder, "axon_in", f"{str(sid)}.csv"), index=False)
-    
-# motor 
+    # axon only, so drop the dendrite files axon_dendrite_split.py may have written
+    # (IPC isn't excluded from selected_skids) - otherwise make_el.py counts those
+    # synapses both here and there
+    for compartment in ["dendrite_in", "dendrite_out"]:
+        p = os.path.join(folder, compartment, f"{str(sid)}.csv")
+        if os.path.exists(p):
+            os.remove(p)
+
+# motor
 motor = meta[meta.super_class.str.contains('motor|efferent')].bodyid.values
 motor_syns = syn[syn.body_pre.isin(motor) | syn.body_post.isin(motor)]
 motor_syns.loc[:,['compartment']] = 'dendrite'
@@ -489,8 +496,15 @@ for mid in tqdm(motor):
         columns={"x_post": "x", "y_post": "y", "z_post": "z", "x_pre": "partner_x", 
                  "y_pre": "partner_y", "z_pre": "partner_z"},)
     dendrite_in[['x', 'y', 'z', 'neuropil', 'body_pre', 'body_post', 'partner_x', 'partner_y', 'partner_z']].to_csv(os.path.join(folder, "dendrite_in", f"{str(mid)}.csv"), index=False)
+    # dendrite only, so drop the axon files axon_dendrite_split.py may have written
+    # (efferent isn't excluded from selected_skids) - otherwise make_el.py counts
+    # those synapses both here and there
+    for compartment in ["axon_in", "axon_out"]:
+        p = os.path.join(folder, compartment, f"{str(mid)}.csv")
+        if os.path.exists(p):
+            os.remove(p)
 
-# ---- segregation index ---- 
+# ---- segregation index ----
 seg_idx = []
 for dir in tqdm(os.listdir(os.path.join(folder, "seg_indices"))): 
     seg_idx.append(pd.read_csv(os.path.join(folder, "seg_indices", dir), index_col=0))
@@ -506,6 +520,12 @@ nosplit_types = {'APL','DPM', 'EPGt', 'Delta7', 'EL', 'ExR2'}.union(set(meta.cel
 # segregation index threshold: 0.03-0.05? 
 segidx_nosplit = set(seg_idx_type[seg_idx_type.segregation_index < 0.05].cell_type.values)
 nosplit_types = nosplit_types.union(segidx_nosplit)
+
+# neurons with only pre- or only postsynapses cannot be split by navis, see
+# axon_dendrite_split.py. Split/no-split is decided per cell type, so don't split
+# the types they belong to
+one_polarity = set(syn.body_pre.unique()).symmetric_difference(set(syn.body_post.unique()))
+nosplit_types = nosplit_types.union(set(meta.cell_type[meta.bodyid.isin(one_polarity)]))
 
 # but remove the previously manually split ones 
 splited = set(meta[meta.cell_type.str.contains('^FR') | meta.cell_type.str.contains('FS') | meta.cell_type.str.contains('FC') | 

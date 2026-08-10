@@ -37,12 +37,18 @@ selected_skids = set(meta.bodyid[
 # print(len(selected_skids), "skids to process")
 
 # make the relevant folders if not exist
-for subfolder in ["axon_in", "axon_out", "dendrite_in", "dendrite_out", "seg_indices", "sk_with_connectors"]:
+# `split_failures` gets one csv per rank listing the neurons that error out
+for subfolder in ["axon_in", "axon_out", "dendrite_in", "dendrite_out", "seg_indices", "sk_with_connectors", "split_failures"]:
     os.makedirs(os.path.join(folder, subfolder), exist_ok=True)
 
-def split_one(sk): 
+def split_one(sk):
     # for sk in {616959010,624167973}:
     n = navis.read_swc(os.path.join(sk_path, str(sk) + ".swc"))
+
+    # navis.split_axon_dendrite() refuses neurons with >1 root, so stitch
+    # disconnected fragments back together first
+    if len(n.root) > 1:
+        n = navis.heal_skeleton(n, method="ALL")
 
     tree = cKDTree(n.nodes[["x", "y", "z"]])
 
@@ -90,6 +96,12 @@ def split_one(sk):
         )
 
     n.connectors = pd.concat([syn_pre[conn_columns], syn_post[conn_columns]], ignore_index=True)
+
+    # navis needs both pre- and postsynapses to split a neuron and to compute its
+    # segregation index; manual_split.py makes these cell types unsplit instead
+    if n.connectors.type.nunique() < 2:
+        return
+
     n = navis.split_axon_dendrite(n, label_only=True)
 
     # note: linker treated as axon 
@@ -133,4 +145,11 @@ if __name__ == "__main__":
     all_ids = list(selected_skids)
     my_ids = np.array_split(all_ids, world)[rank]
 
-    pqdm(my_ids, split_one, n_jobs=56)
+    # pqdm returns the exception instead of raising it, so log the failures
+    results = pqdm(my_ids, split_one, n_jobs=56)
+    failed = [(sk, repr(r)) for sk, r in zip(my_ids, results) if isinstance(r, Exception)]
+    if failed:
+        print(f"{len(failed)} of {len(my_ids)} neurons failed, see split_failures/rank{rank}.csv")
+        pd.DataFrame(failed, columns=["bodyid", "error"]).to_csv(
+            os.path.join(folder, "split_failures", f"rank{rank}.csv"), index=False
+        )
