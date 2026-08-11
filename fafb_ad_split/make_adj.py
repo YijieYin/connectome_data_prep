@@ -72,3 +72,11 @@ for adir in tqdm(os.listdir(os.path.join(folder, "syn_count/bb"))):
 bb = pd.concat(bb, axis=0).reset_index(drop=True)
 bb.to_csv(os.path.join(folder, "result", "bb_el.csv"), index=False)
 
+# and gzipped into the repo - uncompressed ad_el.csv is over github's 100MB limit.
+# pd.read_csv() reads these back without any extra arguments
+data_folder = 'data/fafb_all_neuron/fafb_ad_split'
+os.makedirs(data_folder, exist_ok=True)
+for name, el in [("aa", aa), ("ad", ad), ("da", da), ("dd", dd), ("ba", ba),
+                 ("bd", bd), ("ab", ab), ("db", db), ("bb", bb)]:
+    el.to_csv(os.path.join(data_folder, f"{name}_el.csv.gz"), index=False)
+
