@@ -16,8 +16,10 @@ meta.loc[:, ["root_id_short"]] = meta.root_id.apply(
 id2type = dict(zip(meta.root_id, meta.cell_type))
 
 syn = pd.read_csv(os.path.join(folder, "fafb_v783_princeton_synapse_table.csv"))
-# remove autapses 
-syn = syn[syn.pre_root_id_720575940 != syn.post_root_id_720575940]
+# remove autapses, and de-duplicate exactly as axon_dendrite_split.py does - the two
+# scripts write into the same folders, so they have to agree on the input
+syn = syn[syn.pre_root_id_720575940 != syn.post_root_id_720575940].drop(
+    columns=['ctr_x', 'ctr_y', 'ctr_z', 'size']).drop_duplicates()
 
 # ---- KC ---- 
 kc_shortids = meta.loc[meta.cell_class == "Kenyon_Cell", "root_id_short"].values
